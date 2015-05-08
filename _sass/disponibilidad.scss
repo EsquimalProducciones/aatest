@@ -1,0 +1,753 @@
+input[type = checkbox].amigo,
+input[type = radio].amigo{
+	display : none;
+	&:checked + i.fa{
+		color:$main;
+	}
+}
+.pasos {  
+    margin-top: 115px;
+    background-color: $main;
+    /*margin-bottom: 15px;*/
+    text-transform: uppercase;
+    padding: 7.5px 15px;
+    color: $negro;
+    > div > div {
+        display: inline-block;
+        float: left;
+    }
+    * {
+        vertical-align: middle;       
+    }
+    .text-muted {
+        color: $blanco;
+    }
+    .num {
+        text-align: center;
+            background-color: $blanco;
+            color: $main;
+            width: 34px;
+            height: 34px;
+            font-weight: 300;
+            border-radius: 50px;
+            vertical-align: middle;
+            font-size: 1.2em;
+            border: 3px solid $main;
+            padding-top: 1px;
+            display: inline-block;
+            margin-right: 5px;
+            &.activo {
+                /*background-color: $main;*/
+                font-weight: normal;
+                border: 3px solid $negro;
+                /*padding-top: 1px;*/
+                width: 34px;
+                height: 34px;
+                /*color: $blanco;*/
+            }
+            & + span {
+                font-size: 0.85em;
+                line-height: 0.5em;
+                padding-top: 10px;
+            }
+        }
+    }
+.criterios {
+    padding: 10px;   
+    border-radius: 2px;
+    border: 1px solid $gris5;
+    background-color: $gris3;
+    color: #FFF;
+    /*margin-bottom: 15px;*/
+    font-weight: 300;   
+    margin-right: -15px;
+    h4 {
+        color: $main;
+        /*text-transform: uppercase;*/
+        font-weight: 300; 
+        margin: 0;
+    }
+    button{
+        width: 100%;
+        background-color: transparent;
+        /*margin-top: 15px;*/
+        color: $main;
+        font-weight: normal;
+        border: none;
+        border-radius: 2px;                
+    }
+    .navbar-collapse {
+        padding: 0;
+    } 
+}
+#modificar-reserva  {
+        /*margin-top: 15px;*/
+        background-color: $gris3;
+        width: 100%;
+        label {
+            display: none;
+        }
+        input, select {
+            margin-bottom: 15px;
+            color: $gris5;
+            border: none;
+            min-height: 36px;
+            border-radius: 2px;
+            padding: 6px 12px;
+        }      
+    }    
+#modificar-reserva-div {
+    padding: 0 10px;
+}
+.resultados {
+    margin-top: 15px;
+  	a{
+        color: $gris5;
+    }         
+	.filtrar-ordenar {          
+/*            margin-bottom: 15px;           */
+			min-height: 55px;       
+		   	button {                
+                text-align: center;
+                border-color: $gris5;
+                padding: 15px;
+                border-radius: 2px;
+                font-size: 15px;
+                text-transform: uppercase;
+				min-width : auto;
+               
+			   	&[data-target="#modal-ordenar"] i {
+                    transform: rotate(90deg) scaleX(-1);          
+                }
+                i {
+                    color: $main;                   
+                    font-size: 1.2em;
+                    padding: 0 5px;
+                }
+				
+				&:hover{
+					color:$main;
+				}
+            }
+            &.open {
+				&:hover{
+					color:white;
+				}
+                .ordenar-btn {
+                    /*transition : all 0.2s ease;*/
+                    background-color: $main;
+                    color: $blanco;
+                    border-color: $main;
+                    max-height: 53px;
+                    i {
+                        color: $blanco;
+                        transform: rotate(180deg);
+                        vertical-align: sub;
+                    }
+                    & + .dropdown-menu {
+                        box-shadow: none;
+                        max-width: 160px;
+                        margin-top: -3px;         
+                        border-style: solid;
+                        border-color: $main;
+                        border-width: 0 1px 1px 1px;
+                        border-radius: 0 0 2px 2px;
+                        text-align: center;
+						max-width: 170px;
+						padding:0;
+						width: 100%; 
+							 &.desde{
+								 max-width : 111px;
+								 min-width : 111px;
+								 right : 15px;
+							 }
+							 &.hasta{
+								 max-width : 110px;
+								 min-width : 110px;
+								 left : 15px;
+
+							 } 
+						 a {
+                             color: $gris3;
+                             padding: 15px;
+							 background-color: white;
+                             &:hover, &:focus {
+								background-color: rgba(242, 104, 34, 0.65);
+								color :white;
+								font-weight : bold;
+                             }
+						 }
+                    }
+                }
+                
+            }
+        }    
+    .resultado {
+        border: 1px solid $main;
+        border-radius: 2px;
+        margin-bottom: 15px;
+        margin-left: 0;       
+		margin-top: 15px;
+		padding:0 0 0 15px ;
+		overflow : hidden;
+	
+
+		.popover.in{
+			border-radius:2px;
+			border:0;
+			width : 350px;
+			.popover-title{
+				background-color:rgba(242, 104, 34, 0.65);
+				color:white;
+				border-radius: 0;
+				&:hover{
+					background-color:$main;
+				color:white;
+				}
+				}
+			.popover-content{
+
+
+			}
+			.arrow {
+			top :100% !important;
+			display : none;
+			}
+		}
+
+		.list-inline.stars{
+			margin-bottom:0; 
+		&  > li{
+				padding-left:1px;
+				padding-right:1px;
+			}
+		}
+
+		.coste{
+			padding:0;
+		}
+
+		.anyadidos{
+			padding-top:15px;
+		}
+
+		.detalles-modelo{
+			padding-top:15px;
+		}
+
+		.opinions{
+			a{
+				text-decoration : none;
+				text-outline : none;
+				color : $main;
+			}
+		}
+
+		.promos{
+			font-size:14px;	
+			margin-bottom:15px;
+			.icon{
+				font-size:35px;
+				img{
+				width:35px;
+				max-width:none;
+				}
+			}
+			.sub{
+				font-size:12px;
+			}
+			.pop{
+			padding:0;
+			line-height:14px;
+			i{
+			color:$main;
+			}
+			}
+		}
+		.price-column{				
+			/*border-left:solid 1px $main;*/
+/*			overflow:hidden;
+			height: 100%;
+			margin-bottom: -1000px;
+			padding-bottom: 1000px;
+			width: 1px;*/
+		}
+		.img-colab {
+            max-width: 60px;
+            display: inline-block;
+            float: right;
+        }
+        .modelo,
+	   .addons{
+            font-weight: bold;
+            font-size: 1.1em;
+            > span {
+                color: $gris5;
+                font-weight: 300;
+                font-size: 0.85em;
+            } 
+			&>div>p{
+				&>span{
+					color: $gris5;
+					font-weight: 300;
+					font-size: 0.75em;
+				}
+				&>i {
+					color : #2FC488;
+				}
+
+			}			
+			.addon-primary{
+			text-transform : uppercase;
+			text-align:right;	
+			span{
+				font-size:13px;
+				display : inline-block;
+				
+			}	
+			i{
+				font-size : 30px;
+			}		
+	
+		}
+        }
+        .caracteristicas {
+            i {
+                font-size: 1.25em;
+                color: $grisAD;
+                padding: 5px;
+            }
+        }
+        .condiciones {
+            padding: 10px 0 0 0;            
+            > div {
+                display: inline-block;
+                font-size: 0.75em;
+/*                margin-right: 5px;*/
+                padding: 0 5px 0 0;
+                line-height: 0.7em;
+                span {
+                    color: $gris3;
+                    font-size: 0.85em;                    
+                }
+                i {
+                    color: $main;
+                }
+				}	
+		
+			> div.icons-text{
+				span{
+					display: inline-block;
+					left: -8px;
+					line-height: 11px;
+					position: relative;
+					text-indent: 10px;	
+				}
+				i{
+					float : left;
+				}
+			}
+			
+        }
+       
+		.oferta{
+			text-transform:uppercase;
+			text-align:center;
+			color : #2fc488;
+			font-size : 15px;
+			/*border-bottom : solid 1px $main;*/
+			h5{
+				line-height : 30px;
+			}	
+		}
+		.cantidad{
+			.text-bigger{
+				.integer{
+					font-size : 35px;
+				}
+				.float{
+					font-size : 25px;
+				}
+			}	
+			p:nth-child(2){
+				margin-bottom:0;
+				span:nth-child(1){
+					margin-left:15%;	
+					color: $main;
+					font-size: 14px;
+					font-weight: bold;
+				}
+			}
+
+				>div > div{
+					margin-left:15%;	
+					.integer{
+						font-size : 20px; 
+					}
+					.float{
+						font-size : 15px; 
+					}
+					.symbol{
+						font-size : 15px; 
+					}
+				}
+			
+		}
+
+		.precio {
+			background-color: transparent;
+            color: $gris3;  
+            border: 2px solid $main;
+            border-radius: 2px;
+            padding: 10px;              
+            transition: all 0.2s ease 0s;
+             min-height: 100px;
+			 margin: 15px 15px 0  15px;
+           
+        }
+        &:hover {
+            .precio {            
+                background-color: $main;
+                color: $blanco;               
+            }
+            .modelo {
+                color: $main;
+                >span {
+                    color: $gris3;  
+                }
+            }
+        }
+    }
+    .numero {
+        text-transform: uppercase;
+        color: $main;
+        font-size: 1.5em;
+        padding: 0 15px 15px 15px;
+    }
+}
+.lateral {
+    #tlf-central {
+	border: 1px solid $main;
+	border-radius: 2px;
+	padding: 10px;
+	margin-bottom: 15px;
+    font-size: 1.2em;
+        a {
+            color: $main;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        span {
+            font-size: 1.25em;
+            color:$main;            
+        }
+        p:last-child {
+            margin-bottom: 0;
+        }
+	}
+    .filtros {
+        border-radius: 2px;
+        border: 1px solid $main;       
+        margin-bottom: 15px;		
+		.panel {
+            border: none;            
+        }
+        .filtro {                       
+            &:focus {
+                background-color: $main;
+                color: #FFF;                    
+            }
+            a {
+                display: block;
+                padding: 15px;
+                color: $gris3;
+                &:hover, &:focus {
+                    text-decoration: none;
+                    color: $blanco;
+                }
+                &:not(.collapsed) {
+                    color: #FFF;
+                    background-color: $main;
+                }
+            }
+            margin-top: 0 !important;
+            border-radius: 0;
+            /*border-right: 1px solid $main;*/
+            .panel-heading {
+                background-color: #FFF;   
+                border-radius: 0;
+                padding: 0;
+            }  
+            &::first-child {
+            border-top-left-radius: 2px;
+            border-bottom-left-radius: 2px;
+            }
+            &:last-child { 
+            border-right: 0px;
+            border-top-right-radius: 2px;
+            border-bottom-right-radius: 2px;
+            }  
+        }
+    }
+    .panel-group.filtros .panel-heading + .panel-collapse > .panel-body {border: none;}
+    .filtros {
+        h4 {text-align: center;}
+        label {
+               font-weight: 300;
+               font-size: 1em;              
+        }
+        .panel-collapse.collapse.in, .panel-collapse.collapsing {
+/*            margin-top: -15px;*/
+            /*
+             * background-color: $gris3;
+             */
+            /*margin-bottom: 15px;*/
+            color: $gris3;           
+/*            border-top-left-radius: 0;
+            border-top-right-radius: 2px;
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;*/             
+            select {
+                color: $gris3;
+            }        
+        }
+        #colaboradores { 
+                ul {
+                    margin-bottom: 0;
+                }
+                label {
+                    margin-bottom: 0;            
+                    border-radius: 2px;
+                    border: 2px solid #999;
+                    
+                }
+                ul > li {
+                    height: 40px;
+                    padding-top: 3px;
+                }
+                input:checked ~ label {
+                    border: 2px solid $main; 
+                }
+            .img-responsive.img-colaborador {
+                    float:left;
+                    max-width: 80px;
+                    max-height: 40px;
+                    border-radius: 6px;
+                    padding: 5px;
+                }
+        } 
+        #precios {
+            .input-group {
+                border-radius: 0;
+                margin-bottom: 15px;
+                float: left;
+                * {border: none;
+                   background: transparent;
+                   box-shadow: none;
+                }
+                &:nth-child(2) input {padding-right: 0;}
+                &:last-child input {padding-left: 0;}
+                .input-group-addon {color:$blanco}
+            }
+        }
+    }    			
+    .criterios {
+		padding: 5px 15px 15px 15px;   
+		border-radius: 2px;
+		border: 1px solid $gris5;
+		background-color: $gris3;
+		color: #FFF;
+		margin-bottom: 15px;
+		font-weight: 300;   
+        min-height: 280px;
+		h4 {
+			color: $main;
+			text-transform: uppercase;
+			font-weight: 300;       
+		}
+		button{
+			width: 100%;
+			background-color: transparent;
+			margin-top: 15px;
+			color: $main;
+			font-weight: normal;
+			border: 2px solid $main;
+			border-radius: 2px;                
+		}
+		.navbar-collapse {
+			padding: 0;
+		}   
+		#modificar-reserva  {
+			margin-top: 15px;                
+			label {
+				display: none;
+			}
+			input, select {
+				margin-bottom: 15px;
+				color: $gris5;
+				border: none;
+				min-height: 36px;
+				border-radius: 2px;
+				padding: 6px 12px;
+			}      
+		}
+	}
+}    
+#modal-filtros {
+    text-transform: lowercase;
+    .modal-body{padding-top: 0;}
+    .modal-footer {
+        padding-top: 0;
+        button:first-child {
+            background-color: $grisAD;
+        }
+    }
+    h4 {       
+        margin: 10px 0;        
+        padding: 10px;
+        font-weight:normal;
+        color:$blanco;
+        background-color: $main;
+        &.ver-mas {
+            background-color: $gris3;
+            span {
+                color: $main;
+            }
+            i {
+                color: $blanco;    
+                font-size: 1.25em;              
+                position: absolute;
+                margin-left: 5px;
+            }
+        }
+        }
+    label {
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    #mas-filtros.collapse + div h4 {
+        height: 42px;
+        i.fa-minus-circle {display: none;}
+    }
+    #mas-filtros.collapsing + div h4 i, #mas-filtros.collapsing + div h4 span {display: none;}
+    #mas-filtros.collapse.in + div h4 {
+        margin-top: 0;
+        i.fa-minus-circle {display: inline;}
+        i.fa-plus-circle {display:none;}
+        span:nth-child(2) {
+            display: none;
+        }
+        span:first-child:after{
+            content: " menos";
+        }   
+    }
+    
+    
+    #precio-xs  {
+            .input-group {
+                border-radius: 0;
+                margin-bottom: 15px;
+                float: left;
+                * {border: none;
+                   background: transparent;
+                   box-shadow: none;
+                }
+                &:nth-child(3) input {padding-right: 0;}
+                &:last-child input {padding-left: 0;}
+            }
+        }
+    #colaboradores-xs {
+        h4 {margin-top: 0;}
+        .img-colaborador {
+                border-radius: 6px;
+                padding: 5px;
+        }
+        label { 
+            border: 2px solid transparent;
+            border-radius: 2px;            
+        }
+        input:checked ~ label {
+            border: 2px solid $main; 
+        }
+    }
+    #pago-recogida-xs, #combustible-xs {
+        label {
+             max-width: 110px;
+        }
+        i {vertical-align: top;}
+    }
+    #caracteristicas-xs {
+        vertical-align: middle;
+        div.col-xs-6 {padding-right: 0;}
+    }
+    #tipo-vehiculo-xs {
+        h4 {margin-bottom: 0;}
+        .col-xs-6 {
+            min-height: 40px;
+            min-width: 161px;
+            border-bottom: 1px solid $grisAD;
+            &:nth-child(even) {
+                border-right: 1px solid $grisAD;
+            }
+            label {
+                padding: 15px 0;                
+            }
+        }
+    }
+}
+#modal-ordenar {    
+    .modal-header {
+        background-color: $main;
+        h4 {
+            color: $blanco;
+            text-align: left;
+            text-transform: lowercase;
+        }
+    }
+    .modal-body {
+        padding: 0;
+        label {
+            font-weight: normal;
+            margin-bottom: 0;
+        }
+        i {
+            font-size: 1.5em;
+            position: absolute;
+            right: 25px;
+        }
+    }
+    a {
+        text-transform: lowercase;
+        padding: 25px;
+        color: $gris3;
+        background-color: transparent;
+        display: block;        
+        border-bottom: 1px solid $grisAD;
+        &:hover, &:focus {
+            text-decoration: none;
+        }
+    }
+}
+.filtrar-ordenar{
+		&.open{
+			.btn-default{
+				&:hover,
+				&:focus{
+					background-color:$main;
+				}	
+			}
+		}
+		.btn-default{
+		 &:hover,
+		 &:focus{
+			background-color:white;
+		 }
+		}
+	
+	}
+.resultados-filtrar-ordenar .dropdown-menu{
+right:15px;
+}
+
+

@@ -1,0 +1,48 @@
+<div class="banner">
+	<div class="back">
+		<div class="container">
+			<div class="row">
+				<ul class="list-inline banner-social-buttons">
+					{% for social in site.social %}
+						<li>
+							<a target = "_blank" href="{{ social.url }}" class="btn btn-default btn-lg btn-social">
+								<i class="fa fa-{{ social.title }} fa-fw"></i> 
+								<span class="network-name">{{ social.name }}</span>
+							</a>
+						</li>
+					{% endfor %}					
+						<li class="dropdown appear">
+							<a class="btn btn-default btn-lg btn-social dropdown-toggle" type="button" id="btn-suscri" data-toggle="dropdown" aria-expanded="true">
+								<i class="fa fa-envelope fa-fw"></i> 
+								<span class="network-name">
+								{{ site.data.traducciones.elementos-comunes-redes-sociales-suscribirme | map : page.lang }}
+								</span>
+							</a>									
+							<div id="suscri" class="dropdown-menu" role="menu" aria-labelledby="btn-suscri">
+								<form>
+									<label class="fa fa-envelope fa-fw "></label> 						
+									<input type="email" placeholder="e-mail">
+									<button type="submit" value="V"><i class="fa fa-check-circle-o fa-3x"></i></button>
+									<div id="suscri-comment">
+										<p>
+								{{ site.data.traducciones.elementos-comunes-redes-sociales-suscribete | map : page.lang }}
+										</p>
+									</div>
+									<div id="suscri-poli">
+										<input type="checkbox" class="amigo" id="suscri-accepto">
+										<i class="fa fa-check-circle"></i>
+										<label for="suscri-accepto"> 
+												{{ site.data.traducciones.elementos-comunes-redes-sociales-leido-acepto | map : page.lang }}
+											<a href="{{'/terminos-condiciones' | prepend:page.urlLang | prepend:site.baseurl}}">
+												{{ site.data.traducciones.elementos-comunes-redes-sociales-politica-privacidad | map : page.lang }}
+											</a>
+										</label>
+									</div>
+								</form>
+							</div>							 
+						</li>
+				</ul>
+			</div>
+		</div>			 
+	</div>
+</div>

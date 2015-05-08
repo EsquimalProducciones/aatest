@@ -1,0 +1,300 @@
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-9">
+			{% for post in site.posts  %}
+				<div class="post-xl">
+					<div class="img-mini" style="background-image:url(/img/blog/{{ post.img }});">
+					</div>
+					<div class="megalink-content">
+						<div>
+							<span class="date-post">{{ post.date | date: "%-d %B %Y" }}</span>
+						</div>						
+						<div>
+							<h3 class="post-title">{{ post.title }}</h3>			
+						</div>
+						<div>
+							<div>
+								{{ post.content }}
+							</div>
+							<div class="row">
+								<a href="{{ post.url }}" class="leermas">
+									{{ site.data.traducciones.elementos-comunes-ofertas-blog-leer-mas | map : page.lang }}
+									<i class="fa fa-chevron-circle-right fa-2x"></i>
+								</a>
+							</div>						
+						</div>
+					</div>	
+				</div>
+			{% endfor %}
+		</div>
+		<div class="col-xs-12 col-sm-3">			
+			<div id="sidebar-content">
+				<div class="sidebar-inner-content">
+					<div class="row">
+						<h3>AmigoAutos.com</h3>
+						<div class="widget-content">			
+							<div class="textwidget">
+								Somos una empresa líder en el mercado español, con más de un millón de clientes que confían en la calidad de nuestro servicio. Gracias a nuestra especialización y constante innovación tecnológica disponemos de una página web rápida, ágil, segura y dinámica. Desde ella podrás realizar la reserva de tu coche, escogiendo entre los más de 5.000 destinos en todo el mundo que ofrecemos.						
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<h3>Buscar</h3>
+						<div class="widget-content">
+							<form action="http://amigoautos.azurewebsites.net/es/blog/" class="search">
+								<input type="text" placeholder="buscar..." name="s" class="s">
+								<input type="submit" value="" class="submit">
+							</form>
+						</div>
+					</div>
+					<div class="row">
+						<h3>Categorías</h3>
+						<div class="cats-widget">
+							<ul>	
+								<li class="cat-item cat-item-40">
+									<a href="">España</a> <span>105</span>
+								</li>
+								<li class="cat-item cat-item-56">
+									<a href="">Destinos</a> <span>97</span>
+								</li>
+								<li class="cat-item cat-item-165">
+									<a href="">Europa</a> <span>96</span>
+								</li>
+								<li class="cat-item cat-item-33">
+									<a href="">AmigoAutos</a> <span>80</span>
+								</li>
+							</ul>
+						</div>
+
+					</div>					
+					<div class="row">
+						<h3>Twitter</h3>     
+						<div class="twitter-container">
+							<div class="tweet">
+								<p>
+									Reserva tu coche para tu viaje a Argentina, ¡ no te pierdas las Cataratas del Iguazú! &gt;
+									<a target="_blank" href="http://t.co/QBCPwIeFI4" class="custom">
+										http://t.co/QBCPwIeFI4
+									</a>
+									<a target="_blank" href="http://t.co/ZexodAOJPY" class="custom">
+										http://t.co/ZexodAOJPY
+									</a>
+								</p>
+							</div>
+							<div class="tweet">
+								<p>
+									¿Quiéres ganar un alquiler de un coche para un fin de semana? No te lo pienses y ¡participa!
+									<a target="_blank" href="https://t.co/pWgO6pd2AE" class="custom">
+										https://t.co/pWgO6pd2AE
+									</a>
+									<a target="_blank" href="http://t.co/co0NKDSaDF" class="custom">
+										http://t.co/co0NKDSaDF
+									</a>
+								</p>
+							</div>
+							<div class="tweet">
+								<p>
+									RT
+									<a href="http://www.twitter.com/patri_titi_3">
+										@patri_titi_3
+									</a>
+									: Siii
+									<a href="http://www.twitter.com/AmigoAutos">
+										@AmigoAutos
+									</a> 
+									, ya he participado! A ver si hay suerte 💪😃🍀
+								</p>
+							</div>
+
+						</div>
+					</div>
+					<div class="row">
+						<h3>
+							<span class="empty" style="display: none;">&nbsp;</span></h3>
+						<div class="widget-content">
+							<script src="http://connect.facebook.net/es_ES/all.js#xfbml=1"></script><fb:like-box header="true" stream="false" border_color="AAAAAA" show_faces="true" width="292" href="https://www.facebook.com/AmigoAutos" class=" fb_iframe_widget" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;header=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FAmigoAutos&amp;locale=es_ES&amp;sdk=joey&amp;show_faces=true&amp;stream=false&amp;width=292"><span style="vertical-align: bottom; width: 292px; height: 271px;"><iframe width="292px" height="1000px" frameborder="0" name="f297caadb00c3e6" allowtransparency="true" scrolling="no" title="fb:like_box Facebook Social Plugin" style="border: medium none; visibility: visible; width: 292px; height: 271px;" src="http://www.facebook.com/plugins/like_box.php?app_id=&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FKvoNGODIqPG.js%3Fversion%3D41%23cb%3Df1fc480c0adb09e%26domain%3Damigoautos.azurewebsites.net%26origin%3Dhttp%253A%252F%252Famigoautos.azurewebsites.net%252Ffe36b1dfe57c5e%26relation%3Dparent.parent&amp;container_width=0&amp;header=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FAmigoAutos&amp;locale=es_ES&amp;sdk=joey&amp;show_faces=true&amp;stream=false&amp;width=292" class=""></iframe></span></fb:like-box></div><!-- end widget content -->
+					</div>
+					<div class="row">
+						<h3>Entradas populares</h3>
+						<div class="widget-content">        
+							<div class="recent-posts-wrapper">								
+								<div class="post">
+									<div class="post-image ">
+										<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/amigoautos/alquila-tu-coche-con-tarjeta-de-debito/"></a>
+									</div>
+									<div class="post-content">
+										<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/amigoautos/alquila-tu-coche-con-tarjeta-de-debito/">
+											<span class="date">
+												08 oct , 2012
+										</span>
+										<br>
+										<p>
+											Alquila tu coche con tarjeta de débito
+									</p>
+								</a>
+									</div>
+								</div>
+								<div class="post">                        
+									<div class="post-image ">
+										<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/espana/las-playas-espanolas-mas-recomendadas/"></a>
+									</div>                                          
+									<div class="post-content">                            
+										<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/espana/las-playas-espanolas-mas-recomendadas/">
+											<span class="date">
+												10 abr , 2012
+										</span>
+										<br>
+										<p>
+											Las playas españolas más recomendadas
+									</p>
+								</a>									
+									</div>
+
+								</div>
+								<div class="post">
+									<div class="post-image ">
+										<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/espana/ruta-para-conocer-los-lugares-mas-emblematicos-de-madrid/"></a>
+									</div>
+									<div class="post-content">
+
+										<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/espana/ruta-para-conocer-los-lugares-mas-emblematicos-de-madrid/">
+											<span class="date">
+												25 oct , 2011
+										</span>
+										<br>
+										<p>
+											Ruta para conocer los lugares más emblemáticos de Madrid
+									</p>
+								</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<h3>Ofertas</h3>
+						<div class="widget-content">
+							<a href="#" class="ads-widget-wrapper">
+								<img alt="Publicidad" src="http://amigoautos.azurewebsites.net/es/blog/wp-content/uploads/2014/05/publicidad.jpg">
+							</a>      
+					</div>
+				</div>
+					<div class="row">
+						<h3>Últimos comentarios</h3>
+						<div class="widget-content">       
+							<div class="recent-posts-wrapper">
+								<div class="post">
+									<div class="post-image comment-image">
+										<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/amigoautos/alquila-tu-coche-con-tarjeta-de-debito/">
+											<img width="60" height="60" class="avatar avatar-60 photo" src="http://0.gravatar.com/avatar/e16fde79f4d3d5afa0df86de8ba66b0e?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" alt="">
+										</a>
+									</div>
+									<div class="post-content">
+										<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/author/" style="font-size: 14px; float: left;">
+											<span class="date">
+												amigoautos
+										</span>
+									</a>
+									<br>
+									<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/amigoautos/alquila-tu-coche-con-tarjeta-de-debito/">
+										<p>Buenos días Yina, Si no tienes tarjeta de crédito</p>
+									</a>
+									</div>
+								</div>
+								<div class="post">
+									<div class="post-image comment-image">
+										<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/amigoautos/alquila-tu-coche-con-tarjeta-de-debito/">
+											<img width="60" height="60" class="avatar avatar-60 photo" src="http://1.gravatar.com/avatar/dcf8dad3835c17381af996531b6eadaf?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" alt="">
+										</a>
+									</div>
+									<div class="post-content">
+										<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/author/" style="font-size: 14px; float: left;">
+											<span class="date">
+												Yina
+												</span>
+													</a>
+													<br>
+													<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/amigoautos/alquila-tu-coche-con-tarjeta-de-debito/">
+														<p>
+															Buenos Dias,
+															UNOs amigos  mios fueron a Malaga y
+													</p>
+												</a>
+									</div>
+								</div>
+								<div class="post">
+									<div class="post-image comment-image">
+										<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/uncategorized/limpieza-general-de-primavera-para-tu-coche/">
+											<img width="60" height="60" class="avatar avatar-60 photo" src="http://0.gravatar.com/avatar/e16fde79f4d3d5afa0df86de8ba66b0e?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G" alt="">                              
+										</a>
+									</div>
+									<div class="post-content">
+										<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/author/" style="font-size: 14px; float: left;">
+											<span class="date">
+												amigoautos
+										</span>
+									</a>
+									<br>
+									<a href="http://amigoautos.azurewebsites.net/es/blog/index.php/uncategorized/limpieza-general-de-primavera-para-tu-coche/">
+										<p>Muchas gracias Amigos! Nos alegra que os guste... :)</p>
+									</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<h3>Etiquetas</h3>
+						<div class="widget-content">
+			<div class="tagcloud"><a style="font-size: 12px;" title="5 temas" class="tag-link-295" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/aeropuerto-barcelona/">aeropuerto Barcelona</a>
+								<a style="font-size: 12px;" title="9 temas" class="tag-link-156" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/aeropuerto-de-madrid/">Aeropuerto de Madrid</a>
+							<a style="font-size: 12px;" title="6 temas" class="tag-link-137" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/aeropuerto-de-valencia/">Aeropuerto de Valencia</a>
+								<a style="font-size: 12px;" title="6 temas" class="tag-link-183" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/aeropuerto-mallorca/">Aeropuerto Mallorca</a>
+								<a style="font-size: 12px;" title="10 temas" class="tag-link-465" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/alemania/">Alemania</a>
+								<a style="font-size: 12px;" title="10 temas" class="tag-link-46" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/alquilar/">alquilar</a>
+								<a style="font-size: 12px;" title="29 temas" class="tag-link-108" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/alquilar-coche/">Alquilar coche</a>
+								<a style="font-size: 12px;" title="7 temas" class="tag-link-230" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/alquiler-de-coche/">alquiler de coche</a>
+								<a style="font-size: 12px;" title="46 temas" class="tag-link-521" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/alquiler-de-coches/">alquiler de coches</a>
+					<a style="font-size: 12px;" title="14 temas" class="tag-link-3961" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/alquiler-de-coches-baratos/">Alquiler de coches baratos</a>
+								<a style="font-size: 12px;" title="13 temas" class="tag-link-33" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/amigoautos/">AmigoAutos</a>
+								<a style="font-size: 12px;" title="5 temas" class="tag-link-278" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/amigobeds/">AmigoBeds</a>
+								<a style="font-size: 12px;" title="6 temas" class="tag-link-453" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/amsterdam/">Amsterdam</a>
+								<a style="font-size: 12px;" title="6 temas" class="tag-link-535" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/andalucia/">Andalucía</a>
+								<a style="font-size: 12px;" title="6 temas" class="tag-link-466" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/austria/">Austria</a>
+								<a style="font-size: 12px;" title="11 temas" class="tag-link-54" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/barcelona/">Barcelona</a>
+								<a style="font-size: 12px;" title="7 temas" class="tag-link-95" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/coche/">coche</a>
+								<a style="font-size: 12px;" title="6 temas" class="tag-link-408" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/coche-de-alquiler/">coche de alquiler</a>
+								<a style="font-size: 12px;" title="15 temas" class="tag-link-47" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/consejos/">consejos</a>
+								<a style="font-size: 12px;" title="6 temas" class="tag-link-114" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/descuento/">Descuento</a>
+								<a style="font-size: 12px;" title="11 temas" class="tag-link-40" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/espana/">España</a>
+								<a style="font-size: 12px;" title="11 temas" class="tag-link-964" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/estados-unidos/">Estados Unidos</a>
+								<a style="font-size: 12px;" title="7 temas" class="tag-link-165" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/europa/">Europa</a>
+								<a style="font-size: 12px;" title="8 temas" class="tag-link-84" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/facebook/">Facebook</a>
+								<a style="font-size: 12px;" title="6 temas" class="tag-link-131" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/fiestas/">fiestas</a>
+								<a style="font-size: 12px;" title="6 temas" class="tag-link-492" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/francia/">Francia</a>
+								<a style="font-size: 12px;" title="10 temas" class="tag-link-421" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/italia/">Italia</a>
+								<a style="font-size: 12px;" title="7 temas" class="tag-link-116" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/lisboa/">Lisboa</a>
+								<a style="font-size: 12px;" title="10 temas" class="tag-link-469" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/londres/">Londres</a>
+								<a style="font-size: 12px;" title="15 temas" class="tag-link-62" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/madrid/">Madrid</a>
+								<a style="font-size: 12px;" title="15 temas" class="tag-link-63" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/mallorca/">Mallorca</a>
+								<a style="font-size: 12px;" title="6 temas" class="tag-link-65" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/menorca/">Menorca</a>
+								<a style="font-size: 12px;" title="7 temas" class="tag-link-504" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/naturaleza/">naturaleza</a>
+								<a style="font-size: 12px;" title="8 temas" class="tag-link-215" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/navidad/">Navidad</a>
+								<a style="font-size: 12px;" title="9 temas" class="tag-link-213" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/nueva-york/">Nueva York</a>
+								<a style="font-size: 12px;" title="10 temas" class="tag-link-484" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/paris/">París</a>
+								<a style="font-size: 12px;" title="11 temas" class="tag-link-86" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/playas-2/">playas</a>
+								<a style="font-size: 12px;" title="6 temas" class="tag-link-497" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/roma/">Roma</a>
+								<a style="font-size: 12px;" title="15 temas" class="tag-link-166" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/ruta-en-coche/">Ruta en coche</a>
+								<a style="font-size: 12px;" title="12 temas" class="tag-link-87" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/rutas/">rutas</a>
+								<a style="font-size: 12px;" title="13 temas" class="tag-link-121" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/rutas-en-coche-2/">rutas en coche</a>
+								<a style="font-size: 12px;" title="5 temas" class="tag-link-264" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/semana-santa/">Semana Santa</a>
+								<a style="font-size: 12px;" title="6 temas" class="tag-link-45" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/valencia/">valencia</a>
+								<a style="font-size: 12px;" title="7 temas" class="tag-link-205" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/venecia/">Venecia</a>
+								<a style="font-size: 12px;" title="7 temas" class="tag-link-68" href="http://amigoautos.azurewebsites.net/es/blog/index.php/tag/verano/">verano</a></div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>

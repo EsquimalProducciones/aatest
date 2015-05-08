@@ -1,0 +1,3819 @@
+      #####################################  
+      #
+      #Traducciones de la página contactar
+      # 
+      #####################################  
+contactar-pagina-titulo:
+    - es: "Contacto"
+    - en: "Contact"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-pagina-subtitulo:
+    - es: "Puedes ponerte en contacto con nosotros a través de este formulario."
+    - en: "You can contact us through this form."
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-pagina-info-1:
+    - es: "Para reservas puedes llamar al teléfono:"                                
+    - en: "For reservations you can call: 807 51 71 71 (.. Cost Max .: € 1.21 / min fixed; € 1.57 / min mobile incl) <br/>
+           But if you're looking for the phone customer (for incidents and complaints) 902 44 33 99. Available Monday to Sunday from 8:00 to 20:00 h."
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-pagina-info-2:
+    - es: "(Coste máx.: 1,21 €/min fijo; 1,57 €/min móvil. IVA incl.)"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""  
+contactar-pagina-info-3:
+    - es: "Si lo que buscas es el teléfono de atención al cliente (para incidencias y reclamaciones):"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""    
+contactar-pagina-info-4:
+    - es: "(Disponible de Lunes a Domingo de 8:00 a 20:00 h)"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""    
+contactar-formulario-nombre:
+    - es: "Nombre"
+    - en: "Name"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-numero-reserva:
+    - es: "Número de reserva"
+    - en: "Reservation number"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-en-blanco:
+    - es: "dejar en blanco el campo si no dispones del número"
+    - en: "leave the field blank if you do not have the number"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-apellidos:
+    - es: "Apellidos"
+    - en: "Surname"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-asunto:
+    - es: "Asunto"
+    - en: "Issue"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-asunto-1:
+    - es: "Selecciona el motivo de tu consulta"
+    - en: "Select the reason for your inquiry"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-asunto-2:
+    - es: "Modificar mi reserva"
+    - en: "Change my booking"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-asunto-3:
+    - es: "Solicitar factura para reserva de pagos online"
+    - en: "Request for booking invoice payments online"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-asunto-4:
+    - es: "No he recivido confirmación de mi reserva"
+    - en: "I have not received my confirmation"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-asunto-5:
+    - es: "Servicios y extras bajo petición"
+    - en: "Services and extras on request"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-asunto-6:
+    - es: "Deseo realizar una reclamación"
+    - en: "I wish to make a claim"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-asunto-7:
+    - es: "Otros"
+    - en: "Others"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-telefono:
+    - es: "Teléfono"
+    - en: "Phone"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-email:
+    - es: "Email"
+    - en: "Email"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-consulta:
+    - es: "Consulta"
+    - en: "Consultation"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-leido-acepta:
+    - es: "He leido y acepto los "
+    - en: "I have read and accept the"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-terminos-condiciones:
+    - es: "términos y condiciones"
+    - en: "terms and conditions"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+contactar-formulario-enviar:
+    - es: "Enviar"
+    - en: "Send"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+      #####################################  
+      #
+      #Traducciones de la página destino
+      #
+      #####################################  
+      
+destinos:
+    - es: "Destinos"
+    - en: "Locations"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+destino-subtitulo-pagina:
+    - es: "¿Qué hacer en mis vacaciones? ¿Qué puedo visitar?"
+    - en: "What to do on my vacation? What I can visit?"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+destino-contenido-pagina:
+    - es: "Planifica tus vacaciones desde el principio. Busca tu ciudad de destino y descubre qué puedes hacer. Conoce las recomendaciones de otros usuarios y disfruta de tu viaje."
+    - en: "Plan your holiday from the start. Search your destination city and discover what you can do. Meet the recommendations of other users and enjoy your trip."
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+destino-select-elige-continente:      
+    - es: "Elige un continente..."
+    - en: "Choose a region ..."
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+destino-select-elige-pais:      
+    - es: "un país..."
+    - en: "a country ..."
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+destino-select-elige-ciudad:      
+    - es: "una ciudad..."
+    - en: "a city ..."
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+destino-select-elige-zona:      
+    - es: "elige..."
+    - en: "chose..."
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+destino-boton-ir:      
+    - es: "Ir"
+    - en: "Go"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+    
+      #####################################  
+      #
+      #Traducciones de la página elementos-comunes
+      #
+      #####################################  
+
+elementos-comunes-alquiler-coches-url :
+    - es: "alquiler-coches"
+    - en: "car-hire"
+    - de: "mietwagen"
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+elementos-comunes-localizaciones-url :
+    - es: "localizations"
+    - en: "localizations"
+    - de: "localizations"
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+elementos-comunes-buscador-vehiculos-disponibles:
+    - es: "VEHÍCULOS DISPONIBLES"
+    - en: "VEHICLES AVAILABLE"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+elementos-comunes-buscador-pais:
+    - es: "País"
+    - en: "Country"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+elementos-comunes-buscador-ciudad:  
+    - es: "Ciudad"
+    - en: "City"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""   
+elementos-comunes-buscador-ciudad-recogida:  
+    - es: "Ciudad Recogida"
+    - en: "City Collection"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""    
+elementos-comunes-buscador-ciudad-devolucion:  
+    - es: "Ciudad Devolución"
+    - en: "City Return"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+elementos-comunes-buscador-misma:  
+    - es: "Devolver en la misma oficina"
+    - en: "Drop off in the same office"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+elementos-comunes-buscador-fecha-recogida:
+    - es: "Fecha de recogida"
+    - en: "Pick up date"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+elementos-comunes-buscador-fecha-devolucion:
+    - es: "Fecha de devolución"
+    - en: "Date Due"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-buscador-hora:
+    - es: "Hora"
+    - en: "Time"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+
+elementos-comunes-buscador-boton-buscar:
+    - es: "BUSCAR"
+    - en: "SEARCH"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+
+elementos-comunes-busca-rutas:
+    - es: "Busca tu ciudad de destino y descubre las mejores rutas para disfrutar de tus vacaciones. Conoce las recomendaciones de otros usuarios para tener tu viaje bien organizado."
+    - en: "Search your destination city and discover the best routes to enjoy your holiday. Meet the recommendations from other users to have your well organized trip."
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-ver-mas:
+    - es: "VER MÁS"
+    - en: "SEE MORE"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-faq:
+    - es: "FAQs"
+    - en: "FAQs"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-contactar:
+    - es: "Contactar"
+    - en: "Contact"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-menu-principal-mi-cuenta:
+    - es: "Mi Cuenta"
+    - en: "My Account"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-coches:
+    - es: "Coches"
+    - en: "Cars"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-furgonetas:
+    - es: "Furgonetas"
+    - en: "Vans"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-redes-sociales-leido-acepto:
+    - es: "He leido y acepto la"
+    - en: "I have read and accept the"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-redes-sociales-politica-privacidad:
+    - es: "politica de privacidad"
+    - en: "privacy policy"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-redes-sociales-suscribete:
+    - es: "Suscríbete y recibirás todas nuestras ofertas"
+    - en: "Subscribe and you will receive all our offers"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-redes-sociales-facebook:
+    - es: "facebook"
+    - en: "facebook"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-redes-sociales-twitter:
+    - es: "twitter"
+    - en: "twitter"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-redes-sociales-google-plus:
+    - es: "google +"
+    - en: "google +"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-redes-sociales-blog:
+    - es: "blog"
+    - en: "blog"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-redes-sociales-suscribirme:
+    - es: "SUSCRIBIRME"
+    - en: "SUBSCRIBE"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-footer-inferior-terminos:
+    - es: "Terminos y condiciones"
+    - en: "Terms and Conditions"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-footer-inferior-aviso-legal:
+    - es: "Aviso legal"
+    - en: "Legal warning"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-footer-inferior-cookies:
+    - es: "Politica de cookies"
+    - en: "Cookies policy"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-contactar:
+    - es: "Contactar"
+    - en: "Contact"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-footer-inferior-copyright:
+    - es: "Copyright © amigoautos all rights reserved"
+    - en: "Copyright © AmigoAutos all rights reserved"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-breadcrumbs-home:
+    - es: "Home"
+    - en: "Home"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-breadcrumbs-destino:
+    - es: "Destino"
+    - en: "Destination"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-breadcrumbs-faq:
+    - es: "Preguntas Frecuentes"
+    - en: "Frequently Asked Questions"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-breadcrumbs-contacto:
+    - es: "Contactar"
+    - en: "Contact"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-ofertas-especiales-titulo:
+    - es: "OFERTAS ESPECIALES"
+    - en: "SPECIAL OFFERS"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-ofertas-especiales-ver-oferta:
+    - es: "VER OFERTA"
+    - en: "SEE OFFER"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-ofertas-especiales-subtitulo:
+    - es: "Buscamos el mejor precio en las mejores compañías nacionales e internacionales "
+    - en: " We seek the best price in the best national and international companies"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-ofertas-blog-leer-mas:
+    - es: "LEER MÁS"
+    - en: "READ MORE"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-ofertas-blog-titulo:
+    - es: "BLOG"
+    - en: "BLOG"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-ofertas-blog-subtitulo:
+    - es: "¿Buscas consejos para tus viajes? Visita nuestro blog"
+    - en: "Looking for tips for your travels? Visit our blog"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-servicios-reembolso:
+    - es: "Reembolso de franquicia"
+    - en: "Excess Refund"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-servicios-reembolso-subtitulo:
+    - es: "Protegete en todo el mundo"
+    - en: "Protegete worldwide"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-servicios-24-horas:
+    - es: "Servicio al cliente 24h"
+    - en: "24h Customer Service"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-servicios-24-horas-subtitulo:
+    - es: "Estamos ahí cuando nos necesitas"
+    - en: "We are there when you need us"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-servicios-pago-seguro:
+    - es: "Pago seguro"
+    - en: "Secure payment"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-servicios-pago-seguro-subtitulo:
+    - es: "Porque tu seguridad nos importa"
+    - en: "Because your safety is important to us"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-servicios-cancelacion:
+    - es: "Sin gastos de cancelación"
+    - en: "No cancellation fees"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-servicios-cancelacion-subtitulo:
+    - es: "¡Y el mejor precio garantizado!"
+    - en: "And elmejor price guaranteed!"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-guias-viaje-titulo:
+    - es: "GUÍAS DE VIAJE"
+    - en: "TRAVEL GUIDES"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-guias-viaje-subtitulo:
+    - es: "¿Estás planeando un viaje?"
+    - en: "Are you planning a trip?"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-45-segundos-titulo:
+    - es: "¿Tienes 45 segundos?"
+    - en: "You have 45 seconds?"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-45-segundos-subtitulo:
+    - es: "Porque no todas las webs de coches son iguales."
+    - en: "Because not all websites are the same car."
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+
+elementos-comunes-45-segundos-gastos-incluidos:
+    - es: "Todos los gastos incluidos en el precio"
+    - en: "All costs included in the price"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-45-segundos-confirmacion:
+    - es: "Confirmación inmediata"
+    - en: "Instant Booking"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-45-segundos-mejor-precio:
+    - es: "El mejor precio"
+    - en: "Best price"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-45-segundos-disponible:
+    - es: "Disponible en todos los dispositivos"
+    - en: "Available on all devices"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+elementos-comunes-45-segundos-cancelacion:
+    - es: "Sin gastos de cancelación"
+    - en: "No cancellation fees"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+      #####################################  
+      #
+      #Traducciones de la página Guias
+      #
+      #####################################  
+
+rutas:      
+    - es: "Rutas"
+    - en: "Routes"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+guias-subtitulo-pagina:      
+    - es: "¿Qué ruta hacer para sacar el máximo partido a las vacaciones?"
+    - en: "What route do to get the most out of your vacation?"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+guias-selecciona-ciudad:      
+    - es: "Selecciona la ciudad que desees y descubre las diferentes rutas que AmigoAutos.com te ofrece para poder disfrutar al máximo."
+    - en: "Choose the city you want and discover the different routes to AmigoAutos.com gives you maximum enjoyment."
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+guias-elige:      
+    - es: "Elige..."
+    - en: "Choose ..."
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+guias-elige-ruta:      
+    - es: "Elige ruta"
+    - en: "Choose route"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+guias-ir:      
+    - es: "Ir »"
+    - en: "Go »"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      #####################################  
+      #
+      #Traducciones de la página Index
+      #
+      #####################################  
+
+index-titulo-pagina-1:
+    - es: "Encuentra tu coche de alquiler "
+    - en: "Find your rental car"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+index-titulo-pagina-2:
+    - es: "Encuentra tu furgoneta de alquiler"
+    - en: "Find your rental van"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+      #####################################  
+      #
+      #Traducciones de la página Login
+      #
+      #####################################  
+
+login-titulo:
+    - es: "Mi Cuenta"
+    - en: "My Account"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+login-usuario:
+    - es: "Usuario"
+    - en: "User"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+login-contrasenya:
+    - es: "Contraseña"
+    - en: "Password"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+login-acceder:
+    - es: "Acceder"
+    - en: "Login"
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+      #####################################  
+      #
+      #Traducciones de los servicios
+      #
+      #####################################  
+    
+servicios:
+    - title:
+        - es: 'Reembolso de franquicia'
+        - en: 'Excess Refund' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+      content:
+        - es: 'Protegete en todo el mundo'
+        - en: 'Proted  worldwide' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+      url: 
+        - es: ''
+        - en: '' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+      img: 
+        - es: 'repeat'
+        - en: 'repeat' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+    - title:
+        - es: 'Servicio al cliente 24h'
+        - en: '24h Customer Service' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+      content:
+        - es: 'Estamos ahí cuando nos necesitas'
+        - en: 'We are there when you need us' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+      url: 
+        - es: ''
+        - en: '' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+      img: 
+        - es: 'clock-o'
+        - en: 'clock-o' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+    - title:
+        - es: 'Pago seguro'
+        - en: 'secure payment' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+      content:
+        - es: 'Porque tu seguridad nos importa'
+        - en: 'Because your safety is important to us' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+      url: 
+        - es: ''
+        - en: '' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+      img: 
+        - es: 'money'
+        - en: 'money' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+    - title:
+        - es: 'Sin gastos de cancelación'
+        - en: 'No cancellation fees' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+      content:
+        - es: '¡Y elmejor precio garantizado!'
+        - en: 'And best price guarantee!' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+      url: 
+        - es: ''
+        - en: '' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+      img: 
+        - es: 'thumbs-o-up'
+        - en: 'thumbs-o-up' 
+        - de: ''
+        - fr: ''
+        - pt: ''
+        - it: ''
+        - nl: ''
+        - ru: ''
+
+          #################################################
+          #
+          #Traducciones de la pagina disponibilidad
+          #
+          #########################################o######
+
+disponibilidad-mas:
+    - es: "más"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+
+disponibilidad-ver:
+    - es: "ver"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+
+disponibilidad-pasos-1:
+    - es: "Seleccione lugar y fechas"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-pasos-2:
+    - es: "Seleccione un vehículo"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-pasos-3:
+    - es: "Detalles de la reserva"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-pasos-4:
+    - es: "Confirmación"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-precio-cabecera:
+    - es: "Precio"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-colaboradores-cabecera:
+    - es: "Colaboradores"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-pago-recogida-cabecera:
+    - es: "Pago y Recogida"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-combustible-cabecera:
+    - es: "Combustible"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-caracteristicas-cabecera:
+    - es: "Caracteristicas"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-tipo-cabecera:
+    - es: "Tipo Vehiculo"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-precios-titulo:
+    - es: "Selecciona un rango de precios"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-precios-content-1:
+    - es: "Desde"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-precios-content-2:
+    - es: "Hasta"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-pago-recogida-content-1:
+    - es: "Pago online"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-pago-recogida-content-2:
+    - es: "Pago parcial"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-tarjeta-debito:
+    - es: "Tarjeta de débito"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-mostrador-aeropuerto:
+    - es: "Mostrador aeropuerto"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-combustible-content-1:
+    - es: "Lleno - Lleno"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-combustible-content-2:
+    - es: "Prepagado (reembolso parcial)"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-caracteristicas-content-1:
+    - es: "GPS"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-caracteristicas-content-2:
+    - es: "Diesel"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-caracteristicas-content-3:
+    - es: "Aire Acondicionado"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-caracteristicas-content-4:
+    - es: "Automático"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-caracteristicas-content-5:
+    - es: "Numero de puertas"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-puertas:
+    - es: "Puertas"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-caracteristicas-content-6:
+    - es: "Numero de plazas"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-plazas:
+    - es: "Plazas"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-tipo-1:
+    - es: "Económicos"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-tipo-2:
+    - es: "Compactos"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-tipo-3:
+    - es: "Berlinas"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-tipo-4:
+    - es: "Rancheras"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-tipo-5:
+    - es: "Monovolúmenes"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-tipo-6:
+    - es: "Todoterrenos"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-tipo-7:
+    - es: "Deportivos"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-filtros-tipo-8:
+    - es: "Motocicletas"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-detalles-reserva:
+    - es: "ver detalles de mi reserva"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-detalles-reserva-recogida:
+    - es: "Recogida"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-detalles-reserva-devolucion:
+    - es: "Devolución"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-boton-modificar:
+    - es: "Modificar"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-boton-enviar:
+    - es: "Enviar"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-central-reservas:
+    - es: "Central de Reservas"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-gratuito:
+    - es: "(gratuito)"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-horario-atencion:
+    - es: "De 08:00 a 20:00h"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+traducciones.disponibilidad-resultados:
+    - es: "RESULTADOS"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-boton-filtrar:
+    - es: "Filtrar"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-ordenar:
+    - es: "ordenar"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-por:
+    - es: "por"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-precio-acendente:
+    - es: "Precio ascendente"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-precio-descendente:
+    - es: "Precio descendente"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-tamano-grande:
+    - es: "Tamaño Grande"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-tamano-pequeno:
+    - es: "Tamaño Pequeño"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-similar:
+    - es: "o similar"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-total:
+    - es: "Total"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-dia:
+    - es: "día"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-conductor-adicional-gratis:
+    - es: "Conductor adicional gratis"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-tarjeta-debito-br:
+    - es: "TARJETA<br/>DE DÉBITO"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-mostrador-aeropuerto-br:
+    - es: "MOSTRADOR<br/>EN AEROPUERTO"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-conductor-adicional-gratis-br:
+    - es: "CONDUCTOR<br/>ADICIONAL GRATIS"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-modificar-reserva:
+    - es: "Modificar Reserva"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-detalles-reserva-recogida:
+    - es: "Recogida"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-detalles-reserva-lugar-recogida:
+    - es: "Lugar Recogida"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-detalles-reserva-fecha-recogida:
+    - es: "Fecha Recogida"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-detalles-reserva-hora-recogida:
+    - es: "Hora Recogida"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-detalles-reserva-devolucion:
+    - es: "Devolucion"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-detalles-reserva-lugar-devolucion:
+    - es: "Lugar  Devolucion"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-detalles-reserva-fecha-devolucion:
+    - es: "Fecha Devolucion"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-detalles-reserva-hora-devolucion:
+    - es: "Hora Devolucion"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-boton-cerrar:
+    - es: "Cerrar"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-ordenar:
+    - es: "Ordenar"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-ordenar-reserva-precio-asc:
+    - es: "Precio Ascendente"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-ordenar-reserva-precio-dsc:
+    - es: "Precio Descendente"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-ordenar-reserva-tamano-asc:
+    - es: "Tamaño Grande"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+      
+disponibilidad-ordenar-reserva-tamano-dsc:
+    - es: "Tamaño Pequeño"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+disponibilidad-resultados:
+    - es: "Resultados"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+disponibilidad-boton-borrar-filtros:
+    - es: "Borrar todos los filtros"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+#detalles-reserva-datos-vehiculo :
+#    - es: "Datos del Vehiculo"
+#    - en: ""
+#    - de: ""
+#    - fr: ""
+#    - pt: ""
+#    - it: ""
+#    - nl: ""
+#    - ru: ""
+
+detalles-reserva-datos-conductor:
+    - es: "Datos del conductor"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-nombre :
+    - es: "Nombre"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-nombre-titular :
+    - es: "Nombre del titular"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-servicios-adicionales :
+    - es: "SERVICIOS ADICIONALES"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+
+detalles-reserva-seguro-adicional :
+    - es: "SEGURO ADICIONAL"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+
+detalles-reserva-datos-telefono :
+    - es: "Teléfono"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-fecha-nacimiento :
+    - es: "Fecha Nacimiento"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-email :
+    - es: "E-mail"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-repetir-email :
+    - es: "Repetir e-mail"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-vuelo :
+    - es: "Vuelo/Tren"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-acepto-datos :
+    - es: "Acepto recibir ofertas en mi correo"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-terminos :
+    - es: "Terminos"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-franquicia-titulo :
+    - es: "Franquicia"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-franquicia-reembolso :
+    - es: "Reembolso de la franquicia en caso de daño o robo(incluidos numaticos,ventanas,chasis,faros y el techo hasta 4000€ )
+"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-franquicia-perdida-equipaje :
+    - es: "Perdida de equipaje hasta 300€"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-franquicia-robo :
+    - es: "Perdida o robo  de llaves hasta 500 €"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-franquicia-grua :
+    - es: "Repostaje equivocado + grua hasta 500 €"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-franquicia-protegido :
+    - es: "Quiero estar protegido (solo residentes en la EEE)"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-franquicia-mas-informacion :
+    - es: "Ver mas información"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+disponibilidad-informacion-seguro-adicional:
+    - es: "Información del seguro adicional"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+disponibilidad-pagar-ahora:
+    - es: "PAGAR AHORA"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+disponibilidad-pagar-online:
+    - es: "PAGAR ONLINE"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-tarjeta-titulo :
+    - es: "Datos de la tarjeta"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-tarjeta-tipo :
+    - es: "Tipo de tarjeta"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-tarjeta-dni:
+    - es: "DNI o Pasaporte"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-tarjeta-numero :
+    - es: "Numero de tarjeta"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-tarjeta-caducidad :
+    - es: "Caducidad"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-tarjeta-cvc :
+    - es: "CVC"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-sillitas-titulo :
+    - es: "Sillitas Infantiles"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-sillitas-1:
+    - es: "Sillitas de 0 a 2 años "
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-sillitas-2 :
+    - es: "Sillitas de 2 a 5 años"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-datos-sillitas-3 :
+    - es: "Sillitas de 5 años o más"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+
+detalles-reserva-codigo-promo-canjear :
+    - es: "¿Algún código promocional?"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-codigo-promo-btn-canjear :
+    - es: "Canjear"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-pago-online-titulo :
+    - es: "Pago Online"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-pago-online-confirmar :
+    - es: "Confirmar su reserva"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-pago-parcial-titulo :
+    - es: "Pago Parcial Online"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-parcial:
+    - es: "Parcial online"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-pagar:
+    - es: "Pagar"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-reserva-destino:
+    - es: "en destino"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+detalles-cambiar-vehiculo:
+    - es: "Cambiar de vehículo"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+  #############################
+  #Terminos y Condiciones de las ventanas modales
+  ##############################
+
+terminos-aceptar-continua:
+    - es: "Debe aceptar los términos y condiciones para continuar"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-autorizacion-usuario-datos:
+    - es: "El usuario de este web site autoriza expresamente el tratamiento de los datos personales facilitados. Así mismo el usuario que introduce los datos, es el responsable único y final de la veracidad de la información suministrada. El usuario que facilita los datos debe ser el titular de los mismos o en su defecto haber recabado el consentimiento expreso del titular para ser suscrito en este servicio, asumiendo que ha dado a conocer al titular de dichos datos estos Términos y Condiciones."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-horario-oficina:
+    - es: "Horario Oficina"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-horario-oficina-diario :
+    - es: "DIARIO"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-util :
+    - es: "Información util:"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-util-1 :
+    - es: "Es necesario presentar el pasaporte o DNI, el carnet de conducir y una tarjeta de crédito a nombre del conductor en vigor a la hora de recoger el vehículo.&nbsp;"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-util-2 :
+    - es: "Cumplir la edad mínima y antigüedad de Carnet de conducir de los Términos y Condiciones de su reserva."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-util-3 :
+    - es: "Forma de pago: Tarjeta de Crédito. Se requiere Tarjeta de Crédito a nombre del conductor principal como Garantía. Para grupos superiores ocasionalmente se requieren 2 Tarjetas de Crédito.No aceptamos American Express o Diners Card."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-util-4 :
+    - es: "Se admite EC-Karte y tarjetas de débito (siempre y cuando el cliente contrate el Seguro Súper Relax sin franquicia)."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-util-5 :
+    - es: "El seguro (CDW)  incluye las coberturas del Seguro Obligatorio del automóvil y del Complementario de Responsabilidad Civil y robo e incendio.No cubre los daños a ruedas, llantas, lunas, retrovisores, cerraduras, bajos ni la pérdida de llaves, grúa o servicio de asistencia 24 horas.Asistencia en Carretera de Lunes a Viernes de 9 a 18h.."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-util-6 :
+    - es: "Tendrá la opción de contratar la cobertura adicional de daños"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-util-7 :
+    - es: "que el personal de Goldcar le ofrecerá o dejar un depósito, que variará dependiendo de la oficina de recogida y del tipo de vehículo entregado, (consultar importe en www.goldcar.es/tc)."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-util-8 :
+    - es: "Si ya tiene contratada una cobertura adicional a través de un tercero ajeno a Goldcar"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-util-9 :
+    - es: "no es obligatorio que contrate la que le ofrece Goldcar pero si no lo hace deberá dejar un depósito como garantía. Para ello se bloqueará en su tarjeta de crédito la cantidad correspondiente para cubrir posibles daños al vehículo. El importe de dicho depósito no limitará su responsabilidad respecto de los daños producidos en caso de incumplimiento de las condiciones generales del contrato de alquiler, (consultar en www.goldcar.es/tc). Todos los daños producidos los deberá abonar a Goldcar pudiendo reclamar posteriormente dichas cantidades al tercero con el que ha contratado la cobertura de daños."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-util-10 :
+    - es: "Para más información y Seguros adicionales opcionales, ver Términos y Condiciones de su reserva"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-requerimientos :
+    - es: "Requerimientos"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-requerimientos-1 :
+    - es: "Edad mínima del conductor es de 21 años y 1 año(s) de antigüedad de carnet , ( 21 - 24 )  años con Suplemento Conductor Joven."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-requerimientos-2 :
+    - es: "Edad a partir de 25 años requiere mínimo 4 años de antigüedad en carnet de conducir, de lo contrario suplemento carnet de conducir de 1-3 años."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-requerimientos-3 :
+    - es: "El permiso de conducir, para países que no pertenezcan a la UE, debe complementarse con una Licencia Internacional de Conducción y justificante fehaciente de su lugar de hospedaje o residencia en España."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-requerimientos-4 :
+    - es: "Forma de pago: Tarjeta de Crédito. Se requiere Tarjeta de Crédito a nombre del conductor principal como Garantía. Para grupos superiores ocasionalmente se requieren 2 Tarjetas de Crédito.No aceptamos American Express o Diners Card."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-requerimientos-5 :
+    - es: "Obligatorio: Pasaporte/DNI vigente y Carnet de Conducir vigentes a la recogida del coche."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-requerimientos-6 :
+    - es: "El número de vuelo es imprescindible (si estos datos no se han detallado, no podemos garantizar que un empleado del &nbsp;Rent A Car esperará a los clientes)."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-tarifas-contenido :
+    - es: "Nuestras tarifas incluyen:"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-tarifas-contenido-1:
+    - es: "El importe de su reserva incluye el Alquiler básico (incl. IVA y CDW). Todos los Extras como Servicios Especiales, Seguros Opcionales y/o Accesorios se cobran aparte (generalmente no incluyen impuestos) se pagan directamente en la oficina de destino."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-tarifas-contenido-2 :
+    - es: "Kilometraje Limitado ( 1 - 3 dias: 350 km /dia; 4 - 6 dias: 250 km/dia; 7 - 14 días: 150 km/día; + 14 días: 100 km/dia)."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-tarifas-contenido-3 :
+    - es: "Seguro de daños (CDW) con franquicia Grupos 4A/A2/C1/X/XG/AA/BB/CC & CG: 1200€, Grupos TA/D/DD/DG/E/F/FF/L/LL/N/R/S/T/V & VV: 2000€, Grupos GW/G/GG/I/J & JJ: 2500€,Grupos K/O/P/PP & Q: 3000€, seguro personal de accidentes y seguro de robo. AA-BB-R-S-N"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-tarifas-contenido-4 :
+    - es: "Para reservas efectuadas a partir del 03/04/2015 : Primer conductor adicional gratuito para todas las reservas con recogida entre 5/4/15  y 30/04/15. Para reservas efectuadas a partir del 21/04/2015: Primer conductor adicional gratuito para todas las reservas con recogida entre 1/05/15  y 15/05/15."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-tarifas-no-contenido :
+    - es: "Nuestras tarifas no incluyen:"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-tarifas-no-contenido-1 :
+    - es: "One Way  (recoger el vehículo en una oficina y devolverlo en otra) , Conductor adicional, Conductor joven, Combustible (ver política), Silla bebé/niño, GPS, Fuera de horario."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-tarifas-no-contenido-2 :
+    - es: "Servicio de repostaje"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-tarifas-no-contenido-3 :
+    - es: "Seguro cristales, ruedas y llantas, Seguro Relax que cubre (neumáticos,llantas,bajos,cristales,rotura de embrague y perdida de llaves).&nbsp;"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-tarifas-no-contenido-4 :
+    - es: "Fuera de Horario ( No disponible)"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino :
+    - es: "Precios a pagar en destino: Seguros adicionales (opcionales) , extras opcionales (bajo petición) y suplementos."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-1 :
+    - es: "Las Tarifas de los Extras de esta reserva incluyen IVA. &nbsp;"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-2:
+    - es: "Kilometraje extra: entre 0,18€ /km - 0,27€ /km según grupo de vehículo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-3:
+    - es: "Suplemento Conductor Joven: 5.00€ por día, máx. 60€ por alquiler para edades entre 21 y 24 años.&nbsp;"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-4:
+    - es: "Suplemento especial por conductor joven (entre 21 y 24 años) o por antigüedad de carnet inferior a 4 años para los grupos N-T-V-LL-VV. 25€ por día, mínimo 75€ ."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-5:
+    - es: "Suplemento Antigüedad Carnet de conducir: 5.00€ por día - máx. 60€ por alquiler para Carnet de menos de 4 años.&nbsp;"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-6:
+    - es: "Conductor adicional: 5.00€ por día, máx. 70€ por alquiler"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-7:
+    - es: "Silla bebé/niño: 6€ por día, máx 72€ por alquiler "
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-8:
+    - es: "GPS: 9.00€ por día, max 126€ por alquiler"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-9:
+    - es: "Desvío de vuelo: Cambios en los vuelos que afectan al destino de llegada incurrirán en un cargo de 60€ , si el vuelo se desvía y el cliente recoge el vehículo en un destino diferente al originalmente reservado."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-10:
+    - es: "One Way  (recoger el vehículo en una oficina y devolverlo en otra): 40€ - 400€ según tipo vehículo &amp; destino. Bajo petición.&nbsp;"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-11:
+    - es: "Seguro cristales, ruedas y llantas: 1-3 días entre 23€-33€ ; 4-6 días entre 27€-37€ ; 7-28 días entre 4.60€-5.60€ por día , max. entre 62€-77€ por alquiler."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-12:
+    - es: "Seguro cristales, ruedas y llantas  Temporada  Alta  (28/03/15-05/04/15, 01/07/15-30/09/15 & 20/12/15-03/01/16// Canarias : 01/12/2014-05/04/2015, 01/07/15-31/08/15 & 01/12/15-28/03/16)"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-13:
+    - es: ": 1-4 días entre 25€-35€ ;5-28 días entre 6.60€-7.60€ por día , max. entre 92€-107€ por alquiler."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-14:
+    - es: "Exención de franquicia (aquellos clientes que no deseen contratar dicho seguro están obligados a dejar un depósito por el valor de dicha franquicia): Se cubre los daños al vehículo alquilado (daños en la carrocería, pintura y daños mecánicos) que surjan de una colisión, incendio fortuito."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-15:
+    - es: "1-3 dias: Entre 37€-47€ según grupo"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-16:
+    - es: "4-6 dias: Entre 59€-69€ según grupo"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-17:
+    - es: "7-10 dias: Entre 101€-111€ según grupo"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-18:
+    - es: "11 dias: Entre 111€-121€ según grupo"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-19:
+    - es: "	12 dias: Entre 121€-131€ según grupo"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-20:
+    - es: "13 dias: Entre 131€-141€ según grupo"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-21:
+    - es: "14-28 dias: 141€-151€ según grupo"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-22:
+    - es: "Seguro Super Relax"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-23:
+    - es: "sin franquicia por daños al vehículo alquilado (daños en la carrocería,pintura y daños mecánicos) que surjan de una colisión, incendio fortuito , así como neumáticos,llantas,bajos,cristales,rotura de embrague y perdida de llaves."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-24:
+    - es: "1 a 3 dias: Entre 58.50€-71.50€ según grupo.&nbsp;"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-25:
+    - es: "4 a 6 dias: Entre 87.10€-100.10€ según grupo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-26:
+    - es: "7 a 10 días: Entre 141.70€-154.70€ según grupo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-27:
+    - es: "11 dias: Entre 154.70€-167.70€ según grupo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-28:
+    - es: "12 dias: Entre 167.70€-180.70€ según grupo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-29:
+    - es: "13 dias: Entre 180.70€-197.70€ según grupo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-30:
+    - es: "14 dias - 28 dias: 193.70€-206.70€ según grupo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-31:
+    - es: "A fin de recibir un vehículo de sustitución en caso de accidente o de avería de un vehículo de alquiler será necesario efectuar un depósito de 500€ (el depósito no es necesario si se ha seleccionado el paquete de seguro opcional de Seguro Super Relax)."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-32:
+    - es: "Seguro Super Relax Temporada  Alta&nbsp;Península &amp; Malta &amp; Portugal&nbsp; 28/03/15-05/04/15, 01/07/15-30/09/15 & 20/12/15-03/01/16// Canarias : 01/12/2014-05/04/2015, 01/07/15-31/08/15 & 01/12/15-28/03/16"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-33:
+    - es: "sin franquicia por daños al vehículo alquilado (daños en la carrocería,pintura y daños mecánicos) que surjan de una colisión, incendio fortuito , así como neumáticos,llantas,bajos,cristales,rotura de embrague y perdida de llaves."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-34:
+    - es: "1 a 3 dias: Entre 61.10€-74.10€ según grupo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-35:
+    - es: "4 a 6 dias: Entre 87.10€-102.70€ según grupo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-36:
+    - es: "7 a 10 días: Entre 144.30€-157.30€ según grupo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-37:
+    - es: "11 dias: Entre 157.30€-170.30€ según grupo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-38:
+    - es: "12 dias: Entre 170.30€-183.30€ según grupo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-39:
+    - es: "13 dias: Entre 183.30€-196.30€ según grupo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-40:
+    - es: "14 dias - 28 dias: 196.30€-209.30€ según grupo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-41:
+    - es: "A fin de recibir un vehículo de sustitución en caso de accidente o de avería de un vehículo de alquiler será necesario efectuar un depósito de 500€ (el depósito no es necesario si se ha seleccionado el paquete de seguro opcional de Seguro Super Relax)."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-42:
+    - es: "La contratación de reembolso de Franquicia y costes de reparación con 'I4CH' no le exime de la retención de la franquicia o del deposito obligatorio por parte del proveedor ."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-43:
+    - es: "Seguro para conducir en Portugal: (Minho, Tras-os-Montes e Alto Douro, Douro Litoral, Beira Alta, Beira Litoral and Beira Baixa) 9€ por dia,min. 25€ , max. 90€ .&nbsp;"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-44:
+    - es: "Para cruzar la frontera del País donde alquila el vehículo, se requiere permiso expreso del Rent a Car."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-45:
+    - es: "No está permitido conducir por Ceuta, Melilla y Marruecos."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-46:
+    - es: "En el caso de que el vehículo sea devuelto más tarde de la hora de devolución que figura en su contrato de alquiler, el seguro perderá toda validez y el cliente deberá pagar 40€ de penalización ,además el cliente también deberá hacer efectiva el día de alquiler correspondiente."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-47:
+    - es: "Gasto de tramitación accidente: (solo en caso de no haber contratado seguro relax/super relax): 50€ por servicio."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-48:
+    - es: "Perdida de documentación: 35€ .&nbsp;"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-49:
+    - es: "Limpieza Extra: Entre 40€ - 150€ ."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-50:
+    - es: "Administración multas de tráfico: 40€ /multa."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-precios-pagar-destino-51:
+    - es: "Deposito obligatorio: 950€-1200€-1700€-1900€ ."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-importante :
+    - es: "Información importante"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-importante-1 :
+    - es: "Excepto para grupos económicos y compactos, las reservas son Pendientes de Confirmación por parte de nuestro colaborador. En un mínimo plazo se le confirma la disponibilidad para alquilar en la fecha/oficina indicada por Usted. Es obligatorio presentar el bono a la recogida del coche."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-importante-2 :
+    - es: "La Franquicia es el importe a partir del cual el Seguro se hace cargo de los gastos por daños ocasionados."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-importante-3 :
+    - es: "La CDW nunca cubre daños causados en llantas, neumáticos, cristales, tapicería, embrague, cerraduras, bajos del coche o rotura/pérdida de llaves y mandos a distancia o daños por repostar combustible equivocado.&nbsp;"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-importante-4 :
+    - es: "Todo Seguro/Contrato pierde su validez en caso de negligencia, mal uso, conducción temeraria, o conducción bajo influencia de alcohol y/o estupefacientes.&nbsp;"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-importante-5 :
+    - es: "La duración máxima por contrato de alquiler es 28 días."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-importante-6 :
+    - es: "El plazo máximo para el trámite de reclamaciones es de 30 días desde el comienzo del Alquiler."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-importante-7 :
+    - es: "No se efectúan devoluciones por devolución anticipada una vez iniciado el alquiler.&nbsp;"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-importante-8 :
+    - es: "Al abandonar el vehículo en un lugar distinto del señalado en el contrato se cobrará al cliente el importe del alquiler correspondiente a los días extras necesarios para la recuperación del vehículo, una  penalización de 70€ por día de retraso, y los gastos del traslado hasta el lugar acordado en el contrato para la devolución del vehículo."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-importante-9 :
+    - es: "En caso de existir tasas municipales, de turismo, eco, etc., nuestro Proveedor (el Rentacar) estará obligado a cobrarla a la recogida del vehículo. No están incluidos en la Tarifa."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-informacion-importante-10 :
+    - es: "Deposito obligatorio: 950€-1200€-1700€-1900€ ."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-prolongaciones :
+    - es: "Prolongaciones"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-prolongaciones-1 :
+    - es: "En caso de Prolongación (ver Web), por favor,  tenga en cuenta que debe acudir antes de finalizar el contrato a una oficina del Proveedor para firmar el nuevo contrato.  En caso contrario, todo seguro pierde validez (CDW, TP, Cristales/Ruedas, etc.) y, ocasionalmente, se cobra un extra por día aprox. 40€ , por prolongación tardía.El cliente también deberá hacer efectiva el día de alquiler correspondiente.&nbsp;"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-prolongaciones-2 :
+    - es: "En caso de no prolongar correctamente, el Rent a Car cobra los días prolongados más cargo extra en concepto de penalización.&nbsp;"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-politica-combustible :
+    - es: "Política Combustible"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-politica-combustible-1 :
+    - es: "Usted YA ha seleccionado un tipo de política de combustible al elegir su oferta."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-politica-combustible-2 :
+    - es: "Se aplica la Política de Combustible según la contratada por Usted (reflejada al lado de su número de reserva)"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-politica-combustible-3 :
+    - es: "PREPAGADO (REEMBOLSO PARCIAL)"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-politica-combustible-4 :
+    - es: "Flex Fuel SDR"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-politica-combustible-5 :
+    - es: "Se le entrega el vehículo con un tanque de combustible completo, cuyo importe se ha de abonar al momento de la entrega y se determina en función del modelo del vehículo en base a los precios del mercado y los gastos de operación y logística. A la hora de devolver el vehículo se le abona el importe de la gasolina no consumida a precio de gasolinera conforme a los octavos de depósito que consten en el indicador del vehículo excluyendo de dicha compensación la parte correspondiente a gastos de gestión .
+		Para garantizar la transparencia de precios podrá consultar los precios de SDR en la siguiente dirección"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-politica-combustible-6 :
+    - es: "www.goldcar.es/SDR."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-politica-combustible-7 :
+    - es: "FULL-FULL (=LLENO-LLENO)"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-politica-combustible-8 :
+    - es: "Full Fuel SDC:"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-politica-combustible-9 :
+    - es: "Usted recoge el coche lleno de combustible y lo debe devolver lleno. Le bloquearán en su tarjeta una fianza equivalente al valor del depósito de combustible que será reembolsada tras la devolución del vehículo una vez se haya efectuado el check-in del vehículo a efectos de verificación del combustible (presentar ticket justificante de la gasolinera más cercana). En caso de falta de combustible se le cargará un Servicio de Repostaje de 40€, más el importe del combustible repostado.  En caso de que la fianza sea inferior al importe bloqueado, Usted acepta que la diferencia será cargada en su tarjeta."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-cancelaciones :
+    - es: "Cancelaciones y Cambios Pago online completo"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-cancelaciones-1 :
+    - es: "Cancelaciones y Cambios siempre se deben efectuar con nosotros y no directamente con el proveedor del coche. Cambios en reservas después de su confirmación pero antes del comienzo del alquiler bajo petición (sujeto a Disponibilidad, siempre y cuando no cambie la Tarifa).Algunos proveedores no permiten la modificación del nombre del conductor, por favor consultar.
+
+			Hasta 48 horas antes  de la hora de recogida del vehículo no hay gastos de cancelación. 
+
+			Si se cancela con menos de 48 horas para la recogida del vehículo  los gastos de cancelación serán  equivalentes al 50% del precio del alquiler . En caso de 'NO SHOW' (cuando el cliente no recoge un vehículo -incluido cuando no se retira por falta de alguna documentación obligatoria, tarjeta de crédito, Pasaporte o DNI y carnet de conducir a nombre del conductor - y la reserva no ha sido cancelada anteriormente con cuatro horas de antelación) no se devuelve cantidad alguna. 
+
+			En caso de vehículos Bajo Petición que NO son confirmados por nuestro Proveedor, se le devuelve la cantidad íntegra.
+
+			Si se devuelve el coche antes del final del alquiler o se recoge más tarde del inicio del alquiler, no se devuelve cantidad alguna por días no alquilados."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-cancelaciones-2 :
+    - es: "Cancelaciones y Cambios Pago online parcial"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+terminos-cancelaciones-3 :
+    - es: "Cancelaciones y Cambios siempre se deben efectuar con nosotros y no directamente con el proveedor del coche. Cambios en reservas después de su confirmación pero antes del comienzo del alquiler se pueden hacer (sujeto a Disponibilidad, siempre y cuando no cambie la Tarifa). Algunos proveedores no permiten la modificación del nombre del conductor, por favor consultar.
+
+			Hasta 48 horas antes  de la hora de recogida del vehículo no hay gastos de cancelación. 
+
+			Si se cancela con menos de 48 horas para la recogida del vehículo  los gastos de cancelación serán  equivalentes a la cantidad depositada para asegurar su reserva. En caso de NO SHOW (cuando el cliente no recoge un vehículo -incluido cuando no se retira por falta de alguna documentación obligatoria, tarjeta de crédito, Pasaporte o DNI y carnet de conducir a nombre del conductor , y la reserva no ha sido cancelada anteriormente con cuatro horas de antelación) no se devuelve cantidad alguna.
+
+			En caso de vehículos Bajo Petición que NO son confirmados por nuestro Proveedor, se le devuelve la cantidad íntegra.
+
+			Si se devuelve el coche antes del final del alquiler o se recoge más tarde del inicio del alquiler, no se devuelve cantidad alguna por días no alquilados."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+          #################################################
+          #
+          #Traducciones de la pagina destinos 
+          #
+          ################################################
+
+destinos-alquiler-coches :
+    - es: "Alquiler de coches en"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+destinos-quieres-saber:
+    - es: "¿Quieres saber más?"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+destinos-explora:
+    - es: "Explora el mundo"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+destinos-top:
+    - es: "Top destinos en"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-reserva-email:
+    - es: "Su reserva ha sido recibida correctamente, durante las próximas 24horas recibirá un email de confirmación"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-numero:
+    - es: "Nº de Reserva"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-estado:
+    - es: "Estado"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-estado-confirmada:
+    - es: "Confirmada"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-compania:
+    - es: "COMPAÑÍA"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-conductor:
+    - es: "Conductor"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-principal:
+    - es: "Principal"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-recogida:
+    - es: "Recogida	"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-devolucion:
+    - es: "Devolucion"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-detalles:
+    - es: "Detalles del Vehiculo"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-similar:
+    - es: "o similar"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-detalles-pago:
+    - es: "Detalles del pago"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-muestra:
+    - es: "*Los vehículos que aparecen son solo una muestra de la categoría seleccionada."
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-tarifa-alquiler:
+    - es: "Tarifa de alquiler"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-total:
+    - es: "Total"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-pagado:
+    - es: "Pagado"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-incluye:
+    - es: "Su reserva incluye"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-seguro-adicional:
+    - es: "Seguro adicional"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-kilometraje:
+    - es: "Kilometraje ilimitado"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-seguro-ocupantes:
+    - es: "Seguro de ocupantes"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-seguro-terceros:
+    - es: "Seguro a terceros"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-tasas:
+    - es: "Impuestos y tasas"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-no-incluye:
+    - es: "Su reserva no incluye"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-menor-25:
+    - es: "Conductor menor de 25años"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+
+confirmacion-combustible:
+    - es: "Combustible"
+    - en: ""
+    - de: ""
+    - fr: ""
+    - pt: ""
+    - it: ""
+    - nl: ""
+    - ru: ""
+

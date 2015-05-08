@@ -1,0 +1,135 @@
+/**************************************
+SOCIAL/FOOTER
+ ***************************************/
+.banner {
+	color : $blanco-base;
+	background : url(../img/banner-bg.jpg) no-repeat center center;
+	background-size : cover;
+	margin-top : 50px;
+	text-shadow : 2px 2px 3px rgba(0, 0, 0, 0.6);
+	.back {
+		background-color : rgba(0,0,0,0.4);
+		height : 100%;
+		padding : 100px 0;
+		width : 100%;
+	}
+	h2 {
+		display : inline-block;       
+		margin-bottom : 20px;
+		text-shadow : 1px 0 1px rgba(0,0,0,0.8);
+	}
+    .banner-social-buttons {
+        margin-top : 0;
+        text-align : center;
+        margin-bottom : 0;
+        .btn-social {
+            background-color : transparent;
+            border : 3px solid  $blanco-base;
+            border-radius : 2px;
+            color : $blanco-base;
+            font-size : 1.2em;
+            transition : all 0.2s ease;
+            text-shadow : none;
+            vertical-align : middle;
+            &:hover,&:focus{
+                background-color : $blanco-base;
+                border : 3px solid  $blanco-base;
+                color : $main;
+            }
+            i{
+                margin-right : 10px;
+            }
+            .network-name {
+                font-size : 14px;
+                font-weight : 400;
+                letter-spacing : 2px;
+                margin-top : 10px;
+                text-transform : uppercase;
+            }
+        }
+        .dropdown.appear {
+            padding : 0;
+            #suscri {
+                border : 3px solid  $blanco-base;
+                border-radius : 2px;
+                background-color : $blanco-base;
+                height : 50px;
+                margin-top : 0;
+                padding : 0;
+                position : absolute;
+                text-shadow : none;
+                top : 0;
+                & > * {
+                    display : inline-block;
+                }
+
+                label.fa-envelope{
+                    color : $main;
+                    font-size : 19.2px;
+                    margin-left :  8px;
+                    margin-top : 4px;
+                    padding : 10px;
+                    position : absolute;
+                    text-shadow : none;
+                }
+                input[type="email"] {
+                    border : none;
+                    border-radius : 2px;
+                    height: 48px;
+                    color : $gris5;
+                    line-height : 42px;
+                    padding :  0 0 0 45px;
+                    width : 182px;
+                }
+                button[type="submit"] {
+                    background-color : transparent;
+                    border : none;
+                    border-radius : 2px;
+                    color : $main;
+                    left : 100%;
+                    height : 48px;
+                    margin-left : 10px;
+                    margin-top : -3px;
+                    padding : 0 15px;
+                    position : absolute;
+                    top : 0;
+                }
+            }
+            #suscri-comment {
+                margin-top : -73px;
+                position : absolute;
+                width : 280px;
+            }
+            #suscri-poli {
+                margin-top : 5px;
+                position : absolute;
+                width : 280px;   
+                label {
+                    display : inline;
+                }
+
+            }
+        }
+    }
+}
+footer {
+	background-color : $blanco;
+	padding : 50px 0;
+    #enlaces {
+        padding: 0 5px;
+        a {
+            font-weight: 700;
+            width: 50%;
+        }
+    }
+    #enlaces-terminos  a{
+        color : $gris5;
+    }
+    p.copyright {
+        padding-right: 5px;
+        margin-top: 10px;
+    }
+}
+
+
+

@@ -1,0 +1,122 @@
+/**************************************
+HEADER
+ ***************************************/
+#header {   
+	background-color : rgba(255,255,255, 0.65);
+	border : none;
+	border-radius : 0;
+	height : 115px;    
+	margin-bottom : 0;
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+	img {
+		height : auto;
+		max-height : 100px;
+	}
+	button {
+		border : 1px solid transparent;
+		margin: 5px 0px 5px -10;
+        float: left;
+		i {
+			color : $blanco;
+		}
+		&:focus, &:hover {
+			background-color : transparent;
+		}
+	}
+	.navbar-brand {
+		height : 120px;
+		padding : 5px;   
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+	}
+	.nav.navbar-nav.navbar-right {
+		margin-right : -15px;
+		padding-right : 0;
+		> li > a.seclink {
+			color : $main;
+			font-size : 1.1em;
+            &[href="#"] {
+                cursor: default;
+            }
+			&:hover {
+				color : $main;
+			}
+			i {
+				color : $negro;
+				margin-left : 5px;
+                text-shadow : 1px 0px 0px rgba(0,0,0, 0.5); 
+			}
+		}
+		> li.open > a.seclink{
+			color : $blanco;
+		}	
+		> li > a.mainlink {
+			color : $negro; 
+			font-size : 1.3em;
+			font-weight : normal;    
+			text-shadow : 1px 0px 0px rgba(256,256,256, 0.6); 
+		}
+        > #idiomas {	
+          height : 50px; 
+		   	>a {
+                background : transparent;
+                border : none;
+                border-radius : 0;
+            }
+            .dropdown-menu{
+                width : 100%;
+                text-align: center;
+                padding: 0;        
+                li a { 
+                    padding : 15px;
+                    text-shadow : 1px 0px 1px rgba(0,0,0, 0.5); 
+                    min-height: 30px;
+                    margin: 0 -15px;		
+                    span.lang{
+                        /*float : left;*/
+                        font-size: 16.5px;
+                        padding-right: 15px;
+                    }
+                    img.flag-lang{
+                        /*float : right;*/
+                        margin-top : 3px;
+                        position: absolute;
+                        right: 10px;
+                    }			
+                }
+            }
+            &.open {
+                >a {
+                    background-color : $main;
+                    color : $blanco; 
+                     i.fa-angle-down{            
+                        transform: rotate(180deg);
+                        vertical-align: sub;
+                    }
+                }	
+             .dropdown-menu {
+                    background-color : $main;
+                    border : none;
+                    border-bottom-left-radius: 2px;
+                    border-bottom-right-radius: 2px;
+                    min-width : 0;
+                    max-width : 100%;
+                    box-shadow : none;
+                    a { 
+                        color : $blanco;
+                        &:hover, &:focus {
+                            background-color: $blanco;
+                            color: $main;
+                        }
+                    }
+                }
+            }
+        }
+	}
+    + div.container {
+        padding-top: 115px;
+    }
+}

@@ -1,0 +1,2703 @@
+<div class="row hidden-xs pasos">
+	<div class="col-sm-3 text-center">
+		<div class="num">1</div>
+		<span class="text-muted">
+			{{site.data.traducciones.disponibilidad-pasos-1 | map : page.lang}}	
+		</span>
+	</div>
+	<div class="col-sm-3">
+		<div class="num activo">2</div>
+		<span>
+			{{site.data.traducciones.disponibilidad-pasos-2 | map : page.lang}}	
+		</span>
+	</div>
+	<div class="col-sm-3">
+		<div class="num">3</div>
+		<span class="text-muted">
+			{{site.data.traducciones.disponibilidad-pasos-3 | map : page.lang}}	
+		</span>
+	</div>
+	<div class="col-sm-3">
+		<div class="num">4</div>
+		<span class="text-muted">
+			{{site.data.traducciones.disponibilidad-pasos-4 | map : page.lang}}	
+		</span>
+	</div>
+</div>
+{% include elementos-comunes/form-modificar-reserva.html%}
+<div class="container resultados">	
+	<div class="row">
+		<div class="col-xs-12 col-sm-3 lateral">
+			{% include elementos-comunes/bloque-telefono-contacto.html%}
+			<div class="row filtros panel-group hidden-xs" role="tablist" aria-multiselectable="true">	
+			<div class="col-xs-12 panel panel-default filtro">			
+				<div class="row panel-heading" role="tab" >			
+					<h4 class="panel-title">
+						<a class="" data-toggle="collapse" data-parent="#accordion" href="#precios" >
+							<span>
+								{{site.data.traducciones.disponibilidad-filtros-precio-cabecera | map : page.lang}}	
+							</span>
+						</a>
+					</h4>				
+				</div>
+				
+				<div id="precios" class="panel-collapse collapse in row" >
+					<div class="panel-body">						
+						<div class="col-sm-offset-0 col-sm-11 col-md-offset-0 col-md-10 col-lg-6 dropdown filtrar-ordenar">
+							<button aria-expanded="true" data-toggle="dropdown" id="ordenar-desde" type="button" class="hidden-xs btn btn-default dropdown-toggle pull-right ordenar-btn">
+								Desde	
+								<i class="fa fa-chevron-down"></i>
+							</button>
+							<ul aria-labelledby="ordenar" role="menu" class="dropdown-menu pull-right hidden-xs desde ">
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										<span>
+											5€
+										</span>
+									</a>
+								</li>
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										10€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										15€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										20€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										25€
+									</a>
+								</li>
+
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										30€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										35€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										40€
+									</a>
+								</li>			
+							</ul>
+						</div>
+						<div class="col-xs-12 col-md-offset-2 col-md-10 col-lg-offset-0 col-lg-6 dropdown filtrar-ordenar">
+							<button aria-expanded="true" data-toggle="dropdown" id="ordenar-hasta" type="button" class="hidden-xs btn btn-default dropdown-toggle ordenar-btn ">
+								Hasta	
+								<i class="fa fa-chevron-down"></i>
+							</button>
+							<ul aria-labelledby="ordenar" role="menu" class="dropdown-menu hasta pull-right hidden-xs">
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										50€
+									</a>
+								</li>
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										60€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										70€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										80€
+									</a>
+								</li>
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										90€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										100€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										200€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										300€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										400€
+									</a>
+								</li>			
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>				
+	
+			<div class="col-xs-12 panel panel-default filtro">
+				<div class="row panel-heading" role="tab" >			
+					<h4 class="panel-title">
+						<a class="" data-toggle="collapse" data-parent="#accordion" href="#colaboradores" >
+							<span>
+								{{site.data.traducciones.disponibilidad-filtros-colaboradores-cabecera | map : page.lang}}								
+							</span>
+						</a>								
+					</h4>				
+				</div>
+				<div id="colaboradores" class="panel-collapse collapse in row" role="tabpanel">
+				<div class="panel-body">
+					<ul class="list-inline text-center">
+						<li>
+							<input type="checkbox" name="goldcar" id="goldcar"  checked="checked" class="amigo">
+							<label  for="goldcar" class="pointer-label">
+								<img class="img-responsive center-block img-colaborador" src="{{'/img/colaboradores/goldcar.gif' | prepend:site.baseurl}}" alt="">						
+							</label>
+						</li>
+
+						<li>
+							<input type="checkbox" id="avis"  checked="checked" class="amigo">
+							<label class="pointer-label" for="avis">
+								<img  class="img-responsive center-block img-colaborador"  src="{{'/img/colaboradores/avis.gif' | prepend:site.baseurl}}" alt="">
+							</label>
+						</li>
+
+						<li>
+							<input type="checkbox" id="daperton"  checked="checked" class="amigo">
+							<label  class="pointer-label" for="daperton">
+								<img  class="img-responsive center-block img-colaborador"  src="{{'/img/colaboradores/daperton.gif' | prepend:site.baseurl}}" alt="">
+							</label>
+						</li>
+
+						<li>
+							<input type="checkbox" id="europcar"  checked="checked" class="amigo">
+							<label  class="pointer-label" for="europcar">
+								<img  class="img-responsive center-block img-colaborador"  src="{{'/img/colaboradores/europcar.gif' | prepend:site.baseurl}}" alt="">
+							</label>
+						</li>
+
+						<li>
+							<input type="checkbox" id="firefly" checked="checked"  class="amigo">
+							<label  class="pointer-label" for="firefly">
+								<img class="img-responsive center-block img-colaborador"   src="{{'/img/colaboradores/firefly.gif' | prepend:site.baseurl}}" alt="">
+							</label>
+						</li>
+
+						<li>
+							<input type="checkbox" id="interrent" checked="checked"  class="amigo">
+							<label  class="pointer-label" for="interrent">
+								<img  class="img-responsive center-block img-colaborador"  src="{{'/img/colaboradores/interrent.gif' | prepend:site.baseurl}}" alt="">
+							</label>
+						</li>
+
+						<li>
+							<input type="checkbox" id="keddy" checked="checked"  class="amigo">
+							<label  class="pointer-label" for="keddy">
+								<img class="img-responsive center-block img-colaborador"   src="{{'/img/colaboradores/keddy.gif' | prepend:site.baseurl}}" alt="">
+							</label>
+						</li>
+
+						<li>
+							<input type="checkbox" id="sixt" checked="checked"  class="amigo" >
+							<label  class="pointer-label" for="sixt">
+								<img class="img-responsive center-block img-colaborador"   src="{{'/img/colaboradores/sixt.gif' | prepend:site.baseurl}}" alt="">
+							</label>
+						</li>
+					</ul>
+				</div>
+			</div>	
+			</div>					
+
+			<div class="col-xs-12 panel panel-default filtro">
+				<div class="row panel-heading" role="tab" >
+					<h4 class="panel-title">			
+						<a class="" data-toggle="collapse" data-parent="#accordion" href="#pago-recogida" >
+							<span>
+								{{site.data.traducciones.disponibilidad-filtros-pago-recogida-cabecera | map : page.lang}}	
+							</span>
+						</a>							
+					</h4>
+				</div>
+				
+				<div id="pago-recogida" class="panel-collapse collapse in row" >
+				<div class="panel-body">
+					<div class="col-sm-12">
+						<input type="checkbox" class="amigo" checked="checked"  id="pago-online-top">
+						<i class="fa fa-check-circle"></i>
+						<label for="pago-online-top">
+							{{site.data.traducciones.disponibilidad-filtros-pago-recogida-content-1 | map : page.lang}}	
+						</label>
+					</div>
+					<div class="col-sm-12">
+						<input type="checkbox" class="amigo" checked="checked"  id="pago-parcial-top">
+						<i class="fa fa-check-circle"></i>
+						<label for="pago-parcial-top">
+							{{site.data.traducciones.disponibilidad-filtros-pago-recogida-content-2 | map : page.lang}}	
+						</label>
+					</div>
+					<div class="col-sm-12">
+						<input type="checkbox" class="amigo" id="tarjeta-debito-top">
+						<i class="fa fa-check-circle"></i>
+						<label for="tarjeta-debito-top">
+							{{site.data.traducciones.disponibilidad-tarjeta-debito | map : page.lang}}	
+						</label>
+					</div>
+					<div class="col-sm-12">
+						<input type="checkbox" class="amigo" id="mostrador-aeropuerto-top">
+						<i class="fa fa-check-circle"></i>
+						<label for="mostrador-aeropuerto-top">
+							{{site.data.traducciones.disponibilidad-mostrador-aeropuerto | map : page.lang}}	
+						</label>
+					</div>
+				</div>
+			</div>		
+				
+			</div>
+				
+			<div class="col-xs-12 panel panel-default filtro">
+				<div class="row panel-heading" role="tab" >
+					<h4 class="panel-title">				
+						<a class="" data-toggle="collapse" data-parent="#accordion" href="#politica-combustible" >
+							<span>
+								{{site.data.traducciones.disponibilidad-filtros-combustible-cabecera | map : page.lang}}	
+							</span>
+						</a>
+					</h4>
+				</div>			
+				
+					<div id="politica-combustible" class="panel-collapse collapse in row" >
+						<div class="panel-body">
+							<div class="col-sm-12">
+								<input id="lleno-top" class="amigo" type="checkbox" checked="checked" >
+								<i class="fa fa-check-circle"></i>
+								<label for="lleno-top">
+
+									{{site.data.traducciones.disponibilidad-filtros-combustible-content-1 | map : page.lang}}	
+
+								</label>
+							</div>
+							<div class="col-sm-12">
+								<input id="prepagado-top" class="amigo" type="checkbox" checked="checked" >
+								<i class="fa fa-check-circle"></i>
+								<label for="prepagado-top">
+									{{site.data.traducciones.disponibilidad-filtros-combustible-content-2 | map : page.lang}}	
+								</label>
+							</div>
+						</div>
+					</div>
+				
+			</div>
+		
+			<div class="col-xs-12 panel panel-default filtro">
+				<div class="row panel-heading" role="tab" >
+					<h4 class="panel-title">
+						<a class="" data-toggle="collapse" data-parent="#accordion" href="#caracteristicas" >
+							<span>
+								{{site.data.traducciones.disponibilidad-filtros-caracteristicas-cabecera | map : page.lang}}	
+							</span>
+						</a>							
+					</h4>
+				</div>
+				<div id="caracteristicas" class="panel-collapse collapse in " >
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-xs-12">
+							<input id="gps-top" class="amigo" type="checkbox">
+							<i class="fa fa-check-circle"></i>
+
+							<label for="gps-top">
+
+								{{site.data.traducciones.disponibilidad-filtros-caracteristicas-content-1 | map : page.lang}}	
+							</label>
+						</div>
+						<div class="col-xs-12">
+							<input id="diesel-top" class="amigo" type="checkbox">
+							<i class="fa fa-check-circle"></i>
+
+							<label for="diesel-top">			
+
+								{{site.data.traducciones.disponibilidad-filtros-caracteristicas-content-2 | map : page.lang}}	
+
+							</label>
+						</div>
+						<div class="col-xs-12">
+							<input id="aire-top" class="amigo" type="checkbox">
+							<i class="fa fa-check-circle"></i>
+
+							<label  for="aire-top">
+
+								{{site.data.traducciones.disponibilidad-filtros-caracteristicas-content-3 | map : page.lang}}	
+							</label>
+						</div>
+						<div class="col-xs-12">
+							<input id="automatico-top" class="amigo" type="checkbox">
+							<i class="fa fa-check-circle"></i>
+
+							<label for="automatico-top">
+
+								{{site.data.traducciones.disponibilidad-filtros-caracteristicas-content-4 | map : page.lang}}	
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12">
+						<div class="row">
+							<label>
+								{{site.data.traducciones.disponibilidad-filtros-caracteristicas-content-5 | map : page.lang}}	
+							</label>
+						</div>
+						<div class="row">
+							<input id="2-puertas-top" class="amigo"  checked="checked" type="checkbox">
+							<i class="fa fa-check-circle"></i>
+							<label for="2-puertas-top">
+								2 	
+								{{site.data.traducciones.disponibilidad-filtros-puertas | map : page.lang}}	
+							</label>
+						</div>
+						<div class="row">
+							<input id="3-puertas-top" class="amigo" checked="checked"  type="checkbox">
+							<i class="fa fa-check-circle"></i>
+							<label  for="3-puertas-top">
+								3 	
+								{{site.data.traducciones.disponibilidad-filtros-puertas | map : page.lang}}
+							</label>
+						</div>
+						<div class="row">
+							<input id="4-puertas-top" class="amigo"  checked="checked" type="checkbox">
+							<i class="fa fa-check-circle"></i>
+							<label for="4-puertas-top">
+								4 {{site.data.traducciones.disponibilidad-filtros-puertas | map : page.lang}}
+							</label>
+						</div>
+						<div class="row">
+							<input id="5-puertas-top" class="amigo" checked="checked"  type="checkbox">
+							<i class="fa fa-check-circle"></i>
+							<label for="5-puertas-top">
+								5 {{site.data.traducciones.disponibilidad-filtros-puertas | map : page.lang}}
+							</label>
+						</div>
+					</div>
+					<div class="col-xs-12">
+						<div class="row">
+							<label>
+								{{site.data.traducciones.disponibilidad-filtros-caracteristicas-content-6 | map : page.lang}}	
+
+							</label>
+						</div>
+						<div class="row">
+							<input id="2-plazas-top" class="amigo" checked="checked"  type="checkbox">
+							<i class="fa fa-check-circle"></i>
+							<label for="2-plazas-top">
+								2 	
+								{{site.data.traducciones.disponibilidad-filtros-plazas | map : page.lang}}	
+							</label>
+						</div>
+
+						<div class="row">
+							<input id="3-plazas-top" class="amigo" checked="checked"  type="checkbox">
+							<i class="fa fa-check-circle"></i>
+							<label for="3-plazas-top">
+								3 {{site.data.traducciones.disponibilidad-filtros-plazas | map : page.lang}}	
+							</label>
+						</div>
+
+						<div class="row">
+							<input id="4-plazas-top" class="amigo"  checked="checked" type="checkbox">
+							<i class="fa fa-check-circle"></i>
+							<label for="4-plazas-top">
+								4 {{site.data.traducciones.disponibilidad-filtros-plazas | map : page.lang}}	
+							</label>
+						</div>
+
+						<div class="row">
+							<input id="5-plazas-top" class="amigo" checked="checked"  type="checkbox">
+							<i class="fa fa-check-circle"></i>
+							<label for="5-plazas-top">
+								5 {{site.data.traducciones.disponibilidad-filtros-plazas | map : page.lang}}	
+							</label>
+						</div>
+
+						<div class="row">
+							<input id="6-plazas-top" class="amigo"  checked="checked" type="checkbox">
+							<i class="fa fa-check-circle"></i>
+							<label for="6-plazas-top">
+								6 {{site.data.traducciones.disponibilidad-filtros-plazas | map : page.lang}}	
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>	
+				
+			</div>
+				
+			<div class="col-xs-12 panel-default filtro">
+				<div class="row panel-heading" role="tab" >
+					<h4 class="panel-title">						
+						<a class="" data-toggle="collapse" data-parent="#accordion" href="#tipo-vehiculo" >
+							<span>
+								{{site.data.traducciones.disponibilidad-filtros-tipo-cabecera | map : page.lang}}	
+							</span>
+						</a>
+					</h4>
+				</div>
+				<div id="tipo-vehiculo" class="panel-collapse collapse in " role="tabpanel" >
+					<div class="panel-body">				
+						<div class="row">
+							<div class="col-xs-12">
+								<input id="economicos-top" class="amigo" type="checkbox" checked="checked">
+								<i class="fa fa-check-circle"></i>
+								<label for="economicos-top">
+									<span>
+										{{site.data.traducciones.disponibilidad-filtros-tipo-1 | map : page.lang}}	
+									</span>							
+								</label>									
+							</div>
+							<div class="col-xs-12">
+								<input id="compactos-top" class="amigo" type="checkbox" checked="checked">
+								<i class="fa fa-check-circle"></i>
+								<label for="compactos-top">
+									<span>
+										{{site.data.traducciones.disponibilidad-filtros-tipo-2 | map : page.lang}}	
+									</span>
+								</label>				
+							</div>
+
+							<div class="col-xs-12">
+								<input id="berlinas-top" class="amigo" type="checkbox" checked="checked">
+								<i class="fa fa-check-circle"></i>
+								<label for="berlinas-top">
+									{{site.data.traducciones.disponibilidad-filtros-tipo-3 | map : page.lang}}	
+								</label>		
+							</div>
+
+							<div class="col-xs-12">
+								<input id="rancheras-top" class="amigo" type="checkbox" checked="checked">
+								<i class="fa fa-check-circle"></i>
+								<label for="rancheras-top">
+									{{site.data.traducciones.disponibilidad-filtros-tipo-4 | map : page.lang}}	
+								</label>					
+							</div>
+
+							<div class="col-xs-12">
+								<input id="monovolumenes-top" class="amigo" type="checkbox" checked="checked">
+								<i class="fa fa-check-circle"></i>
+								<label for="monovolumenes-top">
+									{{site.data.traducciones.disponibilidad-filtros-tipo-5 | map : page.lang}}	
+								</label>
+							</div>
+
+							<div class="col-xs-12">
+								<input id="todoterrenos-top" class="amigo" type="checkbox" checked="checked">
+								<i class="fa fa-check-circle"></i>
+								<label for="todoterrenos-top">
+									{{site.data.traducciones.disponibilidad-filtros-tipo-6 | map : page.lang}}	
+								</label>
+							</div>
+
+							<div class="col-xs-12">
+								<input id="deportivos-top" class="amigo" type="checkbox" checked="checked">
+								<i class="fa fa-check-circle"></i>
+								<label for="deportivos-top">
+									{{site.data.traducciones.disponibilidad-filtros-tipo-7 | map : page.lang}}	
+								</label>
+							</div>
+
+							<div class="col-xs-12">
+								<input id="motocicletas-top" class="amigo" type="checkbox" checked="checked">
+								<i class="fa fa-check-circle"></i>
+								<label for="motocicletas-top">
+									{{site.data.traducciones.disponibilidad-filtros-tipo-8 | map : page.lang}}	
+								</label>					
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+			
+		</div>
+
+		</div>
+		<div class="col-xs-12 col-sm-9">
+			<div class="row comparador hidden-xs" style="margin-left: 0;">
+				<div>
+					<div class="bloque" style="background-color: grey; height: 130px;">
+						
+					</div>
+				</div>
+			</div>
+			<div class="row resultados-filtrar-ordenar">
+				<div class="numero col-sm-6 hidden-xs">
+					<span>
+						185
+						{{site.data.traducciones.disponibilidad-resultados | map : page.lang}}							
+					</span>
+				</div>
+				<div class="col-xs-6 visible-xs-block filtrar-ordenar">
+					<button class="btn btn-default" type="button" id="filtros" data-toggle="modal" data-target="#modal-filtros" >						
+						{{site.data.traducciones.disponibilidad-boton-filtrar | map : page.lang}}	
+						<i class="fa fa-filter"></i>
+					</button>
+				</div>
+				<div class="col-xs-6 dropdown filtrar-ordenar">
+						<div class="visible-xs-block">
+							<button class="btn pull-rigth btn-default" href="#" data-toggle="modal" data-target="#modal-ordenar">
+								{{site.data.traducciones.disponibilidad-ordenar | map : page.lang}}	
+								<i class="fa fa-signal"></i>
+							</button>
+						</div>
+						<button class="hidden-xs btn btn-default dropdown-toggle pull-right ordenar-btn margin-right-15-neg" type="button" id="ordenar-modal" data-toggle="dropdown" aria-expanded="true">
+								{{site.data.traducciones.disponibilidad-ordenar | map : page.lang}}	
+								<span >
+									{{site.data.traducciones.disponibilidad-por | map : page.lang}}	
+								</span>
+								<i class="fa fa-chevron-down"></i>
+						</button>
+					<ul class="dropdown-menu pull-right hidden-xs" role="menu" aria-labelledby="ordenar">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+										{{site.data.traducciones.disponibilidad-precio-acendente| map : page.lang}}	
+
+								</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+										{{site.data.traducciones.disponibilidad-precio-descendente | map : page.lang}}	
+
+								</a></li>			
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+										{{site.data.traducciones.disponibilidad-tamano-grande | map : page.lang}}	
+
+								</a></li>			
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+										{{site.data.traducciones.disponibilidad-tamano-pequeno | map : page.lang}}	
+
+								</a></li>			
+						</ul>
+					</div>
+					
+				</div>
+			
+				
+				<div class="row resultado">
+					<div class="col-xs-12 col-sm-3 detalles-modelo">
+						<div class="row">
+							<a href="/detalles-reserva">
+								<div class="modelo col-xs-12 text-center">
+									Opel Corsa
+									<span>
+										{{site.data.traducciones.disponibilidad-similar | map : page.lang}}	
+									</span>
+								</div>
+							</a>
+
+							<div class="col-xs-12 ">
+								<div id="slider-coche" class="carousel slide" data-ride="carousel" data-interval="false">
+									<a href="/detalles-reserva">
+										<div class="carousel-inner" role="listbox">
+											<div class="item active">
+												<img src="http://youcarrental.blob.core.windows.net/cars/FORD KA_lg.gif" class="center-block img-responsive">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/corsa.gif" | prepend : site.baseurl}}">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/cars/citroen_c4_lg.gif" | prepend : site.baseurl}}">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/cars/Opel_Astra_lg.gif" | prepend : site.baseurl}}">
+											</div>
+										</div>
+									</a>
+									<a class="carousel-control" href="#slider-coche" role="button" data-slide="prev">
+										<i class="fa fa-angle-left" aria-hidden="true"></i>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control bg-none" href="#slider-coche" role="button" data-slide="next">
+										<i class="fa fa-angle-right" aria-hidden="true"></i>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+							</div>
+							<a href="/detalles-reserva">
+								<div class="col-xs-12  caracteristicas icons">
+									<ul class="list-inline text-center">
+										<li><span class="doors_3"></span></li>
+										<li><span class="manual"></span></li>
+										<li><span class="plazas_4"></span></li>
+									</ul>
+								</div>
+							</a>
+							<div class="col-xs-6 col-sm-12 col-md-6 parner">
+								<img src="{{"/img/centauro.gif" | prepend : site.baseurl}}" class="img-responsive center-block">
+							</div>
+							<div class="col-xs-6 col-sm-12 col-md-6 padding-0">
+								<ul class="list-inline stars text-center">
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+								</ul>  	
+								<div class="opinions text-center">
+									<a href="">
+										<small>
+											ver opiniones
+										</small>
+									</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 anyadidos ">
+						<div class="row addons">
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-12 col-md-6 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Cancelación Gratuita	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Cambios en la reserva	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Kilometraje ilimitado 	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Seguro de ocupantes 
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Seguro de terceros 
+									</span>
+								</p>
+							</div>
+						
+							<div class="col-xs-12 addon-primary ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Tarjeta <br>
+										de Debito
+									</span>
+								</p>
+							</div>
+
+						</div>
+
+						<div class="row promos ">
+							<div class="col-xs-6">
+								<div class="row">
+									<div class="col-xs-4 icon">
+										<img src="{{'/img/fuel.svg' | prepend : site.baseurl}}" class="img-responsive pull-right">	
+									</div>
+									<div class="col-xs-8 pop">
+										<div class="block">
+											<span>
+												<strong>
+												Combustible:
+												</strong>
+											</span>
+											<i class="fa fa-info-circle pointer" tabindex="0" data-trigger="focus"role="button" data-toggle="popover"  title="Cerrar" data-content="Politica de combustible"></i>
+										</div>
+										<span class="sub">Politica FULL FULL</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="row">
+									<div class="col-xs-4 icon">
+										<img src="{{'/img/bus.svg' | prepend : site.baseurl}}" class="img-responsive pull-right">	
+									</div>
+									<div class="col-xs-8 pop">
+										<div class="block">
+											<span>
+												<strong>
+													Recogida :
+												</strong>
+											</span>
+											<i class="fa fa-info-circle pointer" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Cerrar" data-content="Recogida en autobus"></i>
+										</div>
+								<span class="sub">Autobus de cortesia</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="price-column hidden-xs">
+						</div>
+						<div class="col-xs-12 col-sm-3 coste ">
+					
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="oferta">
+										<h5>Precio en Oferta</h5>
+									</div>
+								</div>
+							</div>
+					
+							<div class="row">
+								<div class="col-xs-12 cantidad">
+									<div class="margin-top-15">
+										<p class="text-center text-bigger text-bold">
+											<span class="block-sm">
+												<span class="integer">8,</span>
+												<span class="float">20</span>
+											</span> 
+											<span>
+												<small>
+													<small>€</small>
+													/	{{site.data.traducciones.disponibilidad-dia | map : page.lang}}	
+												</small>
+											</span>
+										</p>
+										<p class="text-left">
+										<span class="block">
+											{{site.data.traducciones.disponibilidad-total | map : page.lang}}	
+											:
+										</span>
+										<div>	
+										<span class="integer">35.</span>
+											<span class="float">60</span>
+											<span class="simbol">€</span>
+										</div>	
+									</p>
+									</div>
+								</div>
+							</div>
+					
+					
+							<div class=" col-xs-12 reservar ">
+								<button class="btn btn-amigo btn-block" type="button">
+								RESERVAR
+								</button>
+							</div>	
+								
+							<div class=" col-xs-offset-1 col-xs-10 terminos text-center">
+								<a data-toggle="modal" href="terminos-modal"><span><small>Terminos y Condiciones</small></span></a>	
+							</div>	
+						</div>
+				</div>
+
+
+
+<div class="row resultado">
+					<div class="col-xs-12 col-sm-3 detalles-modelo">
+						<div class="row">
+							<a href="/detalles-reserva">
+								<div class="modelo col-xs-12 text-center">
+									Opel Corsa
+									<span>
+										{{site.data.traducciones.disponibilidad-similar | map : page.lang}}	
+									</span>
+								</div>
+							</a>
+
+							<div class="col-xs-12 ">
+								<div id="slider-coche" class="carousel slide" data-ride="carousel" data-interval="false">
+									<a href="/detalles-reserva">
+										<div class="carousel-inner" role="listbox">
+											<div class="item active">
+												<img src="http://youcarrental.blob.core.windows.net/cars/FORD KA_lg.gif" class="center-block img-responsive">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/corsa.gif" | prepend : site.baseurl}}">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/cars/citroen_c4_lg.gif" | prepend : site.baseurl}}">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/cars/Opel_Astra_lg.gif" | prepend : site.baseurl}}">
+											</div>
+										</div>
+									</a>
+									<a class="carousel-control" href="#slider-coche" role="button" data-slide="prev">
+										<i class="fa fa-angle-left" aria-hidden="true"></i>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control bg-none" href="#slider-coche" role="button" data-slide="next">
+										<i class="fa fa-angle-right" aria-hidden="true"></i>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+							</div>
+							<a href="/detalles-reserva">
+								<div class="col-xs-12  caracteristicas icons">
+									<ul class="list-inline text-center">
+										<li><span class="doors_3"></span></li>
+										<li><span class="manual"></span></li>
+										<li><span class="plazas_4"></span></li>
+									</ul>
+								</div>
+							</a>
+							<div class="col-xs-6 col-sm-12 col-md-6 parner">
+								<img src="{{"/img/centauro.gif" | prepend : site.baseurl}}" class="img-responsive center-block">
+							</div>
+							<div class="col-xs-6 col-sm-12 col-md-6 padding-0">
+								<ul class="list-inline stars text-center">
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+								</ul>  	
+								<div class="opinions text-center">
+									<a href="">
+										<small>
+											ver opiniones
+										</small>
+									</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 anyadidos ">
+						<div class="row addons">
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-12 col-md-6 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Cancelación Gratuita	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Cambios en la reserva	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Kilometraje ilimitado 	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Seguro de ocupantes 
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Seguro de terceros 
+									</span>
+								</p>
+							</div>
+						
+							<div class="col-xs-12 addon-primary ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Tarjeta <br>
+										de Debito
+									</span>
+								</p>
+							</div>
+
+						</div>
+
+						<div class="row promos ">
+							<div class="col-xs-6">
+								<div class="row">
+									<div class="col-xs-4 icon">
+										<img src="{{'/img/fuel.svg' | prepend : site.baseurl}}" class="img-responsive pull-right">	
+									</div>
+									<div class="col-xs-8 pop">
+										<div class="block">
+											<span>
+												<strong>
+												Combustible:
+												</strong>
+											</span>
+											<i class="fa fa-info-circle pointer" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?"></i>
+										</div>
+									
+										<span class="sub">Politica FULL FULL</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="row">
+									<div class="col-xs-4 icon">
+										<img src="{{'/img/bus.svg' | prepend : site.baseurl}}" class="img-responsive pull-right">	
+									</div>
+									<div class="col-xs-8 pop">
+										<div class="block">
+											<span>
+												<strong>
+													Recogida :
+												</strong>
+											</span>
+											<i class="fa fa-info-circle pointer" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?"></i>
+										</div>
+								<span class="sub">Autobus de cortesia</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="price-column hidden-xs">
+						</div>
+						<div class="col-xs-12 col-sm-3 coste ">
+							<div class="row">
+								<div class="col-xs-12 cantidad">
+									<div class="margin-top-15">
+										<p class="text-center text-bigger text-bold">
+											<span class="block-sm">
+												<span class="integer">8,</span>
+												<span class="float">20</span>
+											</span> 
+											<span>
+												<small>
+													<small>€</small>
+													/	{{site.data.traducciones.disponibilidad-dia | map : page.lang}}	
+												</small>
+											</span>
+										</p>
+										<p class="text-left">
+										<span class="block">
+											{{site.data.traducciones.disponibilidad-total | map : page.lang}}	
+											:
+										</span>
+										<div>	
+										<span class="integer">35.</span>
+											<span class="float">60</span>
+											<span class="simbol">€</span>
+										</div>	
+									</p>
+									</div>
+								</div>
+							</div>
+					
+					
+							<div class=" col-xs-12 reservar ">
+								<button class="btn btn-amigo btn-block" type="button">
+								RERESVAR
+								</button>
+							</div>	
+								
+							<div class=" col-xs-offset-1 col-xs-10 terminos text-center">
+								<a data-toggle="modal" href="#pago-online-modal"><span><small>Terminos y Condiciones</small></span></a>	
+							</div>	
+						</div>
+				</div><div class="row resultado">
+					<div class="col-xs-12 col-sm-3 detalles-modelo">
+						<div class="row">
+							<a href="/detalles-reserva">
+								<div class="modelo col-xs-12 text-center">
+									Opel Corsa
+									<span>
+										{{site.data.traducciones.disponibilidad-similar | map : page.lang}}	
+									</span>
+								</div>
+							</a>
+
+							<div class="col-xs-12 ">
+								<div id="slider-coche" class="carousel slide" data-ride="carousel" data-interval="false">
+									<a href="/detalles-reserva">
+										<div class="carousel-inner" role="listbox">
+											<div class="item active">
+												<img src="http://youcarrental.blob.core.windows.net/cars/FORD KA_lg.gif" class="center-block img-responsive">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/corsa.gif" | prepend : site.baseurl}}">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/cars/citroen_c4_lg.gif" | prepend : site.baseurl}}">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/cars/Opel_Astra_lg.gif" | prepend : site.baseurl}}">
+											</div>
+										</div>
+									</a>
+									<a class="carousel-control" href="#slider-coche" role="button" data-slide="prev">
+										<i class="fa fa-angle-left" aria-hidden="true"></i>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control bg-none" href="#slider-coche" role="button" data-slide="next">
+										<i class="fa fa-angle-right" aria-hidden="true"></i>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+							</div>
+							<a href="/detalles-reserva">
+								<div class="col-xs-12  caracteristicas icons">
+									<ul class="list-inline text-center">
+										<li><span class="doors_3"></span></li>
+										<li><span class="manual"></span></li>
+										<li><span class="plazas_4"></span></li>
+									</ul>
+								</div>
+							</a>
+							<div class="col-xs-6 col-sm-12 col-md-6 parner">
+								<img src="{{"/img/centauro.gif" | prepend : site.baseurl}}" class="img-responsive center-block">
+							</div>
+							<div class="col-xs-6 col-sm-12 col-md-6 padding-0">
+								<ul class="list-inline stars text-center">
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+								</ul>  	
+								<div class="opinions text-center">
+									<a href="">
+										<small>
+											ver opiniones
+										</small>
+									</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 anyadidos ">
+						<div class="row addons">
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-12 col-md-6 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Cancelación Gratuita	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Cambios en la reserva	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Kilometraje ilimitado 	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Seguro de ocupantes 
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Seguro de terceros 
+									</span>
+								</p>
+							</div>
+						
+						</div>
+
+						<div class="row promos ">
+							<div class="col-xs-6">
+								<div class="row">
+									<div class="col-xs-4 icon">
+										<img src="{{'/img/fuel.svg' | prepend : site.baseurl}}" class="img-responsive pull-right">	
+									</div>
+									<div class="col-xs-8 pop">
+										<div class="block">
+											<span>
+												<strong>
+												Combustible:
+												</strong>
+											</span>
+											<i class="fa fa-info-circle pointer" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?"></i>
+										</div>
+									
+										<span class="sub">Politica FULL FULL</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="row">
+									<div class="col-xs-4 icon">
+										<img src="{{'/img/bus.svg' | prepend : site.baseurl}}" class="img-responsive pull-right">	
+									</div>
+									<div class="col-xs-8 pop">
+										<div class="block">
+											<span>
+												<strong>
+													Recogida :
+												</strong>
+											</span>
+											<i class="fa fa-info-circle pointer" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?"></i>
+										</div>
+								<span class="sub">Autobus de cortesia</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="price-column hidden-xs">
+						</div>
+						<div class="col-xs-12 col-sm-3 coste ">
+					
+							<div class="row">
+								<div class="col-xs-12 cantidad">
+									<div class="margin-top-15">
+										<p class="text-center text-bigger text-bold">
+											<span class="block-sm">
+												<span class="integer">8,</span>
+												<span class="float">20</span>
+											</span> 
+											<span>
+												<small>
+													<small>€</small>
+													/	{{site.data.traducciones.disponibilidad-dia | map : page.lang}}	
+												</small>
+											</span>
+										</p>
+										<p class="text-left">
+										<span class="block">
+											{{site.data.traducciones.disponibilidad-total | map : page.lang}}	
+											:
+										</span>
+										<div>	
+										<span class="integer">35.</span>
+											<span class="float">60</span>
+											<span class="simbol">€</span>
+										</div>	
+									</p>
+									</div>
+								</div>
+							</div>
+					
+					
+							<div class=" col-xs-12 reservar ">
+								<button class="btn btn-amigo btn-block" type="button">
+								RERESVAR
+								</button>
+							</div>	
+								
+							<div class=" col-xs-offset-1 col-xs-10 terminos text-center">
+								<a data-toggle="modal" href="#pago-online-modal"><span><small>Terminos y Condiciones</small></span></a>	
+							</div>	
+						</div>
+				</div><div class="row resultado">
+					<div class="col-xs-12 col-sm-3 detalles-modelo">
+						<div class="row">
+							<a href="/detalles-reserva">
+								<div class="modelo col-xs-12 text-center">
+									Opel Corsa
+									<span>
+										{{site.data.traducciones.disponibilidad-similar | map : page.lang}}	
+									</span>
+								</div>
+							</a>
+
+							<div class="col-xs-12 ">
+								<div id="slider-coche" class="carousel slide" data-ride="carousel" data-interval="false">
+									<a href="/detalles-reserva">
+										<div class="carousel-inner" role="listbox">
+											<div class="item active">
+												<img src="http://youcarrental.blob.core.windows.net/cars/FORD KA_lg.gif" class="center-block img-responsive">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/corsa.gif" | prepend : site.baseurl}}">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/cars/citroen_c4_lg.gif" | prepend : site.baseurl}}">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/cars/Opel_Astra_lg.gif" | prepend : site.baseurl}}">
+											</div>
+										</div>
+									</a>
+									<a class="carousel-control" href="#slider-coche" role="button" data-slide="prev">
+										<i class="fa fa-angle-left" aria-hidden="true"></i>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control bg-none" href="#slider-coche" role="button" data-slide="next">
+										<i class="fa fa-angle-right" aria-hidden="true"></i>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+							</div>
+							<a href="/detalles-reserva">
+								<div class="col-xs-12  caracteristicas icons">
+									<ul class="list-inline text-center">
+										<li><span class="doors_3"></span></li>
+										<li><span class="manual"></span></li>
+										<li><span class="plazas_4"></span></li>
+									</ul>
+								</div>
+							</a>
+							<div class="col-xs-6 col-sm-12 col-md-6 parner">
+								<img src="{{"/img/centauro.gif" | prepend : site.baseurl}}" class="img-responsive center-block">
+							</div>
+							<div class="col-xs-6 col-sm-12 col-md-6 padding-0">
+								<ul class="list-inline stars text-center">
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+								</ul>  	
+								<div class="opinions text-center">
+									<a href="">
+										<small>
+											ver opiniones
+										</small>
+									</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 anyadidos ">
+						<div class="row addons">
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-12 col-md-6 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Cancelación Gratuita	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Cambios en la reserva	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Kilometraje ilimitado 	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Seguro de ocupantes 
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Seguro de terceros 
+									</span>
+								</p>
+							</div>
+						
+							<div class="col-xs-12 addon-primary ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Tarjeta <br>
+										de Debito
+									</span>
+								</p>
+							</div>
+
+						</div>
+
+						<div class="row promos ">
+							<div class="col-xs-6">
+								<div class="row">
+									<div class="col-xs-4 icon">
+										<img src="{{'/img/fuel.svg' | prepend : site.baseurl}}" class="img-responsive pull-right">	
+									</div>
+									<div class="col-xs-8 pop">
+										<div class="block">
+											<span>
+												<strong>
+												Combustible:
+												</strong>
+											</span>
+											<i class="fa fa-info-circle pointer" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?"></i>
+										</div>
+									
+										<span class="sub">Politica FULL FULL</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="row">
+									<div class="col-xs-4 icon">
+										<img src="{{'/img/bus.svg' | prepend : site.baseurl}}" class="img-responsive pull-right">	
+									</div>
+									<div class="col-xs-8 pop">
+										<div class="block">
+											<span>
+												<strong>
+													Recogida :
+												</strong>
+											</span>
+											<i class="fa fa-info-circle pointer" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?"></i>
+										</div>
+								<span class="sub">Autobus de cortesia</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="price-column hidden-xs">
+						</div>
+						<div class="col-xs-12 col-sm-3 coste ">
+					
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="oferta">
+										<h5>Precio en Oferta</h5>
+									</div>
+								</div>
+							</div>
+					
+							<div class="row">
+								<div class="col-xs-12 cantidad">
+									<div class="margin-top-15">
+										<p class="text-center text-bigger text-bold">
+											<span class="block-sm">
+												<span class="integer">8,</span>
+												<span class="float">20</span>
+											</span> 
+											<span>
+												<small>
+													<small>€</small>
+													/	{{site.data.traducciones.disponibilidad-dia | map : page.lang}}	
+												</small>
+											</span>
+										</p>
+										<p class="text-left">
+										<span class="block">
+											{{site.data.traducciones.disponibilidad-total | map : page.lang}}	
+											:
+										</span>
+										<div>	
+										<span class="integer">35.</span>
+											<span class="float">60</span>
+											<span class="simbol">€</span>
+										</div>	
+									</p>
+									</div>
+								</div>
+							</div>
+					
+					
+							<div class=" col-xs-12 reservar ">
+								<button class="btn btn-amigo btn-block" type="button">
+								RERESVAR
+								</button>
+							</div>	
+								
+							<div class=" col-xs-offset-1 col-xs-10 terminos text-center">
+								<a data-toggle="modal" href="#pago-online-modal"><span><small>Terminos y Condiciones</small></span></a>	
+							</div>	
+						</div>
+				</div><div class="row resultado">
+					<div class="col-xs-12 col-sm-3 detalles-modelo">
+						<div class="row">
+							<a href="/detalles-reserva">
+								<div class="modelo col-xs-12 text-center">
+									Opel Corsa
+									<span>
+										{{site.data.traducciones.disponibilidad-similar | map : page.lang}}	
+									</span>
+								</div>
+							</a>
+
+							<div class="col-xs-12 ">
+								<div id="slider-coche" class="carousel slide" data-ride="carousel" data-interval="false">
+									<a href="/detalles-reserva">
+										<div class="carousel-inner" role="listbox">
+											<div class="item active">
+												<img src="http://youcarrental.blob.core.windows.net/cars/FORD KA_lg.gif" class="center-block img-responsive">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/corsa.gif" | prepend : site.baseurl}}">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/cars/citroen_c4_lg.gif" | prepend : site.baseurl}}">
+											</div>
+											<div class="item">
+												<img class="img-responsive" src="{{"/img/cars/Opel_Astra_lg.gif" | prepend : site.baseurl}}">
+											</div>
+										</div>
+									</a>
+									<a class="carousel-control" href="#slider-coche" role="button" data-slide="prev">
+										<i class="fa fa-angle-left" aria-hidden="true"></i>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control bg-none" href="#slider-coche" role="button" data-slide="next">
+										<i class="fa fa-angle-right" aria-hidden="true"></i>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+							</div>
+							<a href="/detalles-reserva">
+								<div class="col-xs-12  caracteristicas icons">
+									<ul class="list-inline text-center">
+										<li><span class="doors_3"></span></li>
+										<li><span class="manual"></span></li>
+										<li><span class="plazas_4"></span></li>
+									</ul>
+								</div>
+							</a>
+							<div class="col-xs-6 col-sm-12 col-md-6 parner">
+								<img src="{{"/img/centauro.gif" | prepend : site.baseurl}}" class="img-responsive center-block">
+							</div>
+							<div class="col-xs-6 col-sm-12 col-md-6 padding-0">
+								<ul class="list-inline stars text-center">
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+								</ul>  	
+								<div class="opinions text-center">
+									<a href="">
+										<small>
+											ver opiniones
+										</small>
+									</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 anyadidos ">
+						<div class="row addons">
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-12 col-md-6 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Cancelación Gratuita	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Cambios en la reserva	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Kilometraje ilimitado 	
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Seguro de ocupantes 
+									</span>
+								</p>
+							</div>
+							<div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6  col-md-12 ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Seguro de terceros 
+									</span>
+								</p>
+							</div>
+						
+							<div class="col-xs-12 addon-primary ">
+								<p>
+									<i class="fa fa-check-circle"></i>
+									<span>
+										Tarjeta <br>
+										de Debito
+									</span>
+								</p>
+							</div>
+
+						</div>
+
+						<div class="row promos ">
+							<div class="col-xs-6">
+								<div class="row">
+									<div class="col-xs-4 icon">
+										<img src="{{'/img/fuel.svg' | prepend : site.baseurl}}" class="img-responsive pull-right">	
+									</div>
+									<div class="col-xs-8 pop">
+										<div class="block">
+											<span>
+												<strong>
+												Combustible:
+												</strong>
+											</span>
+											<i class="fa fa-info-circle pointer" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?"></i>
+										</div>
+									
+										<span class="sub">Politica FULL FULL</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="row">
+									<div class="col-xs-4 icon">
+										<img src="{{'/img/bus.svg' | prepend : site.baseurl}}" class="img-responsive pull-right">	
+									</div>
+									<div class="col-xs-8 pop">
+										<div class="block">
+											<span>
+												<strong>
+													Recogida :
+												</strong>
+											</span>
+											<i class="fa fa-info-circle pointer" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?"></i>
+										</div>
+								<span class="sub">Autobus de cortesia</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="price-column hidden-xs">
+						</div>
+						<div class="col-xs-12 col-sm-3 coste ">
+					
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="oferta">
+										<h5>Precio en Oferta</h5>
+									</div>
+								</div>
+							</div>
+					
+							<div class="row">
+								<div class="col-xs-12 cantidad">
+									<div class="margin-top-15">
+										<p class="text-center text-bigger text-bold">
+											<span class="block-sm">
+												<span class="integer">8,</span>
+												<span class="float">20</span>
+											</span> 
+											<span>
+												<small>
+													<small>€</small>
+													/	{{site.data.traducciones.disponibilidad-dia | map : page.lang}}	
+												</small>
+											</span>
+										</p>
+										<p class="text-left">
+										<span class="block">
+											{{site.data.traducciones.disponibilidad-total | map : page.lang}}	
+											:
+										</span>
+										<div>	
+										<span class="integer">35.</span>
+											<span class="float">60</span>
+											<span class="simbol">€</span>
+										</div>	
+									</p>
+									</div>
+								</div>
+							</div>
+					
+					
+							<div class=" col-xs-12 reservar ">
+								<button class="btn btn-amigo btn-block" type="button">
+								RERESVAR
+								</button>
+							</div>	
+								
+							<div class=" col-xs-offset-1 col-xs-10 terminos text-center">
+								<a data-toggle="modal" href="#pago-online-modal"><span><small>Terminos y Condiciones</small></span></a>	
+							</div>	
+						</div>
+				</div>
+
+			<a href="/detalles-reserva">
+				<div class="resultado row">
+					<div class="col-xs-12 col-sm-3">
+						<img class="img-responsive" src="{{"/img/ds3.gif" | prepend : site.baseurl}}">
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="modelo row">
+							Citroen DS3
+							<span>
+								{{site.data.traducciones.disponibilidad-similar | map : page.lang}}	
+							</span>
+							<img src="{{"/img/solm.gif" | prepend : site.baseurl}}" class="img-responsive img-colab">
+						</div>
+						<div class="row caracteristicas icons">
+							<span class="doors_3"></span>
+							<span class="fuelpolicy"></span>
+							<span class="manual"></span>
+							<span class="plazas_4"></span>
+						</div>
+						<div class="condiciones">
+							<div class="icons-text">
+								<i class="fa  fa-smile-o"></i> <span>
+									{{site.data.traducciones.disponibilidad-conductor-adicional-gratis-br | map : page.lang }}	
+
+								</span>
+							</div>
+							<div class="icons-text">
+								<i class="fa fa-plane"></i> <span>
+									{{site.data.traducciones.disponibilidad-mostrador-aeropuerto-br | map : page.lang }}	
+								</span>
+							</div>							
+						</div>						
+					</div>
+					<div class="col-xs-12 col-sm-3">
+						<div class="precio">
+							<p class="text-center">
+								<span>
+									{{site.data.traducciones.disponibilidad-total | map : page.lang}}	
+									:
+								</span>
+								<span class="block-sm"> 240 €</span>
+							</p>
+							<p class="text-center text-bigger text-bold">
+								<span class="block-sm">6,30</span> 
+								<span>
+									<small><small>€</small>
+										/{{site.data.traducciones.disponibilidad-dia | map : page.lang}}	
+
+								</small></span>
+							</p>
+						</div>
+					</div>
+				</div>	
+			</a>
+			<a href="detalles-reserva">
+				<div class="resultado row">				
+					<div class="col-xs-12 col-sm-3">
+						<img class="img-responsive" src="{{"/img/corsa.gif" | prepend : site.baseurl}}">
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="modelo row">
+							Opel Corsa
+							<span>
+								{{site.data.traducciones.disponibilidad-similar | map : page.lang}}	
+							</span>
+							<img src="{{"/img/centauro.gif" | prepend : site.baseurl}}" class="img-responsive img-colab">
+						</div>
+						<div class="row caracteristicas icons">
+							<span class="doors_3"></span>
+							<span class="fuelpolicy"></span>
+							<span class="manual"></span>
+							<span class="plazas_4"></span>
+						</div>
+						<div class="condiciones">
+							<div class="icons-text">
+								<i class="fa fa-thumbs-up"></i> <span>
+									{{site.data.traducciones.disponibilidad-tarjeta-debito-br | map : page.lang }}	
+								</span>
+							</div>
+							<div class="icons-text ">
+								<i class="fa fa-plane"></i> <span>
+									{{site.data.traducciones.disponibilidad-mostrador-aeropuerto-br | map : page.lang }}	
+								</span>
+							</div>							
+						</div>						
+					</div>
+					<div class="col-xs-12 col-sm-3">
+						<div class="precio">
+							<p class="text-center">
+								<span class="block-sm" >
+									{{site.data.traducciones.disponibilidad-total | map : page.lang}}	
+									:
+								</span>
+								<span> 356 €</span>
+							</p>
+							<p class="text-center text-bigger text-bold">
+								<span class="block-sm" >32,20</span> 
+								<span><small><small>€</small>
+										/{{site.data.traducciones.disponibilidad-dia | map : page.lang}}	
+								</small></span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="/detalles-reserva">
+				<div class="resultado row">				
+					<div class="col-xs-12 col-sm-3">
+						<img class="img-responsive" src="{{"/img/corsa.gif" | prepend : site.baseurl}}">
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="modelo row">
+							Opel Corsa
+							<span>
+								{{site.data.traducciones.disponibilidad-similar | map : page.lang}}	
+							</span>
+							<img src="{{"/img/centauro.gif" | prepend : site.baseurl}}" class="img-responsive img-colab">
+						</div>
+						<div class="row caracteristicas icons">
+							<span class="doors_3"></span>
+							<span class="fuelpolicy"></span>
+							<span class="manual"></span>
+							<span class="plazas_4"></span>
+						</div>
+						<div class="condiciones">
+							<div class="icons-text">
+								<i class="fa fa-thumbs-up"></i> <span>
+									{{site.data.traducciones.disponibilidad-tarjeta-debito-br | map : page.lang}}	
+								</span>
+							</div>
+							<div class="icons-text">
+								<i class="fa fa-plane"></i> 
+								<span>
+									{{site.data.traducciones.disponibilidad-mostrador-aeropuerto-br | map : page.lang}}
+								</span>
+							</div>
+							<div class="icons-text">
+								<i class="fa  fa-smile-o"></i>
+								<span>
+									{{site.data.traducciones.disponibilidad-conductor-adicional-gratis-br | map : page.lang}}	
+								</span>
+							</div>
+						</div>						
+					</div>
+					<div class="col-xs-12 col-sm-3">
+						<div class="precio">
+							<p class="text-center">
+								<span>
+									{{site.data.traducciones.disponibilidad-total | map : page.lang}}	
+									:
+								</span>
+								<span class="block-sm" > 356 €</span>
+							</p>
+							<p class="text-center text-bigger text-bold">
+								<span class="block-sm" >8,20</span> 
+								<span><small><small>€</small>
+										/
+										{{site.data.traducciones.disponibilidad-dia | map : page.lang}}	
+								</small></span>
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</a>
+			<a href="/detalles-reserva">
+				<div class="resultado row">
+					<div class="col-xs-12 col-sm-3">
+						<img class="img-responsive" src="{{"/img/ds3.gif" | prepend : site.baseurl}}">
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="modelo row">
+							Citroen DS3
+							<span>
+								{{site.data.traducciones.disponibilidad-similar | map : page.lang}}	
+							</span>
+							<img src="{{"/img/solm.gif" | prepend : site.baseurl}}" class="img-responsive img-colab">
+						</div>
+						<div class="row caracteristicas icons">
+							<span class="doors_3"></span>
+							<span class="fuelpolicy"></span>
+							<span class="manual"></span>
+							<span class="plazas_4"></span>
+						</div>
+						<div class="condiciones">
+							<div class="icons-text">
+								<i class="fa  fa-smile-o"></i> <span>
+									{{site.data.traducciones.disponibilidad-conductor-adicional-gratis-br | map : page.lang }}	
+								</span>
+							</div>
+							<div class="icons-text">
+								<i class="fa fa-plane"></i> <span>
+
+									{{site.data.traducciones.disponibilidad-mostrador-aeropuerto-br | map : page.lang }}	
+								</span>
+							</div>							
+						</div>						
+					</div>
+					<div class="col-xs-12 col-sm-3">
+						<div class="precio">
+							<p class="text-center">
+								<span>
+									{{site.data.traducciones.disponibilidad-total | map : page.lang}}	
+									:
+								</span>
+								<span class="block-sm" > 240 €</span>
+							</p>
+							<p class="text-center text-bigger text-bold">
+								<span class="block-sm" >6,30</span> 
+								<span>
+									<small><small>€</small>
+										/{{site.data.traducciones.disponibilidad-dia | map : page.lang}}	
+								</small></span>
+							</p>
+						</div>
+					</div>
+				</div>	
+			</a>
+			<a href="/detalles-reserva">
+				<div class="resultado row">				
+					<div class="col-xs-12 col-sm-3">
+						<img class="img-responsive" src="{{"/img/corsa.gif" | prepend : site.baseurl}}">
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="modelo row">
+							Opel Corsa
+							<span>
+								{{site.data.traducciones.disponibilidad-similar | map : page.lang}}	
+
+							</span>
+							<img src="{{"/img/centauro.gif" | prepend : site.baseurl}}" class="img-responsive img-colab">
+						</div>
+						<div class="row caracteristicas icons">
+							<span class="doors_3"></span>
+							<span class="fuelpolicy"></span>
+							<span class="manual"></span>
+							<span class="plazas_4"></span>
+						</div>
+						<div class="condiciones">
+							<div class="icons-text">
+								<i class="fa fa-thumbs-up"></i> <span>
+									{{site.data.traducciones.disponibilidad-tarjeta-debito-br | map : page.lang }}	
+
+								</span>
+							</div>
+							<div class="icons-text">
+								<i class="fa fa-plane"></i> <span>
+									{{site.data.traducciones.disponibilidad-mostrador-aeropuerto-br | map : page.lang }}	
+
+								</span>
+							</div>							
+						</div>						
+					</div>
+					<div class="col-xs-12 col-sm-3">
+						<div class="precio">
+							<p class="text-center">
+								<span>
+									{{site.data.traducciones.disponibilidad-total | map : page.lang}}	
+									:
+								</span>
+								<span class="block-sm" > 356 €</span>
+							</p>
+							<p class="text-center text-bigger text-bold">
+								<span class="block-sm" >8,20</span> 
+								<span><small><small>€</small>
+										/
+										{{site.data.traducciones.disponibilidad-dia | map : page.lang}}	
+
+								</small></span>
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</a>
+			<a href="/detalles-reserva">
+				<div class="resultado row">
+					<div class="col-xs-12 col-sm-3">
+						<img class="img-responsive" src="{{"/img/ds3.gif" | prepend : site.baseurl}}">
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="modelo row">
+							Citroen DS3
+							<span>
+								{{site.data.traducciones.disponibilidad-similar | map : page.lang}}	
+
+							</span>
+							<img src="{{"/img/solm.gif" | prepend : site.baseurl}}" class="img-responsive img-colab">
+						</div>
+						<div class="row caracteristicas icons">
+							<span class="doors_3"></span>
+							<span class="fuelpolicy"></span>
+							<span class="manual"></span>
+							<span class="plazas_4"></span>
+						</div>
+						<div class="condiciones">
+							<div class="icons-text">
+								<i class="fa  fa-smile-o"></i> <span>
+									{{site.data.traducciones.disponibilidad-conductor-adicional-gratis-br | map : page.lang }}	
+								</span>
+							</div>
+							<div class="icons-text">
+								<i class="fa fa-plane"></i> <span>
+									{{site.data.traducciones.disponibilidad-mostrador-aeropuerto-br | map : page.lang}}	
+								</span>
+							</div>							
+						</div>						
+					</div>
+					<div class="col-xs-12 col-sm-3">
+						<div class="precio">
+							<p class="text-center">
+								<span>
+									{{site.data.traducciones.disponibilidad-total | map : page.lang}}	
+									:
+								</span>
+								<span class="block-sm" > 240 €</span>
+							</p>
+							<p class="text-center text-bigger text-bold">
+								<span class="block-sm" >6,30</span> 
+								<span>
+									<small><small>€</small>
+										/{{site.data.traducciones.disponibilidad-dia | map : page.lang}}
+								</small></span>
+							</p>
+						</div>
+					</div>
+				</div>	
+			</a>
+			<a href="/detalles-reserva">
+				<div class="resultado row">				
+					<div class="col-xs-12 col-sm-3">
+						<img class="img-responsive" src="{{"/img/corsa.gif" | prepend : site.baseurl}}">
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="modelo row">
+							Opel Corsa
+							<span>
+								{{site.data.traducciones.disponibilidad-similar | map : page.lang}}	
+							</span>
+							<img src="{{"/img/centauro.gif" | prepend : site.baseurl}}" class="img-responsive img-colab">
+						</div>
+						<div class="row caracteristicas icons">
+							<span class="doors_3"></span>
+							<span class="fuelpolicy"></span>
+							<span class="manual"></span>
+							<span class="plazas_4"></span>
+						</div>
+						<div class="condiciones">
+							<div class="icons-text">
+								<i class="fa fa-thumbs-up"></i> <span>
+									{{site.data.traducciones.disponibilidad-tarjeta-debito-br| map : page.lang}}	
+								</span>
+							</div>
+							<div class="icons-text">
+								<i class="fa fa-plane"></i> 
+								<span>
+									{{site.data.traducciones.disponibilidad-mostrador-aeropuerto-br | map : page.lang}}	
+								</span>
+							</div>
+							<div class="icons-text">
+								<i class="fa  fa-smile-o"></i>
+								<span>
+									{{site.data.traducciones.disponibilidad-conductor-adicional-gratis-br | map : page.lang}}	
+								</span>
+							</div>
+						</div>						
+					</div>
+					<div class="col-xs-12 col-sm-3">
+						<div class="precio">
+							<p class="text-center">
+								<span>
+									{{site.data.traducciones.disponibilidad-total | map : page.lang}}	
+									:
+								</span>
+								<span class="block-sm" > 356 €</span>
+							</p>
+							<p class="text-center text-bigger text-bold">
+								<span class="block-sm" >8,20</span> 
+								<span><small><small>€</small>
+										/
+										{{site.data.traducciones.disponibilidad-dia | map : page.lang}}	
+								</small></span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="/detalles-reserva">
+				<div class="resultado row">
+					<div class="col-xs-12 col-sm-3">
+						<img class="img-responsive" src="{{"/img/ds3.gif" | prepend : site.baseurl}}">
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="modelo row">
+							Citroen DS3
+							<span>
+								{{site.data.traducciones.disponibilidad-similar | map : page.lang}}	
+							</span>
+							<img src="{{"/img/solm.gif" | prepend : site.baseurl}}" class="img-responsive img-colab">
+						</div>
+						<div class="row caracteristicas icons">
+							<span class="doors_3"></span>
+							<span class="fuelpolicy"></span>
+							<span class="manual"></span>
+							<span class="plazas_4"></span>
+						</div>
+						<div class="condiciones">
+							<div class="icons-text">
+								<i class="fa  fa-smile-o"></i>
+								<span>
+									{{site.data.traducciones.disponibilidad-conductor-adicional-gratis-br | map : page.lang}}	
+								</span>
+							</div>
+							<div class="icons-text">
+								<i class="fa fa-plane"></i> <span>
+									{{site.data.traducciones.disponibilidad-mostrador-aeropuerto-br | map : page.lang}}	
+								</span>
+							</div>							
+						</div>						
+					</div>
+					<div class="col-xs-12 col-sm-3">
+						<div class="precio">
+							<p class="text-center">
+								<span>
+									{{site.data.traducciones.disponibilidad-total | map : page.lang}}	
+									:
+								</span>
+								<span class="block-sm" > 240 €</span>
+							</p>
+							<p class="text-center text-bigger text-bold">
+								<span class="block-sm" >6,30</span> 
+								<span>
+									<small><small>€</small>
+										/{{site.data.traducciones.disponibilidad-dia | map : page.lang}}	
+
+								</small></span>
+							</p>
+						</div>
+					</div>
+				</div>	
+			</a>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade amigo" id="modal-filtros" tabindex="-1" >
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div  class="modal-body">			
+				<div id="colaboradores-xs" class="row">					
+						<h4 class="text-center">
+								{{site.data.traducciones.disponibilidad-filtros-colaboradores-cabecera | map : page.lang}}				
+							<button type="button" class="close" data-dismiss="modal" >
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</h4>
+						<ul class="list-unstyled" >
+							<li class="col-xs-4">
+								<input type="checkbox" name="goldcar" id="goldcarXS" class="amigo" checked="checked">
+								<label  for="goldcarXS" class="pointer-label">
+									<img class="img-responsive center-block img-colaborador" checked="checked"  src="{{'/img/colaboradores/goldcar.gif' | prepend:site.baseurl}}" alt="">						
+								</label>
+							</li>
+							<li class="col-xs-4">
+								<input type="checkbox" id="avisXS" class="amigo" checked="checked">
+								<label class="pointer-label" for="avisXS">
+									<img  class="img-responsive center-block img-colaborador"  src="{{'/img/colaboradores/avis.gif' | prepend:site.baseurl}}" alt="">
+								</label>
+							</li>
+							<li class="col-xs-4">
+								<input type="checkbox" id="dapertonXS" class="amigo" checked="checked">
+								<label  class="pointer-label" for="dapertonXS">
+									<img  class="img-responsive center-block img-colaborador"  src="{{'/img/colaboradores/daperton.gif' | prepend:site.baseurl}}" alt="">
+								</label>
+							</li>
+							<li class="col-xs-4">
+								<input type="checkbox" id="europcarXS" class="amigo" checked="checked">
+								<label  class="pointer-label" for="europcarXS">
+									<img  class="img-responsive center-block img-colaborador"  src="{{'/img/colaboradores/europcar.gif' | prepend:site.baseurl}}" alt="">
+								</label>
+							</li>
+							<li class="col-xs-4">
+								<input type="checkbox" id="fireflyXS" class="amigo"checked="checked">
+								<label  class="pointer-label" for="fireflyXS">
+									<img class="img-responsive center-block img-colaborador"   src="{{'/img/colaboradores/firefly.gif' | prepend:site.baseurl}}" alt="">
+								</label>
+							</li>
+							<li class="col-xs-4">
+								<input type="checkbox" id="interrentXS" class="amigo" checked="checked">
+								<label  class="pointer-label" for="interrentXS">
+									<img  class="img-responsive center-block img-colaborador"  src="{{'/img/colaboradores/interrent.gif' | prepend:site.baseurl}}" alt="">
+							</li>
+							<li class="col-xs-4">
+								<input type="checkbox" id="keddyXS" class="amigo" checked="checked">
+								<label  class="pointer-label" for="keddyXS">
+									<img class="img-responsive center-block img-colaborador"   src="{{'/img/colaboradores/keddy.gif' | prepend:site.baseurl}}" alt="">
+								</label>
+							</li>
+							<li class="col-xs-4">
+								<input type="checkbox" id="sixtXS" class="amigo" checked="checked">
+								<label  class="pointer-label" for="sixtXS">
+									<img class="img-responsive center-block img-colaborador"   src="{{'/img/colaboradores/sixt.gif' | prepend:site.baseurl}}" alt="">
+								</label>
+							</li>
+						</ul>
+					</div>				
+				<div class="resultados">
+<div id="precio-xs" class="row">					
+					  <h4 class="text-center">
+					  	{{site.data.traducciones.disponibilidad-filtros-precio-cabecera | map : page.lang}}	
+					  </h4>					
+			
+						<div class="col-xs-6 dropdown filtrar-ordenar ">
+							<button aria-expanded="true" data-toggle="dropdown" id="ordenar-desde-xs " type="button" class="btn btn-default dropdown-toggle pull-right ordenar-btn">
+								Desde	
+								<i class="fa fa-chevron-down"></i>
+							</button>
+							<ul aria-labelledby="ordenar" role="menu" class="dropdown-menu pull-right desde ">
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										<span>
+											5€
+										</span>
+									</a>
+								</li>
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										10€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										15€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										20€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										25€
+									</a>
+								</li>
+
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										30€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										35€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										40€
+									</a>
+								</li>			
+							</ul>
+						</div>
+						<div class="col-xs-6 dropdown filtrar-ordenar ">
+							<button aria-expanded="true" data-toggle="dropdown" id="ordenar-hasta-xs" type="button" class="btn btn-default dropdown-toggle ordenar-btn ">
+								Hasta	
+								<i class="fa fa-chevron-down"></i>
+							</button>
+							<ul aria-labelledby="ordenar" role="menu" class="dropdown-menu hasta pull-right ">
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										50€
+									</a>
+								</li>
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										60€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										70€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										80€
+									</a>
+								</li>
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										90€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										100€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										200€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										300€
+									</a>
+								</li>			
+								<li role="presentation">
+									<a href="#" tabindex="-1" role="menuitem">
+										400€
+									</a>
+								</li>			
+							</ul>
+						</div>
+				</div>
+			</div>
+			
+				<div  id="mas-filtros" class="collapse row">
+						<h4 class="text-center">
+							{{site.data.traducciones.disponibilidad-filtros-pago-recogida-cabecera | map : page.lang}}	
+						</h4>			
+						<div class="col-xs-12 white-bg">
+							<ul class="list-unstyled row">
+								<li class="col-xs-6">
+									<div>
+										<input class="amigo" id="pago-parcial" checked="checked"  type="checkbox">
+										<i class="fa fa-check-circle"></i>
+										<label class="pointer-label" for="pago-parcial">
+											{{site.data.traducciones.disponibilidad-filtros-pago-recogida-content-2 | map : page.lang}}	
+										</label>
+									</div>
+								</li>
+								<li class="col-xs-6">
+									<div>								
+										<input class="amigo" id="pago-online" checked="checked"  type="checkbox">
+										<i class="fa fa-check-circle"></i>
+										<label class="pointer-label" for="pago-online">
+											{{site.data.traducciones.disponibilidad-filtros-pago-recogida-content-1 | map : page.lang}}	
+										</label>
+									</div>
+								</li>
+								<li class="col-xs-6">
+									<div>								
+										<input class="amigo" id="tarjeta-debito" type="checkbox">
+										<i class="fa fa-check-circle"></i>
+										<label class="pointer-label" for="tarjeta-debito">
+											{{site.data.traducciones.disponibilidad-tarjeta-debito | map : page.lang}}	
+										</label>
+									</div>
+								</li>
+								<li class="col-xs-6">
+									<div>								
+										<input class="amigo" id="mostrador-aeropuerto" type="checkbox">
+										<i class="fa fa-check-circle"></i>
+										<label class="pointer-label" for="mostrador-aeropuerto">
+											{{site.data.traducciones.disponibilidad-mostrador-aeropuerto | map : page.lang}}	
+										</label>
+									</div>							
+								</li>
+							</ul>
+						</div>
+						<div class="col-xs-12 white-bg">
+										<div class="row">
+							<h4 class="text-center">
+								{{site.data.traducciones.disponibilidad-filtros-combustible-cabecera | map : page.lang}}	
+							</h4>			
+							<div class="col-xs-12">
+								<input class="amigo" id="lleno-lleno" checked="checked"  type="checkbox">
+								<i class="fa fa-check-circle"></i>
+								<label class="pointer-label" for="lleno-lleno">
+									{{site.data.traducciones.disponibilidad-filtros-combustible-content-1 | map : page.lang}}	
+								</label>
+							</div>
+							<div class="col-xs-12">
+								<input class="amigo" checked="checked"  id="prepagadoXS" type="checkbox">
+								<i class="fa fa-check-circle"></i>
+								<label class="pointer-label" for="prepagadoXS">
+									{{site.data.traducciones.disponibilidad-filtros-combustible-content-2 | map : page.lang}}	
+								</label>
+							</div>
+						</div>
+						</div>
+						<div class="col-xs-12 ">
+							<div id="caracteristicas-contentXS" >
+								<div class="row white-bg">
+									<h4 class="text-center">
+										<i class="fa fa-plus-circle"></i> 
+										<span>{{site.data.traducciones.disponibilidad-filtros-caracteristicas-cabecera | map : page.lang}}</span>
+									</h4>		
+									<div class="col-xs-6">
+										<input id="gps" class="amigo" type="checkbox">
+										<i class="fa fa-check-circle"></i>
+										<label for="gps">
+											{{site.data.traducciones.disponibilidad-filtros-caracteristicas-content-1 | map : page.lang}}	
+										</label>
+									</div>
+									<div class="col-xs-6">
+										<input id="diesel" class="amigo" type="checkbox">
+										<i class="fa fa-check-circle"></i>
+										<label for="diesel">			
+											{{site.data.traducciones.disponibilidad-filtros-caracteristicas-content-2 | map : page.lang}}	
+										</label>
+									</div>
+									<div class="col-xs-6">
+										<input id="aire" class="amigo" type="checkbox">
+										<i class="fa fa-check-circle"></i>
+										<label  for="aire">
+											{{site.data.traducciones.disponibilidad-filtros-caracteristicas-content-3 | map : page.lang}}	
+										</label>
+									</div>
+									<div class="col-xs-6">
+										<input id="automatico" class="amigo" type="checkbox">
+										<i class="fa fa-check-circle"></i>
+										<label for="automatico">
+											{{site.data.traducciones.disponibilidad-filtros-caracteristicas-content-4 | map : page.lang}}	
+										</label>
+									</div>
+
+								
+									<div class="col-xs-12">
+										<div class="row">
+											<div class="col-xs-6">
+												<label class="orange">
+													{{site.data.traducciones.disponibilidad-filtros-caracteristicas-content-5 | map : page.lang}}	
+												</label>
+											</div>	
+									
+											<div class="col-xs-6">
+												<label class="orange">
+													{{site.data.traducciones.disponibilidad-filtros-caracteristicas-content-6 | map : page.lang}}	
+												</label>
+											</div>
+
+											<div class="col-xs-6">
+												<input id="2-puertas" checked="checked"  class="amigo" type="checkbox">
+												<i class="fa fa-check-circle"></i>
+												<label for="2-puertas">
+													2
+													{{site.data.traducciones.disponibilidad-filtros-puertas | map : page.lang}}	
+												</label>
+											</div>
+
+											<div class="col-xs-6">
+												<input id="2-plazas" checked="checked"  class="amigo" type="checkbox">
+												<i class="fa fa-check-circle"></i>
+												<label for="2-plazas">
+													2 
+													{{site.data.traducciones.disponibilidad-filtros-plazas | map : page.lang}}	
+												</label>
+											</div>
+
+											<div class="col-xs-6">
+												<input id="3-puertas" checked="checked"  class="amigo" type="checkbox">
+												<i class="fa fa-check-circle"></i>
+												<label for="3-puertas">
+													3 
+													{{site.data.traducciones.disponibilidad-filtros-puertas | map : page.lang}}	
+												</label>
+											</div>
+
+											<div class="col-xs-6">
+												<input id="3-plazas"  checked="checked" class="amigo" type="checkbox">
+												<i class="fa fa-check-circle"></i>
+												<label for="3-plazas">
+													3 
+													{{site.data.traducciones.disponibilidad-filtros-plazas | map : page.lang}}	
+												</label>
+											</div>
+
+											<div class="col-xs-6">
+												<input id="4-puertas" checked="checked"  class="amigo" type="checkbox">
+												<i class="fa fa-check-circle"></i>
+												<label for="4-puertas">
+													4 
+													{{site.data.traducciones.disponibilidad-filtros-puertas | map : page.lang}}	
+												</label>
+											</div>
+
+											<div class="col-xs-6">
+												<input id="4-plazas" checked="checked"  class="amigo" type="checkbox">
+												<i class="fa fa-check-circle"></i>
+												<label for="4-plazas">
+													4 
+													{{site.data.traducciones.disponibilidad-filtros-plazas | map : page.lang}}	
+												</label>
+											</div>
+
+											<div class="col-xs-6">
+												<input id="5-puertas" checked="checked"  class="amigo" type="checkbox">
+												<i class="fa fa-check-circle"></i>
+												<label for="5-puertas">
+													5 
+													{{site.data.traducciones.disponibilidad-filtros-puertas | map : page.lang}}	
+												</label>
+											</div>
+
+											<div class="col-xs-6">
+												<input id="5-plazas" checked="checked"  class="amigo" type="checkbox">
+												<i class="fa fa-check-circle"></i>
+												<label for="5-plazas">
+													5 
+													{{site.data.traducciones.disponibilidad-filtros-plazas | map : page.lang}}	
+												</label>
+
+											</div>
+											<div class="col-xs-offset-6 col-xs-6">
+												<input id="6-plazas"  checked="checked" class="amigo" type="checkbox">
+												<i class="fa fa-check-circle"></i>
+												<label for="6-plazas">
+													6 
+													{{site.data.traducciones.disponibilidad-filtros-plazas | map : page.lang}}	
+												</label>
+											</div>
+
+										</div>
+									</div>
+								</div>						
+							</div>
+						</div>					
+					
+						<div class="col-xs-12 padding-0">
+							<h4 class="text-center">
+								{{site.data.traducciones.disponibilidad-filtros-tipo-cabecera | map : page.lang}}	
+							</h4>										
+						</div>
+
+						<div class="col-xs-6">						
+							<input id="economicos" class="amigo" type="checkbox" checked="checked">
+							<i class="fa fa-check-circle"></i>
+							<label for="economicos">
+								<span>
+									{{site.data.traducciones.disponibilidad-filtros-tipo-1 | map : page.lang}}	
+								</span>							
+							</label>									
+						</div>	
+						<div class="col-xs-6">
+							<input id="compactos" class="amigo" type="checkbox" checked="checked">
+							<i class="fa fa-check-circle"></i>
+							<label for="compactos">
+								<span>
+									{{site.data.traducciones.disponibilidad-filtros-tipo-2 | map : page.lang}}	
+								</span>
+							</label>				
+						</div>
+						<div class="col-xs-6">
+							<input id="berlinas" class="amigo" type="checkbox" checked="checked">
+							<i class="fa fa-check-circle"></i>
+							<label for="berlinas">
+								{{site.data.traducciones.disponibilidad-filtros-tipo-3 | map : page.lang}}	
+							</label>		
+						</div>
+						<div class="col-xs-6">
+							<input id="rancheras" class="amigo" type="checkbox" checked="checked">
+							<i class="fa fa-check-circle"></i>
+							<label for="rancheras">
+								{{site.data.traducciones.disponibilidad-filtros-tipo-4 | map : page.lang}}	
+							</label>					
+						</div>
+						<div class="col-xs-6">
+							<input id="monovolumenes" class="amigo" type="checkbox" checked="checked">
+							<i class="fa fa-check-circle"></i>
+							<label for="monovolumenes">
+								{{site.data.traducciones.disponibilidad-filtros-tipo-5 | map : page.lang}}	
+							</label>
+						</div>
+						<div class="col-xs-6">
+							<input id="todoterrenos" class="amigo" type="checkbox" checked="checked">
+							<i class="fa fa-check-circle"></i>
+							<label for="todoterrenos">
+								{{site.data.traducciones.disponibilidad-filtros-tipo-6 | map : page.lang}}	
+							</label>
+						</div>
+						<div class="col-xs-6">
+							<input id="deportivos" class="amigo" type="checkbox" checked="checked">
+							<i class="fa fa-check-circle"></i>
+							<label for="deportivos">
+								{{site.data.traducciones.disponibilidad-filtros-tipo-7 | map : page.lang}}	
+							</label>
+						</div>
+						<div class="col-xs-6">
+							<input id="motocicletas" class="amigo" type="checkbox" checked="checked">
+							<i class="fa fa-check-circle"></i>
+							<label for="motocicletas">
+								{{site.data.traducciones.disponibilidad-filtros-tipo-8 | map : page.lang}}	
+							</label>					
+						</div>
+					</div>
+				
+				<div class="collapsed row pointer" data-target="#mas-filtros" data-toggle="collapse">
+					<h4 class="text-center ver-mas">						
+						<span>
+					{{site.data.traducciones.disponibilidad-ver | map : page.lang}}	
+						</span>
+						<span>
+					{{site.data.traducciones.disponibilidad-mas | map : page.lang}}	
+						</span>
+						<i class="fa fa-plus-circle"></i>
+						<i class="fa fa-minus-circle"></i>
+					</h4>		
+				</div>
+
+			</div>		
+			<div class="modal-footer">
+				<button type="button" class="btn btn-block">
+					{{site.data.traducciones.disponibilidad-boton-borrar-filtros | map : page.lang}}	
+				</button>
+				<button type="button" class="btn modify btn-block">
+					{{site.data.traducciones.disponibilidad-boton-filtrar | map : page.lang}}	
+				</button>
+			</div>
+		</div>		
+	</div>
+</div>
+
+<div class="modal fade amigo" id="modal-ordenar" tabindex="-1" >
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">				
+				<button type="button" class="close" data-dismiss="modal" >
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<h4 class="modal-title" >
+						{{site.data.traducciones.disponibilidad-ordenar | map : page.lang}}
+						{{site.data.traducciones.disponibilidad-por | map : page.lang}}
+				</h4>
+			</div>
+			<div class="modal-body text-center">
+				<a href="">
+					<label for="precio-ascendente">
+						{{site.data.traducciones.disponibilidad-ordenar-reserva-precio-asc | map : page.lang}}
+					</label>				
+					<input id="precio-ascendente" type="checkbox" class="amigo" checked="checked">
+					<i class="fa fa-check-circle"></i>
+				</a>
+				<a href="">
+					<label for="precio-descendente">
+						{{site.data.traducciones.disponibilidad-ordenar-reserva-precio-dsc | map : page.lang}}	
+					</label>
+					<input id="precio-ascendente" type="checkbox" class="amigo">
+					<i class="fa fa-check-circle"></i>					
+				</a>
+				<a href="">
+					<label for="tamano-ascendente">
+						{{site.data.traducciones.disponibilidad-ordenar-reserva-tamano-asc | map : page.lang}}	
+					</label>
+					<input id="tamano-ascendente" type="checkbox" class="amigo">
+					<i class="fa fa-check-circle"></i>													
+				</a>
+				<a href="">
+					<label for="tamano-descendente">
+						{{site.data.traducciones.disponibilidad-ordenar-reserva-tamano-dsc | map : page.lang}}
+					</label>
+					<input id="tamano-descendente" type="checkbox" class="amigo">
+					<i class="fa fa-check-circle"></i>									
+				</a>
+			</div>		
+		</div>
+	</div>
+</div>
+
+
+
+<div class="modal fade amigo" id="pago-online-modal" tabindex="-1">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" >&times;</button>
+				<div class="page-header">
+					<h1>
+						{{site.data.traducciones.elementos-comunes-footer-inferior-terminos | map : page.lang}}	
+						<small>
+							{{site.data.traducciones.terminos-aceptar-continua | map : page.lang}}	
+						</small>
+					</h1>
+				</div>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-xs-12">
+						{%include /elementos-comunes/terminos-pago-online.html %}
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">
+								{{site.data.traducciones.disponibilidad-boton-cerrar | map : page.lang}}
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+

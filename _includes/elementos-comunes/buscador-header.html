@@ -1,0 +1,224 @@
+<div id="buscador-frontal">
+	<h2 class="search">
+		{%if page.tipo %}	
+			{{ site.data.traducciones.index-titulo-pagina-2 : | map : page.lang }}
+		{%else%}
+			{{ site.data.traducciones.index-titulo-pagina-1 : | map : page.lang }}
+		{%endif%}
+	</h2>
+	<div class="booking row">
+		<form action="{{'/disponibilidad/'| prepend : site.baseurl }}" method="#" id="form-buscador"> 
+			<div class="col-xs-12 col-sm-5 ">
+				<div class="row">	
+					<div class="col-xs-12 btn-group">
+						<button type="button" class="btn btn-default btn-block dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+							{% if page.pais %}
+								{{page.pais}}
+							{%else%}	
+								{{ site.data.traducciones.elementos-comunes-buscador-pais | map : page.lang }}
+							{%endif%}	
+							<i class="fa fa-chevron-down"></i>
+						</button>
+						<ul class="dropdown-menu" role="menu" id="pais-recogida">
+							<li data-type="albania" data-valor="">Albania</li>
+
+							<li data-type="germany" data-valor="">Alemania</li>
+
+							<li data-type="austria" data-valor="">Austria</li>
+
+							<li data-type="belgium" data-valor="">Bélgica</li>
+
+							<li data-type="belarus" data-valor="">Bielorrusia</li>
+
+							<li data-type="bosniaandherzegovina" data-valor="">Bosnia y Herzegovina</li>
+
+							<li data-type="bulgaria" data-valor="">Bulgaria</li>
+
+							<li data-type="cyprus" data-valor="">Chipre</li>
+
+							<li data-type="croatia" data-valor="">Croacia</li>
+
+							<li data-type="denmark" data-valor="">Dinamarca</li>
+
+							<li data-type="slovakia" data-valor="">Eslovaquia</li>
+
+							<li data-type="slovenia" data-valor="">Eslovenia</li>
+
+							<li data-type="spain" data-valor="">España</li>
+
+							<li data-type="estonia" data-valor="">Estonia</li>
+
+							<li data-type="finland" data-valor="">Finlandia</li>
+
+							<li data-type="france" data-valor="">Francia</li>
+
+							<li data-type="gibraltar" data-valor="">Gibraltar</li>
+
+							<li data-type="greece" data-valor="">Grecia</li>
+
+							<li data-type="netherlands" data-valor="">Holanda</li>
+
+							<li data-type="hungary" data-valor="">Hungría</li>
+
+							<li data-type="england" data-valor="">Inglaterra</li>
+
+							<li data-type="ireland" data-valor="">Irlanda</li>
+
+							<li data-type="italy" data-valor="">Italia</li>
+
+							<li data-type="kosovo" data-valor="">Kosovo</li>
+
+							<li data-type="latvia" data-valor="">Letonia</li>
+
+							<li data-type="lithuania" data-valor="">Lituania</li>
+
+							<li data-type="luxembourg" data-valor="">Luxemburgo</li>
+
+							<li data-type="macedonia" data-valor="">Macedonia</li>
+
+							<li data-type="malta" data-valor="">Malta</li>
+
+							<li data-type="moldavia" data-valor="">Moldavia</li>
+
+							<li data-type="norway" data-valor="">Noruega</li>
+
+							<li data-type="portugal" data-valor="">Portugal</li>
+
+							<li data-type="switzerland" data-valor="">Suiza</li>
+
+							<li data-type="turkey" data-valor="">Turquía</li>
+						</ul>						
+					</div>
+				</div>	
+				<div class="row">	
+					<div class="dropdown btn-group col-xs-12 ">
+						<button type="button" class="btn btn-default btn-block dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+							{{ site.data.traducciones.elementos-comunes-buscador-ciudad-recogida | map : page.lang }}
+							<i class="fa fa-chevron-down"></i>
+						</button>
+						<ul class="dropdown-menu" role="menu" id="pais-recogida">
+							{% for destino in site.data.oficinas.Cities %}
+								<li data-valor="{{ destino.Codigo }}" data-type="{{ destino.Code }}">{{ destino.Title | map : page.lang }}</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>	
+				<div class="row">
+					<div class="col-xs-12 btn-group multiple" style="display: none;">
+						<button type="button" class="btn btn-default btn-block dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+							{% if page.ciudad %}
+								{{page.ciudad}}
+							{%else%}	
+								{{ site.data.traducciones.elementos-comunes-buscador-ciudad-devolucion | map : page.lang }}
+							{%endif%}	
+							<i class="fa fa-chevron-down"></i>
+						</button>
+						<ul class="dropdown-menu" role="menu" id="ciudad-recogida">
+							<li data-type="alicante" data-valor="">Alicante</li>
+
+							<li data-type="almeria" data-valor="">Almería</li>
+
+							<li data-type="asturias" data-valor="">Asturias</li>
+
+							<li data-type="badajoz" data-valor="">Badajoz</li>
+
+							<li data-type="barcelona" data-valor="">Barcelona</li>
+
+							<li data-type="bilbao" data-valor="">Bilbao</li>
+
+							<li data-type="cordoba" data-valor="">Córdoba</li>
+
+							<li data-type="elhierro" data-valor="">El Hierro</li>
+
+							<li data-type="formentera" data-valor="">Formentera</li>
+
+							<li data-type="fuerteventura" data-valor="">Fuerteventura</li>
+
+							<li data-type="girona" data-valor="">Girona</li>
+
+							<li data-type="grancanaria" data-valor="">Gran Canaria</li>
+
+							<li data-type="granada" data-valor="">Granada</li>
+
+							<li data-type="ibiza" data-valor="">Ibiza</li>
+
+							<li data-type="jerez" data-valor="">Jerez</li>
+
+							<li data-type="lacoruna" data-valor="">La Coruña</li>
+
+							<li data-type="lagomera" data-valor="">La Gomera</li>
+
+							<li data-type="lapalma" data-valor="">La Palma</li>
+
+							<li data-type="lanzarote" data-valor="">Lanzarote</li>
+
+							<li data-type="leon" data-valor="">León</li>
+
+							<li data-type="lleida" data-valor="">Lleida</li>
+
+							<li data-type="madrid" data-valor="">Madrid</li>
+
+							<li data-type="malaga" data-valor="">Málaga</li>
+
+							<li data-type="mallorca" data-valor="">Mallorca</li>
+
+							<li data-type="menorca" data-valor="">Menorca</li>
+
+							<li data-type="murcia" data-valor="">Murcia</li>
+
+							<li data-type="pamplona" data-valor="">Pamplona</li>
+
+							<li data-type="reus" data-valor="">Reus</li>
+
+							<li data-type="sansebastian" data-valor="">San Sebastián</li>
+
+							<li data-type="santander" data-valor="">Santander</li>
+
+							<li data-type="santiagodecompostela" data-valor="">Santiago de Compostela</li>
+
+							<li data-type="seville" data-valor="">Sevilla</li>
+
+							<li data-type="tenerife" data-valor="">Tenerife</li>
+
+							<li data-type="valencia" data-valor="">Valencia</li>
+						</ul>
+					</div>
+					<div class="col-xs-12 check-misma-oficina">
+						<input id="misma-1" class="amigo check" type="checkbox" checked="checked" >
+						<i class="fa fa-check-circle"></i>
+						<label for="misma-1">
+							{{ site.data.traducciones.elementos-comunes-buscador-misma  | map : page.lang }}
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-5 text-center">
+				<div class="row parent-pair">
+					<div class="col-xs-7 col-sm-6 col-sm-offset-1 padding-0">										
+						<input  id="fecha-recogida" name="fecha-recogida" readonly="readonly"  type="text" class="datetime" placeholder="{{ site.data.traducciones.elementos-comunes-buscador-fecha-recogida | map : page.lang }}">
+						<div class="help-block hidden col-xs-12"></div>
+					</div>
+					<div class="col-xs-5 ">								
+						<input  id="hora-recogida" name="hora-recogida" type="text"  readonly="readonly" class="datetimepicker" placeholder="{{ site.data.traducciones.elementos-comunes-buscador-hora: | map : page.lang }}">
+						<div class="help-block hidden col-xs-12"></div>
+					</div>		
+				</div>
+				<div class="row parent-pair">
+					<div class="col-xs-7 col-sm-6 col-sm-offset-1 padding-0">									
+						<input  id="fecha-devolucion" name="fecha-devolucion"  type="text" readonly="readonly" class="datetime" placeholder="{{ site.data.traducciones.elementos-comunes-buscador-fecha-devolucion | map : page.lang }}">
+						<div class="help-block hidden col-xs-12"></div>
+					</div>
+					<div class="col-xs-5 ">																		
+						<input  id="hora-devolucion" name="hora-devolucion"  type="text"  readonly="readonly"  class="datetimepicker" placeholder="{{ site.data.traducciones.elementos-comunes-buscador-hora | map : page.lang }}">
+						<div class="help-block hidden col-xs-12"></div>
+					</div>								
+				</div>				
+			</div>															
+			<div class="col-xs-12 col-sm-2 container-boton">
+				<button class="btn btn-amigo btn-block" type="submit" value="BUSCAR VEHÍCULOS DISPONIBLES" >										
+					{{ site.data.traducciones.elementos-comunes-buscador-boton-buscar | map : page.lang }}
+				</button>
+			</div>
+		</form>
+	</div>
+</div>

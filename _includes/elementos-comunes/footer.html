@@ -1,0 +1,85 @@
+<!-- Footer -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6">
+				<div class="row">  
+					<div class="col-xs-12">
+						<ul id="enlaces-principales" class="list-inline">                                        
+							<li>
+								<i class="fa fa-car"></i>
+								<a href="{{'/' | prepend:page.urlLang | prepend:site.baseurl}}">
+									{{ site.data.traducciones.elementos-comunes-coches | map : page.lang }}
+								</a>
+							</li>					
+							<li>
+								<i class="fa fa-truck"></i>
+								<a href="{{'/alquiler-furgonetas' | prepend:page.urlLang | prepend:site.baseurl}}">
+									{{ site.data.traducciones.elementos-comunes-furgonetas | map : page.lang }}
+								</a>
+							</li>					
+							<li>
+								<i class="fa fa-map-marker"></i>
+								<a href="{{'/alquiler-coches' | prepend:page.urlLang | prepend:site.baseurl}}">
+									{{ site.data.traducciones.destinos | map : page.lang }}
+								</a>
+							</li>					
+							<li>
+								<i class="fa fa-globe"></i>
+								<a href="{{'/rutas' | prepend:page.urlLang | prepend:site.baseurl}}">
+									{{ site.data.traducciones.rutas | map : page.lang }}
+								</a>
+							</li>					
+							<li>
+								<i class="fa fa-question-circle"></i>
+								<a href="{{'/faq' | prepend:page.urlLang | prepend:site.baseurl}}">
+									{{ site.data.traducciones.elementos-comunes-faq | map : page.lang }}
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<ul id="enlaces-terminos" class="list-inline">                                                                                
+							<li><a href="{{'/terminos-condiciones' | prepend:page.urlLang | prepend:site.baseurl}}">{{ site.data.traducciones.elementos-comunes-footer-inferior-terminos | map : page.lang }}</a></li>
+							<li><a href="{{'/politica-cookies' | prepend:page.urlLang | prepend:site.baseurl}}">{{ site.data.traducciones.elementos-comunes-footer-inferior-cookies | map : page.lang }}</a></li>
+							<li><a href="{{'/contactar' | prepend:page.urlLang | prepend:site.baseurl}}">{{ site.data.traducciones.elementos-comunes-contactar | map : page.lang }}</a></li>										
+						</ul>
+					</div>
+				</div>				
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<div class="row">
+					<ul id="enlaces" class="list-inline">  
+						<div class="col-xs-6 col-sm-4">
+							<li><a href="#">Sitemap</a></li>
+							<li><a href="#">Servicios</a></li>
+							<li><a href="#">Ofertas</a></li>
+							<li><a href="#">Et harum quidem</a></li>
+					</div>
+					<div class="col-xs-6 col-sm-4">
+						<li><a href="#">Blog</a></li>										
+							<li><a href="#">Lorem ipsum dolor</a></li>													
+							<li><a href="#">Inventore veritatis</a></li>
+							<li><a href="#">Earum rerum hic</a></li>
+					</div>
+					<div class="col-xs-6 col-sm-4">
+						<li><a href="#">Sunt explicabo nemo</a></li>
+							<li><a href="#">A similique sunt</a></li>
+							<li><a href="#">Temporibus autem</a></li>
+					</div>
+					</ul>	                                                                              
+				</div>		
+				<div class="row">
+					<div class="col-xs-12">
+						<p class="copyright text-muted small text-right">
+							Copyright &copy; {{ site.title }} all rights reserved
+						</p>         
+					</div>
+				</div>
+			</div>
+			
+		</div>						
+	</div>
+</footer>

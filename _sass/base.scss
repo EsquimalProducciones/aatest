@@ -1,0 +1,490 @@
+/**************************************************
+MARGENES Y PADDINGS
+/**************************************************/
+.margin-bottom-0 {
+	margin-bottom : 0 !important;
+}
+.margin-top-0 {
+	margin-top : 0;
+}
+.margin-top-15 {
+	margin-top : 15px;
+}
+.margin-bottom-25 {
+	margin-bottom : 25px;
+}
+.margin-bottom-15{
+	margin-bottom:15px;
+}
+.margin-bottom-10 {
+	margin-bottom : 10px;
+}
+.margin-top-15 {
+	margin-top : 15px;
+}
+.margin-top-25 {
+    margin-top: 25px;
+}
+.padding-top-25 {
+	padding-top : 25px;
+}
+.padding-0{
+ padding:0!important;
+}
+
+.padding-left-0{
+padding-left:0 !important;
+}
+
+.padding-right-0{
+padding-right:0 !important;
+}
+
+.margin-right-15-neg {
+margin-right : -15px !important;
+}
+
+.margin-left-10{
+margin-left: 10px;
+}
+
+.table{
+display : table;
+}
+
+.cell{
+display : table-cell;
+float : none;
+
+}
+
+.cell-top{
+vertical-align : top;
+}
+
+.cell-middle{
+vertical-align : middle;
+}
+.cell-bottom{
+vertical-align : bottom;
+}
+
+.ralative{
+position : relative;
+}
+.absolute{
+position : absolute;
+}
+.top{
+top : 0;
+}
+.bottom{
+bottom : 0;
+} 
+
+
+/*************************************************
+GENERAL
+/************************************************/
+body, html {
+	font-size : 16px;
+	height : 100%;
+	width : 100%;
+    font-family : "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+a,a:hover,a:active,a:active *,a:focus, a:focus * {
+	color : $main;
+	outline : none !important; 
+	-moz-outline-style : none !important;
+}
+
+/**********************************************
+CLASES
+ *********************************************/
+.inline{
+display : inline;
+} 
+.block{
+display : block;
+}
+.width-100{
+    width : 100%;
+}
+.bg-none {
+    background-image : none !important;
+}
+.bloque{
+        /*border: 1px solid $grisAD;*/
+        border-radius: 2px;
+        padding: 15px;
+        margin-bottom: 15px;
+        h4:first-child {
+            margin: 0 -15px 10px -15px;
+            padding: 10px;
+            color: $gris3;
+            border-bottom: 2px solid $main;
+            text-align: center;
+            /*background-color: $gris3;*/
+            text-transform: uppercase;
+            /*font-weight: 300;*/
+        }
+	}
+
+a.carousel-control i{
+	position: relative;
+    top: 50%;
+}	
+
+.img-mini { 
+    height : 185px; 
+    overflow : hidden; 
+    background-color : $gris3; 
+    text-align : center;
+    background-size : cover;
+    background-position : 50% 50%;
+    &.x2 {
+        height : 100px;
+    }
+}
+.pointer-label, .pointer{
+	cursor:pointer;
+}
+.relative {
+    position : relative;
+}
+.orange {
+    color: $main;
+}
+.underline {
+    border-bottom: 2px solid $gris3;
+    padding-bottom: 15px;
+}
+tr.underline {
+    border-bottom: 1px solid $grisAD;
+}
+.underline-orange {
+    border-bottom: 2px solid $main;
+    padding-bottom: 15px;
+    color: $gris3; 
+    font-weight: normal;
+}
+.border-orange {
+    border: 2px solid $main;
+    border-radius: 2px;
+    padding: 15px;
+}
+.text-bold {
+    font-weight: bold;
+}
+.text-big {
+    font-size: 1.25em;    
+}
+.text-bigger {
+    font-size: 1.5em;   
+}
+.text-thin {
+    font-weight: 300;
+}
+.legible {
+    line-height: 1.8em;
+}
+.main-title {
+	color : $gris3;
+	color : $main;
+	font-weight : 300;
+	letter-spacing : 2px;
+	text-align : center;
+	text-transform : uppercase;
+}
+.subtitle {
+	color : $gris5;
+	font-size : 20px;
+	margin-bottom : 25px;
+	text-align : center        
+}
+.subtitle.underline-orange {
+    color: $negro;
+    border-bottom-width: 1px;
+}
+.btn-amigo{
+		background-color : rgba(242,104,34,0.65);
+		border : 2px solid $main;
+		border-radius : 2px;
+		color:#FFF;   
+		font-weight : normal;
+		font-size : 1.2em;
+		min-height : 40px;
+		margin-right: auto;   
+        margin-left: auto;
+		transition : all 0.2s ease;
+		vertical-align : middle;		
+        text-decoration : none;
+        text-transform: uppercase;        
+        &:hover, &:focus {
+			background-color : $main;
+			color : $blanco-base;     
+			text-decoration : none;
+		}
+	}		
+
+/***************
+FORMS
+ ****************/
+input.amigo{
+	background-color: rgba(255, 255, 255, 0.65);
+	border: 1px solid transparent;
+	border-radius: 0px;
+	color: $gris3;
+	line-height: 1.8em;
+	margin-bottom: 0px;
+	max-width: 100%;
+	min-height: 30px;
+    &[type="checkbox"] {
+        display: none;
+        cursor: pointer;
+        & + i {
+            color: $grisAD;
+            font-size: 1.25em;
+            margin-right: 5px;
+            & + label {
+                margin-left: -25px;
+                padding-left: 25px;
+            }
+        }   
+        &:checked + i {
+            color: $main;
+        }
+    }
+    &[type="radio"] {
+        display: none;
+        & + label{
+            padding: 5px 11px;
+            margin-right: 10px;
+            border: 1px solid $gris3;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+        &:checked + label {
+            background-color: $main;
+            color: $blanco;
+        }
+    }
+}
+
+/***************
+MODALES
+ **************/
+.modal.amigo{ 
+    .modal-header, .modal-footer {
+        border: none;
+    }
+    .modal-content{
+        border-radius: 2px;
+    }    
+	h4{
+		color: $main;
+		font-weight: normal;		
+		text-align: center;
+	}
+	button {	
+		&.close{	
+			background-color: transparent;
+            margin-top: -5px;
+		}
+		&.modify{
+			background-color: #f26822;
+			color: #fff;
+            border-color: transparent;
+		}
+	}
+}
+
+/**************
+ICONOS
+***************/
+.icons span{
+	background: url("/img/reservas/sprite.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	display: block;
+	float: left;
+	height: 20px;
+	width: 44px;
+
+	&.doors_2{
+		background-position: -44px 0px;
+	}
+	&.doors_3{
+		background-position: -44px -20px;
+	}
+	&.doors_4{
+		background-position: -44px -40px;
+	}
+	&.doors_5{
+		background-position: -44px -60px;
+	}
+	&.plazas_2{
+		background-position: -88px 0px;
+	}
+	&.plazas_3{
+		background-position: -88px -20px;
+	}
+	&.plazas_4{
+		background-position: -88px -40px;
+	}
+	&.plazas_5{
+		background-position: -88px -60px;
+	}
+
+	&.plazas_6{
+		background-position: -88px -80px;
+	}
+	&.plazas_72{
+		background-position: -88px -100px;
+	}
+	&.plazas_7{
+		background-position: -88px -120px;
+	}
+	&.plazas_8{
+		background-position: -88px -140px;
+	}
+	&.plazas_9{
+		background-position: -88px -160px;
+	}
+	&.manual{
+		background-position: -15px -20px;
+		 width: 30px;
+	}
+	&.fuelpolicy{
+		background-position: 0 -100px;
+	}
+	&.fuel-policy-icon{
+		background-position: 5px -120px;
+	
+	}
+	&.airport_es{
+		background: url("/img/reservas/airportdesk_es.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+		margin-top: 0;
+		max-width: 100px;
+		width: 100%;
+	}
+}
+
+/*********************************
+ Datetimepicker
+ ***************************/
+.datetimepicker {margin: 0; padding: 0 15px;}
+.datetimepicker td, .datetimepicker th {border-radius: 0;}
+.datetimepicker table tr td span.active:active,
+.datetimepicker table tr td span.active:hover:active,
+.datetimepicker table tr td span.active.disabled:active,
+.datetimepicker table tr td span.active.disabled:hover:active,
+.datetimepicker table tr td span.active.active,
+.datetimepicker table tr td span.active.active:hover,
+.datetimepicker table tr td span.active.disabled.active,
+.datetimepicker table tr td span.active.disabled.active:hover{
+	background-image: none !important;
+}
+.datetimepicker table tr td.active, .datetimepicker table tr td.active:hover, .datetimepicker table tr td.active.disabled, .datetimepicker table tr td.active.disabled:hover{
+	background-image: none !important;
+}
+.datetimepicker table tr td span.active:active,
+.datetimepicker table tr td span.active:hover:active,
+.datetimepicker table tr td span.active.disabled:active,
+.datetimepicker table tr td span.active.disabled:hover:active,
+.datetimepicker table tr td span.active.active,
+.datetimepicker table tr td span.active.active:hover,
+.datetimepicker table tr td span.active.disabled.active,
+.datetimepicker table tr td span.active.disabled.active:hover{
+background-color : #F26822 !important;
+}
+.datetimepicker table tr td.active:hover,
+.datetimepicker table tr td.active.disabled,
+.datetimepicker table tr td.active.disabled:hover{
+   	background-image: none !important;
+}
+.datetimepicker table tr td.active:active,
+.datetimepicker table tr td.active:hover:active,
+.datetimepicker table tr td.active.disabled:active,
+.datetimepicker table tr td.active.disabled:hover:active,
+.datetimepicker table tr td.active.active,
+.datetimepicker table tr td.active.active:hover,
+.datetimepicker table tr td.active.disabled.active,
+.datetimepicker table tr td.active.disabled.active:hover{
+    background-color : #F26822 !important;
+}
+.datetimepicker thead tr:first-child th:hover, .datetimepicker tfoot tr:first-child th:hover{
+border-radius : 2px !important;
+opacity : 0.5;
+color : black;
+}
+.datetimepicker table tr td span:hover{
+    font-weight : bold;
+}
+.datetimepicker.dropdown-menu{
+	border-radius : 2px;	
+	padding : 0px;
+	.table-condensed {
+		thead {
+			& > tr:nth-child(1){
+				height : 50px;
+				 background: none repeat scroll 0 0 #333333;
+				     color: white;
+			}
+		}
+	}
+}
+.table-condensed > thead > tr > th,
+.table-condensed > tbody > tr > th,
+.table-condensed > tfoot > tr > th,
+.table-condensed > thead > tr > td,
+.table-condensed > tbody > tr > td,
+.table-condensed > tfoot > tr > td{
+    padding : 7px !important;
+}
+.modal-backdrop.datetimeResponsive{
+    z-index: 1002;
+}
+
+/*BLOG*/
+
+.post-xl {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    margin: 12px 0;
+    border:1px solid $grisAD;
+    border-bottom-right-radius: 2px;
+    .megalink-content {
+        padding: 15px 15px 0 15px;
+        .post-title {
+            color: $main;
+            font-weight: 500;
+        }
+    }
+    a.leermas:hover {
+        background-color: transparent;
+        text-decoration: none;
+        i{
+            color: $main;
+        }
+    }
+}
+
+
+
+a.leermas:hover {
+	    background-color: transparent;
+		    text-decoration: none;
+	 i.fa-chevron-circle-right{
+	    color: $main;
+			}	
+		}
+
+
+.post-content-truncate,
+.post-content{
+	border-bottom-right-radius: 2px;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+	margin: 12px 0;
+	padding: 10px 20px 20px;
+	.main-title	{
+		font-weight:400;
+	}
+}		

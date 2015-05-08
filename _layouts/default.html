@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	{% include elementos-comunes/head.html %}
+	
+	<body>
+		{% include elementos-comunes/header.html %}		
+		{{ content }}
+		{% include elementos-comunes/socials.html %}
+		{% include elementos-comunes/footer.html %}
+		{% include elementos-comunes/js.html %}
+		{% include elementos-comunes/javascript-backbone.html %}
+	</body>
+  
+    {% for tpl in page.tpl_files %}
+    <script type="text/template" id="{{tpl.name}}">
+        {% include {{tpl.url}}  %}
+    </script>
+    {% endfor %}
+	{% for script  in page.script_files %}
+	<script src="{{'/js/' | append:script.name | prepend: site.assets | prepend:site.baseurl}}"  type="text/javascript"  ></script>
+    {% endfor %}
+
+	
+</html>

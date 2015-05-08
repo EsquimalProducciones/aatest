@@ -1,0 +1,20 @@
+- ciudad: 'Alicante'
+  precio: '31'
+  url: '/disponibilidad'
+  img: 'http://youcarrental.blob.core.windows.net/cars/CITRO%C3%A0N%20BERLINGO_md.gif'
+  
+- ciudad: 'Madrid'
+  precio: '42'
+  url: '/disponibilidad'
+  img: 'http://youcarrental.blob.core.windows.net/cars/FORD%20CONNECT_md.gif'
+  
+- ciudad: 'Barcelona'
+  precio: '52'
+  url: '/disponibilidad'
+  img: 'http://youcarrental.blob.core.windows.net/cars/Ford%20Transit%20250_md.gif'
+  
+- ciudad: 'Valencia'
+  precio: '37'
+  url: '/disponibilidad'
+  img: 'http://youcarrental.blob.core.windows.net/cars/CITROEN%20JUMPER%2012M3_md.gif'
+  

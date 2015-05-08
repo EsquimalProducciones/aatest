@@ -1,0 +1,43 @@
+<div class="home login">
+	<div class="container">
+		<div class="row">
+            <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+				<div class="row">
+					<h2 class="search">
+								{{ site.data.traducciones.login-titulo | map : page.lang }}
+					</h2>
+				</div>
+				<form>	
+					<div class="row">   
+						<div class="col-xs-12">					
+							<label>
+								{{ site.data.traducciones.login-usuario| map : page.lang }}
+							</label>
+						</div>
+						<div class="col-xs-12">	
+							<input type="text">
+						</div>
+						<div class="col-xs-12">
+							<label>
+								{{ site.data.traducciones.login-contrasenya | map : page.lang }}
+							</label>
+						</div>
+						<div class="col-xs-12">	
+							<input type="password"/>
+						</div>											
+						<div class="col-xs-12 text-center">
+							<input class="btn-block btn-amigo margin-top-15" type="submit" value="{{ site.data.traducciones.login-acceder | map : page.lang }}">
+						</div>
+					</div>
+				</form>
+			</div>
+				
+		</div>		
+	</div>                                                        
+</div>
+<div class="container" style="margin-bottom: 50px;">
+	<div class="row text-center hidden-sm hidden-xs">
+		<img src="{{'/img/logos.jpg' | prepend:site.baseurl}}">
+	</div>	
+</div>
+

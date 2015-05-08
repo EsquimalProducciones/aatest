@@ -1,0 +1,48 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: "http://www.amigoautos.com"
+title: amigoautos
+#email: your-email@domain.com
+description: > # "Buscamos el mejor precio en las mejores compañías nacionales e internacionales"
+assets: ""
+tlf-contacto: "900 49 45 60"    
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:    
+  - title: facebook
+    name: facebook
+    url: https://facebook.com/amigoautos
+  - title: twitter
+    name: twitter
+    url: https://twitter.com/amigoautos 
+  - title: google-plus
+    name: google +
+    url: https://plus.google.com/+amigoautos/posts
+  - title: rss
+    name: blog
+    url: http://amigoautos.azurewebsites.net/es/blog/
+
+
+collections:
+  destinos:
+    output: true
+    permalink: /:path/index.html 
+  ruta:
+    output: true
+    permalink: /:path/index.html 
+
+  
+   

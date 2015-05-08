@@ -1,0 +1,35 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/*Colores*/
+
+$main: #F26822;
+$grisAD : #BCBCBC;
+$gris3: #333;
+$gris5 : #555;
+$negro: #000;
+$blanco-base : #FFF;
+$blanco : #FFF;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@import
+        "base",
+		"header",
+        "index",
+		"footer",		
+		"faq",
+		"login",
+        "contactar",
+		"destinos",		
+        "disponibilidad",
+        "detalles-reserva",
+		"confirmacion",
+		"responsive"        
+;

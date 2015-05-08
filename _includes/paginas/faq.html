@@ -1,0 +1,405 @@
+<div class="home faq container-fluid hidden-xs">
+	<div class="row megatabs hidden-xs">
+		<ul class="nav nav-tabs container" role="tablist" >
+			<li role="presentation" class="col-xs-12 col-sm-3 col-md-3">			
+				<a href="#mi-reserva"  role="tab" data-toggle="tab">
+					<div class="toggle-active" >
+						<h4>
+							<span>
+								{{ site.data.idiomas.faq.faq-acerca-mi-reserva | map : page.lang }}						
+							</span>						
+						</h4>
+						<div class="img-mini x2 margin-bottom-10" style="background-image: url(/img/test/key.png)">							
+						</div>													
+						<div>
+							<span class="content">
+								{{ site.data.idiomas.faq.faq-acerca-mi-reserva-content | map : page.lang }}
+							</span>
+						</div>											
+					</div>
+				</a>				
+			</li>
+			<li role="presentation" class=" col-xs-12 col-sm-3 col-md-3">
+				<a href="#vehiculo-alquiler" role="tab" data-toggle="tab">
+					<div class="toggle-active" >
+						<h4>
+							<span>
+								{{ site.data.idiomas.faq.faq-mi-vehiculo-alquiler | map : page.lang }}
+							</span>					
+						</h4>
+						<div class="img-mini x2 margin-bottom-10" style="background-image: url(/img/test/car.png)">							
+						</div>													
+						<div>
+							<span class="content" >
+								{{ site.data.idiomas.faq.faq-mi-vehiculo-alquiler-content | map : page.lang }}
+							</span>
+						</div>											
+					</div>
+				</a>
+			</li>
+			<li role="presentation" class=" col-xs-12 col-sm-3 col-md-3">
+				<a href="#proteccion-datos" role="tab" data-toggle="tab">
+					<div class="toggle-active" >
+						<h4>
+							<span>
+								{{ site.data.idiomas.faq.faq-proteccion-datos | map : page.lang }}
+							</span>						
+						</h4>
+						<div class="img-mini x2 margin-bottom-10" style="background-image: url(/img/test/lock.png)">							
+						</div>													
+						<div>
+							<span class="content">
+								{{ site.data.idiomas.faq.faq-proteccion-datos-content | map : page.lang }}
+							</span>															
+						</div>											
+					</div>
+				</a>
+			</li>
+			<li role="presentation" class=" col-xs-12 col-sm-3 col-md-3">
+				<a href="#tarjeta-credito" role="tab" data-toggle="tab">
+					<div class="toggle-active" >
+						<h4>
+							<span>
+								{{ site.data.idiomas.faq.faq-tarjetas-credito | map : page.lang }}
+							</span>						
+						</h4>
+						<div class="img-mini x2 margin-bottom-10" style="background-image: url(/img/test/cards.png)">							
+						</div>													
+						<div>
+							<span class="content">
+								{{ site.data.idiomas.faq.faq-tarjetas-credito-content | map : page.lang }}
+							</span>
+						</div>											
+					</div>
+				</a>
+			</li>
+		</ul>
+	</div>							                                                 
+</div>
+<div class="container container-tabs">	
+	<div class="row tab-content">
+		<div role="tabpanel" class="tab-pane" id="mi-reserva">
+			<div  id="acerca-de-mi-reserva" class="panel-group ">
+				{% assign categoria-mi-reserva = site.data.idiomas.faq.listado-preguntas | where : 'categoria' , 'mi-reserva' %}
+				{% for elemento in categoria-mi-reserva  %}
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="collapsed" href="#mi-reserva-{{forloop.index}}" data-parent="#acerca-de-mi-reserva" data-toggle="collapse">
+									<i class="fa fa-chevron-circle-down"> </i>
+									<i class="fa fa-chevron-circle-up"></i>
+									<span>
+										{{ elemento.pregunta | map : page.lang }}
+									</span>									
+								</a>
+							</h4>
+						</div>
+						<div class="panel-collapse collapse" id="mi-reserva-{{forloop.index}}">
+							<div class="panel-body">
+								<p>
+									{{ elemento.respuesta | map : page.lang }}
+								</p>
+							</div>
+						</div>
+					</div>
+				{% endfor %}				
+			</div>
+		</div>
+		<div role="tabpanel" class="tab-pane" id="vehiculo-alquiler">
+			<div id="mi-vehiculo-de-alquiler" class="panel-group ">
+				{% assign categoria-mi-vehiculo = site.data.idiomas.faq.listado-preguntas | where : 'categoria' , 'mi-vehiculo' %}
+				{% for elemento in categoria-mi-vehiculo  %}
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="collapsed" href="#mi-vehiculo-{{forloop.index}}" data-parent="#mi-vehiculo-de-alquiler" data-toggle="collapse">
+									<i class="fa fa-chevron-circle-down"> </i>
+									<i class="fa fa-chevron-circle-up"></i>
+									<span>
+										{{ elemento.pregunta | map : page.lang }}
+									</span>
+								</a>
+							</h4>
+						</div>
+						<div class="panel-collapse collapse" id="mi-vehiculo-{{forloop.index}}">
+							<div class="panel-body">
+								<p>
+									{{ elemento.respuesta | map : page.lang }}
+								</p>
+							</div>
+						</div>
+					</div>
+				{% endfor %}				
+			</div>
+		</div>
+		<div role="tabpanel" class="tab-pane" id="proteccion-datos">
+			<div id="politica-de-proteccion-de-datos" class="panel-group ">
+				{% assign categoria-proteccion-datos = site.data.idiomas.faq.listado-preguntas | where : 'categoria' , 'proteccion-datos' %}
+				{% for elemento in categoria-proteccion-datos  %}
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="collapsed" href="#proteccion-datos-{{forloop.index}}" data-parent="#politica-de-proteccion-de-datos" data-toggle="collapse">
+									<i class="fa fa-chevron-circle-down"> </i>
+									<i class="fa fa-chevron-circle-up"></i>
+									<span>
+										{{ elemento.pregunta | map : page.lang }}
+									</span>
+								</a>
+							</h4>
+						</div>
+						<div class="panel-collapse collapse" id="proteccion-datos-{{forloop.index}}">
+							<div class="panel-body">
+								<p>
+									{{ elemento.respuesta | map : page.lang }}
+								</p>
+							</div>
+						</div>
+					</div>
+				{% endfor %}				
+			</div>		
+		</div>
+		<div role="tabpanel" class="tab-pane" id="tarjeta-credito">
+			<div id="tarjetas-de-credito" class="panel-group ">
+				{% assign categoria-tarjeta-credito = site.data.idiomas.faq.listado-preguntas | where : 'categoria' , 'tarjeta-credito' %}
+				{% for elemento in categoria-tarjeta-credito  %}
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="collapsed" href="#tarjeta-credito-{{forloop.index}}" data-parent="#tarjetas-de-credito" data-toggle="collapse">
+									<i class="fa fa-chevron-circle-down"> </i>
+									<i class="fa fa-chevron-circle-up"></i>
+									<span>
+										{{ elemento.pregunta | map : page.lang }}
+									</span>								
+								</a>
+							</h4>
+						</div>
+						<div class="panel-collapse collapse" id="tarjeta-credito-{{forloop.index}}">
+							<div class="panel-body">
+								<p>
+									{{ elemento.respuesta | map : page.lang }}
+								</p>
+							</div>
+						</div>
+					</div>
+				{% endfor %}				
+			</div>
+		</div>
+	</div> 
+	<div class="row mega-acordeon">
+		<div class="col-xs-12">
+			<div class="panel-group" id="accordion" >		
+				<div class="panel">
+					<div class="panel-heading mega-acordeon-heading" id="mi-reserva-acordeon-heading" >
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#mi-reserva-acordeon" class="collapsed" >
+								<div class="scroll-control">
+									<h4>
+										<span>
+											{{ site.data.idiomas.faq.faq-acerca-mi-reserva | map : page.lang }}	
+										</span>						
+									</h4>
+									<div class="img-mini x2 margin-bottom-10" style="background-image: url(/img/test/key.png)">										
+									</div>													
+									<div>
+										<span class="content"> 
+											{{ site.data.idiomas.faq.faq-acerca-mi-reserva-content | map : page.lang }}
+										</span>																			
+									</div>											
+								</div>
+							</a>
+						</h4>
+					</div>
+					<div id="mi-reserva-acordeon" class="panel-collapse collapse  mega-acordeon-body" >
+						<div class="panel" >
+							<div  id="acerca-de-mi-reserva2" class="panel-group ">
+								{% assign categoria-mi-reserva = site.data.idiomas.faq.listado-preguntas | where : 'categoria' , 'mi-reserva' %}
+								{% for elemento in categoria-mi-reserva  %}
+									<div class="panel" >
+										<div class="panel-heading row">
+											<h4 class="panel-title">
+												<a class="collapsed" href="#mi-reserva-pregunta-{{forloop.index}}" data-parent="#acerca-de-mi-reserva2" data-toggle="collapse">
+													<i class="fa fa-chevron-circle-down col-xs-1"> </i>
+													<i class="fa fa-chevron-circle-up col-xs-1"></i>
+													<span class="col-xs-11">
+														{{ elemento.pregunta | map : page.lang }}
+													</span>
+												</a>
+											</h4>
+										</div>
+										<div class="panel-collapse collapse" id="mi-reserva-pregunta-{{forloop.index}}">
+											<div class="respuesta acordeon" >
+												<p>
+													{{ elemento.respuesta | map : page.lang }}
+												</p>
+											</div>
+										</div>
+									</div>
+								{% endfor %}				
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel">
+					<div class="panel-heading mega-acordeon-heading" id="mi-vehiculo-acordeon-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#mi-vehiculo-acordeon">
+								<div class="scroll-control">
+									<h4>
+										<span>
+											{{ site.data.idiomas.faq.faq-mi-vehiculo-alquiler | map : page.lang }}
+										</span>					
+									</h4>
+									<div class="img-mini x2 margin-bottom-10" style="background-image: url(/img/test/car.png)">										
+									</div>													
+									<div>
+										<span class="content">
+											{{ site.data.idiomas.faq.faq-mi-vehiculo-alquiler-content | map : page.lang }}
+										</span>												
+									</div>											
+								</div>
+							</a>
+						</h4>
+					</div>
+					<div id="mi-vehiculo-acordeon" class="panel-collapse collapse  mega-acordeon-body" >
+						<div class="panel" >
+							<div  id="acerca-de-mi-vehiculo2" class="panel-group ">
+								{% assign categoria-mi-vehiculo = site.data.idiomas.faq.listado-preguntas | where : 'categoria' , 'mi-vehiculo' %}
+								{% for elemento in categoria-mi-vehiculo  %}
+									<div class="panel" >
+										<div class="panel-heading row">
+											<h4 class="panel-title">
+												<a class="collapsed" href="#mi-vehiculo-pregunta-{{forloop.index}}" data-parent="#acerca-de-mi-vehiculo2" data-toggle="collapse">
+													<i class="fa fa-chevron-circle-down col-xs-1"> </i>
+													<i class="fa fa-chevron-circle-up col-xs-1"></i>
+													<span class="col-xs-11">
+														{{ elemento.pregunta | map : page.lang }}
+													</span>
+												</a>
+											</h4>
+										</div>
+										<div class="panel-collapse collapse" id="mi-vehiculo-pregunta-{{forloop.index}}">
+											<div class="respuesta acordeon" >
+												<p>
+													{{ elemento.respuesta | map : page.lang }}
+												</p>
+											</div>
+										</div>
+									</div>
+								{% endfor %}				
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel">
+					<div class="panel-heading mega-acordeon-heading" id="proteccion-datos-acordeon-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#proteccion-datos-acordeon">
+								<div class="scroll-control">
+									<h4>
+										<span>
+											{{ site.data.idiomas.faq.faq-proteccion-datos | map : page.lang }}
+										</span>						
+									</h4>
+									<div class="img-mini x2 margin-bottom-10" style="background-image: url(/img/test/lock.png)">										
+									</div>													
+									<div>
+										<span class="content">
+											{{ site.data.idiomas.faq.faq-proteccion-datos-content | map : page.lang }}
+										</span>															
+									</div>											
+								</div>
+							</a>
+						</h4>
+					</div>
+					<div id="proteccion-datos-acordeon" class="panel-collapse collapse  mega-acordeon-body" >
+						<div class="panel" >
+							<div  id="proteccion-datos2" class="panel-group ">
+								{% assign categoria-proteccion-datos= site.data.idiomas.faq.listado-preguntas | where : 'categoria' , 'proteccion-datos' %}
+								{% for elemento in categoria-proteccion-datos %}
+									<div class="panel" >
+										<div class="panel-heading row">
+											<h4 class="panel-title">
+												<a class="collapsed" href="#proteccion-datos-pregunta-{{forloop.index}}" data-parent="#proteccion-datos2" data-toggle="collapse">
+													<i class="fa fa-chevron-circle-down col-xs-1"> </i>
+													<i class="fa fa-chevron-circle-up col-xs-1"></i>
+													<span class="col-xs-11">
+														{{ elemento.pregunta | map : page.lang }}
+													</span>
+												</a>
+											</h4>
+										</div>
+										<div class="panel-collapse collapse" id="proteccion-datos-pregunta-{{forloop.index}}">
+											<div class="respuesta acordeon" >
+												<p>
+													{{ elemento.respuesta | map : page.lang }}
+												</p>
+											</div>
+										</div>
+									</div>
+								{% endfor %}				
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel">
+					<div class="panel-heading mega-acordeon-heading" id="tarjeta-credito-acordeon-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#tarjeta-credito-acordeon">
+								<div class="scroll-control">
+									<h4>
+										<span>
+											{{ site.data.idiomas.faq.faq-tarjetas-credito-content: | map : page.lang }}
+										</span>						
+									</h4>
+									<div class="img-mini x2 margin-bottom-10" style="background-image: url(/img/test/cards.png)">									
+									</div>													
+									<div>
+										<span class="content">
+											{{ site.data.idiomas.faq.faq-tarjetas-credito-content: | map : page.lang }}
+										</span>															
+									</div>											
+								</div>
+							</a>
+						</h4>
+					</div>
+					<div id="tarjeta-credito-acordeon" class="panel-collapse collapse mega-acordeon-body" >
+						<div class="panel" >
+							<div  id="tarjeta-credito2" class="panel-group ">
+								{% assign categoria-tarjeta-credito = site.data.idiomas.faq.listado-preguntas | where : 'categoria' , 'tarjeta-credito' %}
+								{% for elemento in categoria-tarjeta-credito %}
+									<div class="panel" >
+										<div class="panel-heading row">
+											<h4 class="panel-title">
+												<a class="collapsed" href="#tarjeta-credito-pregunta-{{forloop.index}}" data-parent="#tarjeta-credito2" data-toggle="collapse">
+													<i class="fa fa-chevron-circle-down col-xs-1"> </i>
+													<i class="fa fa-chevron-circle-up col-xs-1"></i>
+													<span class="col-xs-11">
+														{{ elemento.pregunta | map : page.lang }}
+													</span>
+												</a>
+											</h4>
+										</div>
+										<div class="panel-collapse collapse" id="tarjeta-credito-pregunta-{{forloop.index}}">
+											<div class="respuesta acordeon" >
+												<p>
+													{{ elemento.respuesta | map : page.lang }}
+												</p>
+											</div>
+										</div>
+									</div>
+								{% endfor %}				
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container" style="margin-bottom: 50px;">
+	<div class="row text-center hidden-sm hidden-xs">
+		<img alt="logos" src="{{'/img/logos.jpg' | prepend:site.baseurl}}"/>
+	</div>	
+</div>

@@ -1,0 +1,85 @@
+- title: 
+    - es: 'Tu coche en Madrid desde'
+    - en: 'Sin pagar suplemento adicional' 
+    - de: ''
+    - fr: ''
+    - pt: ''
+    - it: ''
+    - nl: ''
+    - ru: ''
+  content:
+    - es: '13€/día'
+    - en: '13€/día'
+    - de: ''
+    - fr: ''
+    - pt: ''
+    - it: ''
+    - nl: ''
+    - ru: ''
+  url: '/disponibilidad'
+  img: 2.jpg
+  
+- title:
+    - es: ' Tu coche en Mallorca desde'
+    - en: ' Your car in Mallorca'
+    - de: ''
+    - fr: ''
+    - pt: ''
+    - it: ''
+    - nl: ''
+    - ru: ''
+  content: 
+    - es: '10€/día'
+    - en: '10€/día'
+    - de: ''
+    - fr: ''
+    - pt: ''
+    - it: ''
+    - nl: ''
+    - ru: ''
+  url: '/disponibilidad'
+  img: 1.jpg
+  
+- title: 
+    - es: 'Alquila tu furgoneta ahora'
+    - en: 'Rent your truck now'
+    - de: ''
+    - fr: ''
+    - pt: ''
+    - it: ''
+    - nl: ''
+    - ru: ''
+  content: 
+    - es: 'con un 10% de descuento'
+    - en: '10% discount'
+    - de: ''
+    - fr: ''
+    - pt: ''
+    - it: ''
+    - nl: ''
+    - ru: ''
+  url: '/disponibilidad'
+  img: 3.jpg
+  
+- title: 
+    - es: '¡Conductor adicional gratis'
+    - en: 'Free Additional Driver '
+    - de: ''
+    - fr: ''
+    - pt: ''
+    - it: ''
+    - nl: ''
+    - ru: ''
+  content: 
+    - es: 'Sin pagar suplemento adicional'
+    - en: 'Without paying additional cost'
+    - de: ''
+    - fr: ''
+    - pt: ''
+    - it: ''
+    - nl: ''
+    - ru: ''
+  url: '/disponibilidad'
+  img: 4.jpg
+  
+

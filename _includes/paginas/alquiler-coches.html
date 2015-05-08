@@ -1,0 +1,29 @@
+<div class="home container-fluid hidden-xs">
+	{% include elementos-comunes/buscador-header.html%}
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<h1 class="main-title">
+				{{ site.data.traducciones.destino-titulo-pagina | map : page.lang }}
+			</h1>
+			<h2 class="subtitle">
+				{{ site.data.traducciones.destino-subtitulo-pagina | map : page.lang }}
+			</h2>
+			<div class="col-sm-8 col-sm-offset-2 text-center">
+				<p>
+					{{ site.data.traducciones.destino-contenido-pagina | map : page.lang }}
+				</p>
+			</div>
+		</div>
+	</div>	
+
+	{%include elementos-comunes/selector-destino.html%}
+
+	<div class="row">
+		<div class="col-xs-12">
+			<img class="img-responsive center-block" style="width:100%" alt="madrid" src="http://amigoautos.azurewebsites.net/wp-content/uploads/2014/04/madrid1.jpg">                            
+		</div>
+	</div>
+</div>
+

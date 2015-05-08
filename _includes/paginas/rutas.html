@@ -1,0 +1,43 @@
+<div class="home hidden-xs">
+	{% include elementos-comunes/buscador-header.html%}
+</div>
+<div class="container">
+	<header class="entry-header">
+		<h1 class="main-title">
+			{{ site.data.traducciones.rutas | map : page.lang }}
+		</h1>
+		<h2 class="subtitle">
+			{{ site.data.traducciones.guias-subtitulo-pagina | map : page.lang }}
+		</h2>
+		<div class="row">
+			<p class="col-sm-8 col-sm-offset-2 text-center">
+				{{ site.data.traducciones.guias-selecciona-ciudad | map : page.lang }}
+			</p>
+		</div>
+	</header>
+	<div class="row selectordestino">
+		<div class="btn-group col-xs-12 col-sm-6" id="isla-dropdown">
+			<button aria-expanded="false" data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button">
+				<span>
+					{{ site.data.traducciones.guias-elige | map : page.lang }}
+				</span>
+				<i class="fa fa-chevron-down pull-right"></i>
+			</button>
+			<ul role="menu" id="islas" class="dropdown-menu">
+			</ul>
+		</div>
+		<div class="btn-group col-xs-12 col-sm-6" id="ruta-dropdown">
+			<button aria-expanded="false" data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button">
+				<span>
+					{{ site.data.traducciones.guias-elige-ruta | map : page.lang }}
+				</span>
+				<i class="fa fa-chevron-down pull-right"></i>
+			</button>
+			<ul role="menu" id="rutas" class="dropdown-menu">
+			</ul>
+		</div>
+		<div class="col-xs-12">
+			<img  alt="mapa-general" class="img-responsive center-block	" src="{{'/img/world.jpg' | prepend:site.baseurl}}">
+		</div>
+	</div>
+</div>			

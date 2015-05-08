@@ -1,0 +1,16 @@
+<% if (tipo == 'continente'){ %>
+{% for destino in site.data.oficinas.Continents %}
+	<li data-valor="{{ destino.Codigo }}" data-type="{{ destino.Code }}">{{ destino.Title | map : page.lang }}</li>
+{% endfor %}
+<% } %>
+<% if (tipo == 'pais'){ %>
+{% for destino in site.data.oficinas.Countries %}
+	<% if (continente == '{{destino.Category}}') { %><li data-valor="{{ destino.Codigo }}" data-type="{{ destino.Code }}">{{ destino.Title | map : page.lang }}</li><% } %>
+{% endfor %}
+<% } %>
+<% if (tipo == 'ciudad'){ %>
+{% for destino in site.data.oficinas.Cities %}
+	<% if (pais == '{{destino.Category}}') { %><li data-valor="{{ destino.Codigo }}" data-type="{{ destino.Code }}">{{ destino.Title | map : page.lang }}</li><% } %>
+{% endfor %}
+<% } %>
+

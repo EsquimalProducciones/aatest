@@ -1,0 +1,585 @@
+/*******************************
+            XS
+ ******************************/
+@media(max-width:767px) {
+.price-column{
+border : 0 ;
+}
+
+.oferta{
+border-top : 1px solid $main;
+margin-top : 15px;
+}
+
+.detalles-modelo{
+.parner
+{
+img	{
+max-width : 100px;	
+	}
+}
+}
+
+	/************
+ *Reset para las reglas de las tablas
+ **********/
+    div[class*="col-"].cell{
+    float :left;
+    }
+    .absolute{
+        position : inherit;
+    }
+/**Selector de fechas***/
+    .table-condensed{
+        width : 100%;
+    }
+/*****header*****/
+    #header {
+    padding : 0;
+    height : auto;
+    background-color : $main;
+    position: relative;
+	.container{
+		.navbar-header{
+			position:relative;
+			div.visible-xs-block{
+				position:relative;
+				a{
+					display : block;
+					margin : 10px auto;
+					width : 100px;
+				}
+			}
+			button.navbar-toggle{
+			position:absolute;
+			z-index : 1000;
+			}
+	
+		}
+	}
+
+
+    .navbar-brand {
+        height : 70px;
+        background-color: transparent;
+        padding: 10px 50px;        
+    }
+    a.tlf-xs {
+        display: inline-block;
+        float: right;
+        color: $blanco;    
+        font-size: 1.8em;
+        padding: 15px;
+		position : absolute;
+		right : 15px;
+		top : 0;
+        
+    }
+    #menu {
+        > div.row > ul:first-child > li {
+            min-height: 52px;
+            padding : 0;
+        }       
+        float : none !important;
+        background-color : $blanco-base;
+        overflow: hidden;
+        .nav.navbar-nav.navbar-right {
+            margin: 7px 0;
+            text-align: center;
+            > li {                
+                > a.seclink {                   
+                    min-height: 52px;
+                    padding-top: 5px;
+                        span {
+                            display: block;
+                            position: absolute;
+                            bottom: 0;
+                            right: 0;
+                            left: 0;
+                            &.text-big {
+                                display: inline-block;
+                                position:relative;
+                                color: $gris3;
+                                font-size: 1.5em;
+                            }
+                        }
+                    i {
+                        font-size: 1.5em;
+                        top: 0;
+                        right: 0;
+                        left: 0;
+                        &.fa-phone {
+                            color: $main;
+                        } 
+                    }
+                    img {
+                        width: 28px;
+                        height: auto;
+                    }
+                }      
+                > a.mainlink{
+                    padding: 16px;
+                }
+                &.open {
+                > a.seclink {
+                    color: $gris5;
+                    i.fa-angle-down{
+                        color: $main;
+                        transform: rotate(180deg);
+                        vertical-align: middle;
+                    }
+                }
+            }
+                &.z-index-menu-responsive{
+                    position : relative;
+                    z-index : 1024;
+                }
+            }
+            
+            > #idiomas {
+                a {
+                    color: $gris5;       
+                }
+                > a {
+                    color: $main;
+                    border: none;
+                    background: transparent;
+                    i.fa-angle-down {
+                        vertical-align: sub;
+                    }
+                    > span {
+                        top: 32px;
+                    }
+                }           
+               .dropdown-menu {
+                   font-size:15px;
+                   background-color: transparent;                 
+                   li{
+                       text-align: center;
+                        a {   
+                            padding-top:25px;
+                            padding-bottom:25px;                       
+                            img.flag-lang{
+                                position: relative;
+                                /*margin-right :25px;*/
+                                margin-top: 0;
+                                height: auto;
+                                width: 28px;
+                            }                            
+                        }
+                    }
+                }
+            }    
+        }
+    }
+    + div.container {
+        padding-top: 0;
+    }
+}   
+/*****faqs*****/
+    .mega-acordeon{
+        .panel{
+            box-shadow:none;	
+            .mega-acordeon-heading h4{
+                border: 2px solid transparent;
+                border-radius: 2px;
+                color: #f26822;
+                font-weight: 300;
+                margin-top: 0;
+                min-height: 46px;
+                padding: 10px 5px;
+                text-align: center;
+                text-transform: uppercase;     
+                a{
+                    text-decoration:none;
+                    .content{
+                        color: $gris5;
+                        font-size: 15px;
+                        text-transform: none;
+                        font-weight: normal	;
+                    }
+                    .img-mini.x2{
+                        background-color: transparent;
+                        background-repeat: no-repeat;
+                        background-size: auto auto;
+                        border-radius: 3px;
+                        margin-bottom: 15px;
+                        margin-top:15px;
+                        border-bottom: 2px solid $main;
+                    }
+                    div.mega-acordeon-heading-title {
+                        border : 2px solid transparent;
+                        color: $main;
+                        text-align : center;
+                        padding : 10px;
+                        border-radius: 2px;
+                        width: 100%;            
+                    }
+                    &.active {
+                        div.mega-acordeon-heading-title {
+                            border-color:$main;
+                            font-weight: 500;
+                        }
+                        .content {font-weight: bold;}
+                    }         
+
+                }
+            }
+            .mega-acordeon-body {
+                .panel{			
+                    .panel-heading{
+                        background-color: #fff;
+                        border-bottom: 1px solid #bcbcbc;
+                        padding: 15px;
+                        .panel-title{
+                            a > * {padding: 0;}
+                            i {
+                                color: $main;      
+                                font-size: 1.2em;
+                                vertical-align: middle;
+                            }
+                            & >	a.collapsed i:nth-child(2){
+                                display : none;
+                            }
+                            & > a:not(.collapsed) i:first-child{
+                                display : none;
+                            }                    
+                        }            
+                    }
+                    .respuesta.acordeon{
+                        padding:15px 0;
+                    }
+                }						
+            }
+        }
+    }
+/*****home********/
+	.home {
+		margin-top : 0;
+		.booking {			
+            .check-misma-oficina {
+                min-height: 0;               
+            }
+		}
+        &.maxi {
+            padding-top: 10%;
+        }
+	}    
+    .booking {
+        & > h1 {
+            font-size : 3em;
+        }
+        div.padding-0{
+            padding : 0 0 0 15px !important;
+        }
+        div.padding-left-0 {
+            padding-left: 15px !important
+        }
+    }
+/*****social********/
+	.banner {
+		padding : 0;        
+        .banner-social-buttons {
+        > li {
+            margin-bottom : 20px;
+            padding : 0 15px;
+            .btn-social {
+                width : 185px;
+            }
+            &:last-child{
+                margin-bottom : 0;
+            } 
+        }
+        .dropdown.appear {
+            padding : 0 15px;
+            #suscri {
+                width : 185px;
+                left : 15px;
+                label.fa-envelope{            
+                    margin-left :  9px;
+                }
+            }
+        }
+    }
+}
+/***contactar******/
+    #formulario-contacto #contacto-dropdown .dropdown-menu{
+        width: 100% ;
+        margin: 0;
+    }           
+/******destinos/rutas******/
+    .destino-contenido .central {
+        padding-right: 15px;
+        p img  {
+            padding: 0;
+            float: none;
+            max-width: 100%;
+        }
+    }    
+    .rutas img {
+        padding: 0;
+        float: none;
+        max-width: 100%;
+    }   
+/**********************
+    PROCESO DE RESERVA
+***********************/
+    /*****disponibilidad*****/
+  	.criterios {  
+                min-height: 0;
+                padding:0;
+                border-radius:0;
+                > .visible-xs-block > a {
+                    color: $main;
+                    text-align: center;
+                    display: block;
+                    font-weight: normal;
+                    padding: 15px;
+                    i{
+                        color: $blanco;
+                        padding-left: 5px;
+                        font-size: 1.5em;
+                        vertical-align: sub;
+                    }
+                    &:hover, &:focus {
+                        text-decoration: none;
+                        
+                    }
+                }                               
+                > div:last-child{
+                    > div:first-child, > div:nth-child(2){
+                    padding: 0 10px;
+                    }                 
+               }
+               #recogida-devolucion {                  
+				  .recogida-devolucion-container{
+				  padding : 10px 0;
+				  display : table;
+				  } 
+				   overflow-x: hidden;
+                   text-align:center;
+                   border: none;
+                   padding: 0;                   
+                   button {
+                       border: 2px solid $main;
+                       border-radius: 2px;
+                       margin: 15px 15px 0 15px;
+                       width: 90%;
+                   }
+               }               
+            } 
+    .resultados, .detalles {
+        .filtrar-ordenar {
+            button {
+                width: 100%;
+                min-width: 0;
+            }
+        }       
+        .linea-resultados-filtrar-ordenar {
+            > div.filtrar-ordenar:nth-child(2){
+                padding-right: 7.5px;            
+            }
+            > div.filtrar-ordenar:nth-child(3){
+                padding-left: 7.5px;            
+            }
+        }
+        .resultado {
+            margin-right: 0;
+            padding: 15px;
+            .condiciones {
+            padding: 10px 0;
+            }
+            .precio {
+                color: $blanco;
+                background-color: $main;
+                min-height: 0;
+            }
+    }
+}	
+    .resultados .filtrar-ordenar button {
+        margin-right: 0;
+    }
+    .resultados .filtrar-ordenar.open .ordenar-btn + .dropdown-menu.desde,
+    .resultados .filtrar-ordenar.open .ordenar-btn + .dropdown-menu.hasta,{
+        max-width: calc(100% - 30px);
+        width : 100%;
+        padding-bottom:1px;
+        li{
+            a{
+                color :$gris3;
+                background-color : $blanco;
+                border-bottom : solid $main 1px;
+                font-weight:bold;
+                &:hover{
+                    color: $blanco;
+                    background-color: rgba(242, 104, 34, 0.65);
+                    font-weight:bold;
+                }
+            }
+        }
+}    
+    /********detalles-reserva*******/
+    .detalles .bloque {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    a[href="/disponibilidad"] {margin-bottom: 15px;}
+    a[href="#boton-pago-online"] {margin-bottom: 15px;}
+    .info-vehiculo .pagos > div div:first-child a {margin-bottom: 0;}    
+    #detalles-reserva {       
+        > div.row {margin-right: -15px; margin-left: -15px;}
+        > div.extras {margin-right: 0; margin-left: 0;}
+        }  
+    .bloque.container {
+        > div.col-xs-12.col-sm-6:first-child {
+            border-right: none;
+        }
+    }
+    #confirmacion-row-2{
+        .recogida,
+        .devolucion{
+                min-height : 100px;	
+            ul.list-unstyled{
+                text-align : center;
+                margin-left : 0;
+                li{
+                display : inline-block;
+                min-width : 50px;
+                margin-left : 15px;
+                }
+            }
+        }
+    }
+    #codigos-promocionales > div {margin-left: 0;}
+    /******confirmacion******/
+    .msj-main {
+        padding: 0 30px 15px 30px;
+        h2 {
+            text-transform: none;
+            line-height: 1.5em;
+            letter-spacing: 1.5;
+            font-size: 20px;
+        }
+    }
+    .confirmacion{  
+        img.partner {padding: 15px 0}
+        .bloque {padding: 0 10px 10px 10px;}
+        > div.row:first-child {
+            > div:nth-child(3) {                
+                padding-right: 0;
+            }
+            > div:nth-child(2){
+                padding-left: 0;
+            }
+        }
+    }
+}
+/******************************
+          > XS
+ *****************************/
+@media(min-width:768px){
+    #header {
+        .col-sm-auto {
+            width : auto;
+            padding : 0;
+        }
+    }
+    .home.maxi #form-buscador > div:first-child, .home.maxi #form-buscador > div:nth-child(2) {
+        width: 50%;
+    }
+    .home .booking div[style="display: block;"] + .check-misma-oficina, 
+    .home .booking div[style=""] + .check-misma-oficina {
+        margin-left: calc(100% + 40px);
+        padding-left: 0;
+        position: absolute;
+    }
+	.resultado .addons{
+		min-height : 155px;
+	}
+}
+/********************************
+            SM
+ *******************************/
+@media(min-width:768px) and (max-width:991px) {     
+
+	.elipsis-sm {
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 115px;
+    }
+    .margin-top-15-sm{
+        margin-top : 15px;
+    }
+    .precio .text-center .block-sm{
+        display:block !important;
+    }	
+    .filtro #precios .ordenar-btn{
+    	position : relative;
+    	left : 8px;
+        &+ul.desde{
+            left:24px;
+        }
+        &+ul.hasta{
+            left:23px;
+        }
+    }
+    .banner .banner-social-buttons .dropdown.appear {
+        padding-top: 15px; 
+        #suscri{
+            top : 15px;
+        }
+        #suscri-comment{
+            margin-top : 5px;
+        }
+        #suscri-poli{
+            margin-top : 25px;
+        }
+    }
+}
+/*************************
+            MD
+**************************/
+@media(min-width:992px) and (max-width:1999px) {
+	#confirmacion-row-2{
+		.recogida,
+		.devolucion{
+			ul.list-unstyled{
+				margin-left : 0;
+			}
+		}
+	}    
+	.megatabs>li>a {
+		min-height : 280px;
+	}
+	.megatabs>li>a>h4 {
+		min-height : 40px;
+	}
+    .megalink a .megalink-content div:nth-child(1){
+    min-height : 54px;
+}
+    .self.collapse,
+	.self.collapsing{
+		-webkit-transition: height 0.01s;
+		-moz-transition: height 0.01s;
+		-ms-transition: height 0.01s;
+		-o-transition: height 0.01s;
+		transition: height 0.01s;
+		display:block !important;
+	}
+}
+/***************************
+            LG
+ ***************************/
+@media(min-width:1200px) {
+    .megatabs > ul.nav-tabs > li > a {
+        h4 {
+            min-height: 0;
+            margin-bottom: 25px;
+            & + div.img-mini {
+                margin-bottom: 25px;
+            }
+        }        
+    }
+}

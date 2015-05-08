@@ -1,0 +1,291 @@
+.detalles {
+    margin-top: 15px;   
+    label {
+        font-weight: normal;
+        margin-bottom: 0;        
+    }
+    input,select {
+        border-radius: 2px;
+        border-collapse: $grisAD;
+        min-height: 36px;
+        margin-top: 5px;		
+        &:focus{
+            border-color: $main;
+            box-shadow: 0 1px 1px rgba(242, 104, 34, 0.45);
+        }
+    }
+}
+
+.info-vehiculo {
+    border: 1px solid $gris5;
+    border-radius: 2px;
+    padding: 15px ;
+    margin-bottom: 15px;
+    a[href="#boton-pago-online"] {margin-bottom: 15px;}
+    .container-img-reserva {
+        padding: 0;
+        img {min-width: 300px;}
+    }
+    .img-colab {
+        max-width: 75px;
+        display: inline-block;
+        float: left;
+        
+    }
+    a[href="/disponibilidad"]{
+        float: left;
+        font-size: 0.85em;        
+    }
+    .modelo {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: $main;
+        font-weight: normal;
+        line-height: 0.7em;
+        margin-left: -20px;
+        /*text-transform: uppercase;*/
+    }
+    small {color: $grisAD; margin-left: -20px;}
+    .icons {margin-top: 25px;}
+
+}
+.pagos {
+        * {vertical-align: middle;}
+        >div div:first-child {
+            a {margin-bottom: 15px;}
+        }
+        a {
+            color: $gris5;
+            border: 3px solid $main;
+            background-color: transparent;
+            border-radius: 3px;
+            display: inline-block;
+            transition: all 0.2s ease 0s;
+            padding: 5px;
+            /*min-width: 150px;*/
+            width: 100%;
+            font-weight: 700;
+            &:hover, &:focus {
+                text-decoration: none;
+                background-color: $main;
+                color: $blanco;                
+            }
+        }       
+    }
+#detalles-reserva,
+#confirmacion{
+    .bloque {
+        padding: 0 15px;
+        h4 {
+            &.title-extras {
+                margin: 0 0 10px 0;
+            }
+            &.title-extra {          
+                border: none;
+                color: $gris3;
+            }
+        }
+        .tarjetas {
+            .img-responsive {
+                width: 100%;
+                height: auto;
+                max-height: 45px;
+                border-radius: 2px;
+            }
+            input.amigo[type="radio"] + label{
+                padding: 5px 11px;
+                border: none;
+                cursor: pointer;
+				width : 80px;
+				display : inline-block;
+				vertical-align : middle;	
+            }
+            input.amigo[type="radio"]:checked + label {
+                background-color: $main;
+                color: $blanco;
+                border-radius: 2px;
+            }
+			.tipos > div {
+			min-height : 70px;
+			line-height: 60px;
+			}
+        }       
+    }
+	.button.pagar-ahora.active{
+		font-size: 1.2em;
+		margin-top: 50px;
+		padding: 15px;
+	}
+	.button.pagar-online.active{
+		font-size: 1.2em;
+		margin-top: 50px;
+		padding: 15px;
+	}
+}
+
+#codigos-promocionales > div {
+    margin-left: -15px;
+    background-image: url(/img/pass.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+    > div > * {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+     p {
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+        text-transform: uppercase;        
+        color: $blanco;
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 1.25em
+     }    
+    input {
+        background-color: rgba(255, 255, 255, 0.65);
+        border: 1px solid transparent;
+        border-radius: 2px;
+        color: #333;
+        line-height: 1.8em;
+       
+        max-width: 100%;
+        min-height: 36px;
+        width: 100%;
+        padding: 5px;
+    }
+    label {display:none;}
+    #canjear-codigo {
+        max-width: 290px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        display: block;
+        background-color: rgba(242, 104, 34, 0.65);
+        border: medium none transparent;
+        border-radius: 2px;
+        color: #fff;        
+        transition: all 0.2s ease 0s;
+        padding: 7.5px;
+        white-space: nowrap;
+        text-align: center;
+        &:hover {
+            background-color: $main;
+            text-decoration: none;
+            
+        }
+    }
+}
+
+.sillitas {
+    >div.row {
+        padding: 10px 0;
+    }
+}
+
+.nav.pagos > li > a:hover,
+.nav.pagos > li > a:focus{
+/*
+ * background-color: rgba(242, 104, 34, 0.65);
+ */
+	background-color:$main;
+}
+
+.nav.pagos > li > a.active{
+	background-color:$main;
+}
+
+
+.pagar-ahora,
+.pagar-online{
+    width: 100%;
+    display: none;
+    margin-top: 0;
+    /*min-height: 100px;*/  
+    padding: 30px;
+    border-radius: 3px;
+    background-color: $main;
+    color: $blanco;
+    font-size: 1.5em;
+    font-weight: 300;
+    &:hover {
+        color: $blanco;
+        text-decoration: none;
+    }
+&.active{
+display:block;
+margin-top:20px;
+}
+
+}
+
+
+#modificar-reserva-div {
+    background-color: $gris3;
+}
+
+
+#modificar-reserva{
+    	padding: 15px 0;
+  	
+    }
+
+
+#modificar-reserva-div .form-group button.btn-block{
+	border: 2px solid $main;
+	border-radius: 2px;
+	margin: 0  25% ;
+	width: 50%;
+	background-color: transparent;
+	color: $main;
+	font-weight: normal;
+
+}
+
+
+
+/*.modificar-reserva-container .parent-pair{
+margin-top : 20px;
+}*/
+
+
+
+
+
+/***************************
+ *Css de la confirmacion del proceso de reserva
+ ***************************/
+#num-reserv{
+font-size : 3em;
+text-rendering : optimizelegibility;
+}
+
+
+#confirmacion .bloque{
+	overflow : hidden;
+}
+
+
+.bloque.estado i{
+font-size: 30px;
+text-align : center;
+
+}
+
+
+#confirmacion-row-1{
+	.bloque{
+		min-height:170px ;
+	}   
+}
+
+#confirmacion-row-2{
+	.bloque{
+		min-height:190px ;
+	}   
+}
+
+#confirmacion-row-3{
+	.bloque{
+		min-height:150px ;
+	}   
+}
+
+

@@ -1,0 +1,105 @@
+<div class="home container-fluid hidden-xs">
+	{% include elementos-comunes/buscador-header.html%}
+</div>
+<div class="container">
+	<h1 class="main-title">
+		{{ site.data.traducciones.contactar-pagina-titulo | map : page.lang }}
+	</h1>	
+	<h2 class="subtitle">
+		{{ site.data.traducciones.contactar-pagina-subtitulo | map : page.lang }}
+	</h2>
+	<div class="row">
+		<div class="col-xs-12 col-sm-offset-2 col-sm-8">
+			<p class="border-orange text-center">
+				{{ site.data.traducciones.contactar-pagina-info-1 | map : page.lang }} <br/>
+				<span class="text-big"> {{ site.tlf-contacto }} </span><br/>
+				{{ site.data.traducciones.contactar-pagina-info-2 | map : page.lang }} <br/>
+				{{ site.data.traducciones.contactar-pagina-info-3 | map : page.lang }} <br/>
+				<span class="text-big"> {{ site.tlf-contacto }} </span><br/>
+				{{ site.data.traducciones.contactar-pagina-info-4 | map : page.lang }} <br/>
+			</p>
+		</div>
+	</div>
+	<div class="row" id="formulario-contacto">
+		<div class="col-xs-12 col-sm-offset-2 col-sm-8">
+		<div class="form-contacto">
+			<form action="">
+				<div class="form-group col-xs-12 col-sm-4">
+					<label for="contacto-nombre">
+							{{ site.data.traducciones.contactar-formulario-nombre | map : page.lang }}
+					</label>
+					<input type="text" id="contacto-nombre" name="contacto-nombre"  class="form-control">
+				</div>
+				<div class="form-group col-xs-12 col-sm-8">
+					<label for="contacto-apellidos">	
+							{{ site.data.traducciones.contactar-formulario-apellidos | map : page.lang }}
+					</label>
+					<input type="text"  id="contacto-apellidos" name="contacto-apellidos" class="form-control">
+				</div>
+				<div class="form-group col-xs-12 col-sm-4">
+					<label for="contacto-telefono">
+							{{ site.data.traducciones.contactar-formulario-telefono | map : page.lang }}
+					</label>
+					<input id="contacto-telefono" name="contacto-telefono" type="text" class="form-control">
+				</div>
+				<div class="form-group col-xs-12 col-sm-8">
+					<label for="">
+							{{ site.data.traducciones.contactar-formulario-email | map : page.lang }}
+					</label>
+					<input type="text" id="contacto-email" name="contacto-consulta" class="form-control">
+				</div>
+				
+				<div class="form-group col-xs-12 col-sm-4">
+					<label for="contacto-numero-reserva">
+							{{ site.data.traducciones.contactar-formulario-numero-reserva | map : page.lang }}
+					</label>
+					<input type="text"  id="contacto-numero-reserva" name="contacto-numero-reserva" class="form-control">
+				</div>
+				<div class="btn-group form-group col-xs-12 col-sm-8">
+					<label>
+					{{ site.data.traducciones.contactar-formulario-asunto | map : page.lang }}
+					</label>
+			
+					<div id="contacto-dropdown">
+						<button aria-expanded="false" data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button">							
+							{{ site.data.traducciones.contactar-formulario-asunto-1 | map : page.lang }}
+							<i class="fa fa-chevron-down pull-right"></i>
+						</button>
+						<ul role="menu" class="dropdown-menu">	
+							<li data-valor="">{{ site.data.traducciones.contactar-formulario-asunto-2 | map : page.lang }}</li>
+							<li data-valor="">{{ site.data.traducciones.contactar-formulario-asunto-3 | map : page.lang }}</li>
+							<li data-valor="">{{ site.data.traducciones.contactar-formulario-asunto-4 | map : page.lang }}</li>
+							<li data-valor="">{{ site.data.traducciones.contactar-formulario-asunto-5 | map : page.lang }}</li>
+							<li data-valor="">{{ site.data.traducciones.contactar-formulario-asunto-6 | map : page.lang }}</li>
+							<li data-valor="">{{ site.data.traducciones.contactar-formulario-asunto-7 | map : page.lang }}</li>
+							
+						</ul>
+					</div>
+				</div>				
+				<div class="form-group">
+					<label for="">
+							{{ site.data.traducciones.contactar-formulario-consulta | map : page.lang }}
+					</label>
+					<textarea type="" class="form-control"></textarea>
+				</div>
+				<div class="form-group">
+					<input id="contacto-condiciones" name="contacto-condiciones" class="amigo" type="checkbox"  value="He leido y acepto los">
+					<i class="fa fa-check-circle"></i>
+					<label  for="contacto-condiciones">
+						{{ site.data.traducciones.contactar-formulario-leido-acepta | map : page.lang }}
+						<a href="{{'/terminos-condiciones' | prepend:page.urlLang | prepend:site.baseurl}}">
+							{{ site.data.traducciones.contactar-formulario-terminos-condiciones | map : page.lang }}
+						</a>
+					</label>
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-block btn-amigo center-block" >
+					{{ site.data.traducciones.contactar-formulario-enviar | map : page.lang }}
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	</div>
+</div>
+

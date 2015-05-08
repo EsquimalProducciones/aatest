@@ -1,0 +1,39 @@
+<div class="container legible text-justify">
+	<h1 class="main-title">
+	{{ site.data.idiomas.terminos-condiciones.titulo-pagina | map : page.lang }}
+	</h1>
+	
+	<h3 class="subtitle underline-orange">
+		{{ site.data.idiomas.terminos-condiciones.informacion-importante | map : page.lang }}
+	</h3>
+	<p>
+	{{ site.data.idiomas.terminos-condiciones.informacion-importante-contenido | map : page.lang }}
+	</p>
+	
+	<h3 class="subtitle underline-orange">
+		{{ site.data.idiomas.terminos-condiciones.informacion-proteccion-datos | map : page.lang }}
+	</h3>
+	<p>
+	{{ site.data.idiomas.terminos-condiciones.informacion-proteccion-datos-contenido-1 | map : page.lang }}
+	</p>
+	<p>		
+	{{ site.data.idiomas.terminos-condiciones.informacion-proteccion-datos-contenido-2 | map : page.lang }}
+	</p>
+	<p>
+	{{ site.data.idiomas.terminos-condiciones.informacion-proteccion-datos-contenido-3 | map : page.lang }}
+	</p>
+	<p>
+	{{ site.data.idiomas.terminos-condiciones.informacion-proteccion-datos-contenido-4 | map : page.lang }}
+	</p>
+	
+	<h3 class="subtitle underline-orange">
+	{{ site.data.idiomas.terminos-condiciones.informacion-legal-titulo | map : page.lang }}
+	</h3>
+	<p class="text-center">
+		<span class="text-big">{{ site.data.idiomas.terminos-condiciones.informacion-legal-contenido-1 | map : page.lang }}</span><br/>
+		{{ site.data.idiomas.terminos-condiciones.informacion-legal-contenido-2 | map : page.lang }} <br/>
+		{{ site.data.idiomas.terminos-condiciones.informacion-legal-contenido-3 | map : page.lang }} <br/>
+		{{ site.data.idiomas.terminos-condiciones.informacion-legal-contenido-4 | map : page.lang }} <br/>
+		{{ site.data.idiomas.terminos-condiciones.informacion-legal-contenido-5 | map : page.lang }}
+	</p>
+</div>

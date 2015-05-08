@@ -1,0 +1,12 @@
+<% if (tipo == 'isla'){ %>
+{% for ruta in site.data.rutas.Islands %}
+	<li data-valor="{{ ruta.Codigo }}" data-type="{{ ruta.Code }}">{{ ruta.Title | map : page.lang }}</li>
+{% endfor %}
+<% } %>
+
+<% if (tipo == 'ruta'){ %>
+{% for ruta in site.data.rutas.Routes %}
+	<% if ( isla  == '{{ruta.Category}}')
+	{ %><li data-valor="{{ ruta.Codigo }}" data-type="{{ ruta.Code }}">{{ ruta.Title | map : page.lang }}</li><% } %>
+{% endfor %}
+<% } %>
